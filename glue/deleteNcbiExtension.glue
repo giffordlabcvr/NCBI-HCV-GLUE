@@ -1,0 +1,18 @@
+project hcv
+  delete source ncbi-curated
+  
+  delete module curatedNcbiImporter
+  delete module gb-populator
+  delete module hcvCollectionBoundsPopulator
+  delete module ruXuDataMissingImporter
+  delete module ruXuDataCorrectedImporter
+  delete module hcvCommonAaAnalyser
+  delete module hcvAlignmentsToUncommonAaVariations
+  delete module lanlMetadataImporter
+  delete module variationFrequenciesGenerator
+  delete module viprSubtypePopulator
+  delete module epaSubtypePopulator
+  
+  multi-delete variation -w "name like 'uncommon_aa%'"
+  
+  exit

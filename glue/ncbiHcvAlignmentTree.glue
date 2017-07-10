@@ -1,0 +1,201 @@
+  alignment AL_MASTER
+    # curated members
+    add member -w "source.name = 'ncbi-curated' and \
+      ( gb_host = 'Homo sapiens' or gb_host = null ) and \
+      ( gb_lab_construct = 'false' ) and \
+      ( gb_recombinant = 'false' ) and \
+      ( epa_genotype != null )"
+    demote member AL_1 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1'" 
+    demote member AL_2 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2'" 
+    demote member AL_3 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3'" 
+    demote member AL_4 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4'" 
+    demote member AL_5 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '5'" 
+    demote member AL_6 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6'" 
+    demote member AL_7 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '7'" 
+    exit
+
+  alignment AL_1 
+    demote member AL_1a --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'a'" 
+    demote member AL_1b --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'b'" 
+    demote member AL_1c --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'c'" 
+    demote member AL_1d --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'd'" 
+    demote member AL_1e --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'e'" 
+    demote member AL_1g --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'g'" 
+    demote member AL_1h --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'h'" 
+    demote member AL_1i --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'i'" 
+    demote member AL_1j --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'j'" 
+    demote member AL_1k --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'k'" 
+    demote member AL_1l --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'l'" 
+    demote member AL_1m --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'm'"
+    demote member AL_1n --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'n'"
+
+    # Provisional subtypes
+    demote member AL_1f  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '1' and sequence.subtype = 'f'"
+
+    # Unassigned subtypes
+    demote member AL_1_unassigned_AJ851228 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_1_unassigned_AJ851228'"
+    demote member AL_1_unassigned_KJ439776 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_1_unassigned_KJ439776'"
+    demote member AL_1_unassigned_KJ439777 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_1_unassigned_KJ439777'"
+    demote member AL_1_unassigned_KJ439779 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_1_unassigned_KJ439779'"
+    demote member AL_1_unassigned_KJ439780 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_1_unassigned_KJ439780'"
+    demote member AL_1_unassigned_HQ537007 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_1_unassigned_HQ537007'"
+    demote member AL_1_unassigned_KC248195 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_1_unassigned_KC248195'"
+    exit
+
+  alignment AL_2
+    
+    demote member AL_2a --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'a'"
+    demote member AL_2b --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'b'"
+    demote member AL_2c --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'c'"
+    demote member AL_2d --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'd'"
+    demote member AL_2e --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'e'"
+    demote member AL_2f --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'f'"
+    demote member AL_2i --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'i'"
+    demote member AL_2j --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'j'"
+    demote member AL_2k --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'k'"
+    demote member AL_2l --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'l'"
+    demote member AL_2m --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'm'"
+    demote member AL_2q --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'q'"
+    demote member AL_2r --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'r'"
+    demote member AL_2t --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 't'"
+    demote member AL_2u --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'u'"
+
+    # Provisional subtypes
+    demote member AL_2g  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'g'"
+    demote member AL_2h  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'h'"
+    demote member AL_2n  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'n'"
+    demote member AL_2o  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'o'"
+    demote member AL_2p  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 'p'"
+    demote member AL_2s  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '2' and sequence.subtype = 's'"
+
+    # Unassigned subtypes
+    demote member AL_2_unassigned_JF735110 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_2_unassigned_JF735110'"
+    demote member AL_2_unassigned_JF735116 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_2_unassigned_JF735116'"
+    demote member AL_2_unassigned_JF735117 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_2_unassigned_JF735117'"
+    demote member AL_2_unassigned_JF735118 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_2_unassigned_JF735118'"
+    demote member AL_2_unassigned_JF735119 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_2_unassigned_JF735119'"
+    demote member AL_2_unassigned_KC197236 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_2_unassigned_KC197236'"
+    demote member AL_2_unassigned_KC197237 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_2_unassigned_KC197237'"
+    demote member AL_2_unassigned_KC197239 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_2_unassigned_KC197239'"
+    exit
+
+
+  alignment AL_3
+    demote member AL_3a --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'a'"
+    demote member AL_3b --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'b'"
+    demote member AL_3d --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'd'"
+    demote member AL_3e --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'e'"
+    demote member AL_3g --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'g'"
+    demote member AL_3h --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'h'"
+    demote member AL_3i --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'i'"
+    demote member AL_3k --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'k'"
+
+    # Provisional subtypes
+    demote member AL_3c  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'c'"
+    demote member AL_3f  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '3' and sequence.subtype = 'f'"
+
+    # Unassigned subtypes
+    demote member AL_3_unassigned_JF735124 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_3_unassigned_JF735124'"
+    exit
+
+  alignment AL_4
+    demote member AL_4a --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'a'"
+    demote member AL_4b --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'b'"
+    demote member AL_4c --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'c'"
+    demote member AL_4d --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'd'"
+    demote member AL_4f --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'f'"
+    demote member AL_4g --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'g'"
+    demote member AL_4k --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'k'"
+    demote member AL_4l --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'l'"
+    demote member AL_4m --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'm'"
+    demote member AL_4n --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'n'"
+    demote member AL_4o --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'o'"
+    demote member AL_4p --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'p'"
+    demote member AL_4q --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'q'"
+    demote member AL_4r --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'r'"
+    demote member AL_4s --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 's'"
+    demote member AL_4t --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 't'"
+    demote member AL_4v --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'v'"
+    demote member AL_4w --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'w'"
+    
+    # Provisional subtypes
+    demote member AL_4e  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'e'"
+    demote member AL_4h  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'h'"
+    demote member AL_4i  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'i'"
+    demote member AL_4j  --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '4' and sequence.subtype = 'j'"
+
+    # Unassigned subtypes
+    demote member AL_4_unassigned_FJ025854 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_FJ025854'"
+    demote member AL_4_unassigned_JF735127 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JF735127'"
+    demote member AL_4_unassigned_JF735129 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JF735129'"
+    demote member AL_4_unassigned_JF735130 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JF735130'"
+    demote member AL_4_unassigned_JF735131 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JF735131'"
+    demote member AL_4_unassigned_JF735132 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JF735132'"
+    demote member AL_4_unassigned_JF735134 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JF735134'"
+    demote member AL_4_unassigned_JF735135 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JF735135'"
+    demote member AL_4_unassigned_JF735138 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JF735138'"
+    demote member AL_4_unassigned_JX227964 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_4_unassigned_JX227964'"
+    exit
+
+  alignment AL_5
+    
+    demote member AL_5a --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '5' and sequence.subtype = 'a'"
+    exit
+
+
+  alignment AL_6
+    demote member AL_6a --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'a'"
+    demote member AL_6b --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'b'"
+    demote member AL_6c --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'c'"
+    demote member AL_6d --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'd'"
+    demote member AL_6e --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'e'"
+    demote member AL_6f --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'f'"
+    demote member AL_6g --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'g'"
+    demote member AL_6h --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'h'"
+    demote member AL_6i --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'i'"
+    demote member AL_6j --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'j'"
+    demote member AL_6k --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'k'"
+    demote member AL_6l --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'l'"
+    demote member AL_6m --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'm'"
+    demote member AL_6n --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'n'"
+    demote member AL_6o --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'o'"
+    demote member AL_6p --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'p'"
+    demote member AL_6q --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'q'"
+    demote member AL_6r --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'r'"
+    demote member AL_6s --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 's'"
+    demote member AL_6t --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 't'"
+    demote member AL_6u --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'u'"
+    demote member AL_6v --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'v'"
+    demote member AL_6w --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'w'"
+    demote member AL_6xa --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'xa'"
+    demote member AL_6xb --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'xb'"
+    demote member AL_6xc --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'xc'"
+    demote member AL_6xd --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'xd'"
+    demote member AL_6xe --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '6' and sequence.subtype = 'xe'"
+
+    # Unassigned subtypes
+    demote member AL_6_unassigned_DQ278891 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_DQ278891'"
+    demote member AL_6_unassigned_DQ278893 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_DQ278893'"
+    demote member AL_6_unassigned_JX183549 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_JX183549'"
+    demote member AL_6_unassigned_JX183550 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_JX183550'"
+    demote member AL_6_unassigned_JX183551 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_JX183551'"
+    demote member AL_6_unassigned_JX183553 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_JX183553'"
+    demote member AL_6_unassigned_JX183554 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_JX183554'"
+    demote member AL_6_unassigned_JX183558 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_JX183558'"
+    demote member AL_6_unassigned_KC844039 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_KC844039'"
+    demote member AL_6_unassigned_KC844040 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_KC844040'"
+    demote member AL_6_unassigned_KJ470620 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_KJ470620'"
+    demote member AL_6_unassigned_KJ470621 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_KJ470621'"
+    demote member AL_6_unassigned_KJ470622 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_KJ470622'"
+    demote member AL_6_unassigned_KJ470623 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_KJ470623'"
+    demote member AL_6_unassigned_KJ470624 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_KJ470624'"
+    demote member AL_6_unassigned_KJ470625 --whereClause "sequence.source.name = 'ncbi-curated' and sequence.source.name = 'ncbi-curated' and sequence.epa_subtype_final_clade = 'AL_6_unassigned_KJ470625'"
+    exit
+
+
+  alignment AL_7
+    
+    demote member AL_7a --whereClause "sequence.source.name = 'ncbi-curated' and sequence.genotype = '7' and sequence.subtype = 'a'"
+    exit
+
+  

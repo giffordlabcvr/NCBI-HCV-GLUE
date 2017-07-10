@@ -1,0 +1,22 @@
+   # this download the curated sequences from NCBI
+  create module --fileName modules/hcvCuratedNcbiImporter.xml curatedNcbiImporter
+  
+  # module to populate fields from Genbank XML
+  create module --fileName modules/hcvGenbankXmlPopulator.xml gb-populator
+
+  create module --fileName modules/hcvCollectionBoundsPopulator.xml
+
+  create module --fileName modules/ruXuDataMissingImporter.xml
+  create module --fileName modules/ruXuDataCorrectedImporter.xml
+  
+  create module --fileName modules/hcvCommonAaAnalyser.xml
+  create module --fileName modules/hcvAlignmentsToUncommonAaVariations.xml
+  
+  create module --fileName modules/lanlMetadataImporter.xml
+  create module --fileName modules/hcvVariationFrequenciesGenerator.xml variationFrequenciesGenerator
+
+  create module -f modules/viprSubtypePopulator.xml
+  create module -f modules/epaSubtypePopulator.xml
+
+
+  

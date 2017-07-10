@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    <textFileColumn>
+        <identifier>true</identifier>
+        <property>sequenceID</property>
+        <header>Accession</header>
+    </textFileColumn>
+    <textFileColumn>
+        <property>lanl_sampling_year</property>
+        <header>Sampling Year</header>
+    </textFileColumn>
+    <textFileColumn>
+        <property>lanl_problematic_sequence</property>
+        <header>Problematic Sequence</header>
+    </textFileColumn>
+    <skipMissing>true</skipMissing>
+</textFilePopulator>
