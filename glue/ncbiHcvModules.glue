@@ -15,8 +15,10 @@
   create module --fileName modules/lanlMetadataImporter.xml
   create module --fileName modules/hcvVariationFrequenciesGenerator.xml variationFrequenciesGenerator
 
-  create module -f modules/viprSubtypePopulator.xml
-  create module -f modules/epaSubtypePopulator.xml
+  create module --fileName modules/viprSubtypePopulator.xml
+  create module --fileName modules/epaSubtypePopulator.xml
+  
+  create module --fileName modules/updateCuratedSequences.xml --loadResources
 
 
   

@@ -1,0 +1,22 @@
+# this file expects the core HCV project to be in place, 
+# updates the curated set on disk, and builds it
+
+run file glue/deleteNcbiExtension.glue
+
+project hcv
+
+  run file glue/ncbiHcvModules.glue
+
+  module updateCuratedSequences
+	# synchronize ncbi-curated live source and disk files with NCBI database
+  	invoke-function syncCurated
+	# run maxLikelihood placer, generate placement files
+  	invoke-function placeCurated
+  	# set curated genotypes / subtypes based on placement files
+  	invoke-function genotypeCurated
+  	exit
+
+  exit
+
+# run the rest of the project
+run file glue/ncbiHcvProject.glue

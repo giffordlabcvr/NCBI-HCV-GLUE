@@ -1,8 +1,4 @@
-run file glue/deleteNcbiExtension.glue
-
 project hcv
-
-  run file glue/ncbiHcvModules.glue
 
   # curated sequences
   run file glue/hcvCuratedSequences.glue

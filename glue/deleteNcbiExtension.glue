@@ -12,6 +12,7 @@ project hcv
   delete module variationFrequenciesGenerator
   delete module viprSubtypePopulator
   delete module epaSubtypePopulator
+  delete module updateCuratedSequences
   
   multi-delete variation -w "name like 'uncommon_aa%'"
   

@@ -1,0 +1,28 @@
+<ecmaFunctionInvoker>
+  <scriptFileName>updateCuratedSequences.js</scriptFileName>
+  <function>
+    <name>syncCurated</name>
+  </function>
+  <function>
+    <name>placeCurated</name>
+  </function>
+  <function>
+    <name>genotypeCurated</name>
+  </function>
+  <configDocument name="project">
+    <name>hcv</name>
+  </configDocument>
+  <configDocument name="modules">
+    <placer>maxLikelihoodPlacer</placer>
+    <genotyper>maxLikelihoodGenotyper</genotyper>
+    <ncbiImporter>curatedNcbiImporter</ncbiImporter>
+  </configDocument>
+  <configDocument name="source">
+    <name>ncbi-curated</name>
+    <path>sources</path>
+  </configDocument>
+  <configDocument name="placement">
+    <prefix>ncbi_curated_</prefix>
+    <path>placement</path>
+  </configDocument>
+</ecmaFunctionInvoker>
