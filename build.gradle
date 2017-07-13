@@ -1,7 +1,7 @@
 apply plugin: 'pl.allegro.tech.build.axion-release'
 apply plugin: 'org.hidetake.ssh'
 
-project.ext.set("glueVersion", "0.1.112")
+project.ext.set("glueVersion", "0.1.113")
 
 remotes {
   gluehome_aws {
@@ -78,12 +78,12 @@ task deployHcvGlueDbToGlueHomeAWS(dependsOn: 'zipHcvGlueDB') {
 
 scmVersion {
 	hooks {
-        pre 'fileUpdate', [file: 'glue/hcvProjectSettings.glue', pattern: {v, c -> /set setting build-number $v/}, replacement: {v, c -> "set setting build-number $v"}]
-		pre 'commit', {v, p -> "Build number $v"}
+        pre 'fileUpdate', [file: 'glue/ncbiHcvProjectSettings.glue', pattern: {v, c -> /set setting extension-version $v/}, replacement: {v, c -> "set setting extension-version $v"}]
+		pre 'commit', {v, p -> "Release version $v"}
     }
 
     scmVersion {
-        versionCreator {version, position -> ((new Integer(version))+1)}
+        versionCreator 'versionWithBranch'
 	    repository {
 	        customKey = file('/Users/joshsinger/.ssh/github_id_rsa')
 	    }
