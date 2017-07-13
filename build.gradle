@@ -49,10 +49,12 @@ task copyGluetoolsJar(type: Copy) {
     rename('gluetools-core-'+project.glueVersion+'.jar', 'gluetools-core.jar')
 }
 
+def glueConfigFile = InetAddress.getLocalHost().getCanonicalHostName().equals('225pc177.cvr.gla.ac.uk') ? 'local-gluetools-config.xml' : 'remote-gluetools-config.xml'
+
 task updateHcvGlueDB(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
 	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
-	args '-c', 'local-gluetools-config.xml', '-i', 'run', 'file', 'ncbiHcvUpdate.glue'
+	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiHcvUpdate.glue'
 }
 
 task dumpHcvGlueDB(type: Exec, dependsOn: 'updateHcvGlueDB') {
