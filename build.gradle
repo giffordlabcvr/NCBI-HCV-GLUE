@@ -49,8 +49,6 @@ task copyGluetoolsJar(type: Copy) {
     rename('gluetools-core-'+project.glueVersion+'.jar', 'gluetools-core.jar')
 }
 
-
-
 task updateHcvGlueDB(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
 	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
@@ -67,14 +65,12 @@ task zipHcvGlueDB(type: Exec, dependsOn: 'dumpHcvGlueDB') {
 }
 
 task pushUpdatesToGit() {
-    // grgit.add(patterns: ['sources/ncbi-curated', 'placement'])
-    grgit.add(patterns: ['placement'])
-    grgit.commit(message: 'Changes to curated set / placements from version '+project.version)
-    grgit.push()
-}
-
-task echoVersion() {
-	print project.version
+    grgit.add(patterns: ['sources/ncbi-curated', 'placement'])
+    status = grgit.status()
+    if(!status.staged.added.isEmpty() || !status.staged.modified.isEmpty() || !status.staged.removed.isEmpty()) {
+	    grgit.commit(message: 'Automatic changes to curated set / placements')
+	    grgit.push()
+    }
 }
 
 task deployHcvGlueDbToGlueHomeAWS(dependsOn: 'zipHcvGlueDB') {
