@@ -15,5 +15,7 @@ project hcv
   delete module updateCuratedSequences
   
   multi-delete variation -w "name like 'uncommon_aa%'"
+  multi-delete member_floc_note -w "member.sequence.source.name = 'ncbi-curated'"  
+  multi-delete var_almt_note -a
   
   exit

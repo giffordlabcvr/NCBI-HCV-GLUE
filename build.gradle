@@ -54,6 +54,7 @@ def glueConfigFile = InetAddress.getLocalHost().getCanonicalHostName().equals('2
 task updateHcvGlueDB(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
 	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
+	jvmArgs '-Xmx1024m'
 	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiHcvUpdate.glue'
 }
 
