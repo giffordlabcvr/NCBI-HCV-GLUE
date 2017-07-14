@@ -22,7 +22,7 @@ function placeCurated() {
 	glue.log("INFO", "Counting sequences in source "+source.name);
 	var numSequences = glue.command(["count", "sequence", "--whereClause", "source.name = '"+source.name+"'"]).countResult.count;
 	glue.log("INFO", "Found "+numSequences+" sequences in source "+source.name);
-	var batchSize = 5;
+	var batchSize = 100;
 	var offset = 0;
 	var fileSuffix = 1;
 	while(offset < numSequences) {
