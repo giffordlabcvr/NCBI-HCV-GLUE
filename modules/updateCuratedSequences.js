@@ -3,7 +3,7 @@ function syncCurated() {
 	var syncResults;
 	glue.inMode("module/"+modules.ncbiImporter, function() {
 		syncResults = glue.command(["sync", "--detailed"], {convertTableToObjects:true});
-		glue.log("FINEST", "NCBI syncronization report", syncResult);
+		glue.log("FINEST", "NCBI syncronization report", syncResults);
 		glue.log("INFO", "Synchronization complete");
 	});
 	_each(syncResults, function(syncResult) {
