@@ -51,11 +51,18 @@ task copyGluetoolsJar(type: Copy) {
 
 def glueConfigFile = InetAddress.getLocalHost().getCanonicalHostName().equals('225pc177.cvr.gla.ac.uk') ? 'local-gluetools-config.xml' : 'remote-gluetools-config.xml'
 
-task updateHcvGlueDB(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
+task ncbiHcvUpdate(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
 	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
 	jvmArgs '-Xmx1024m'
 	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiHcvUpdate.glue'
+}
+
+task ncbiHcvProjectBuild(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
+	classpath "build/runtimeJars/gluetools-core.jar"
+	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
+	jvmArgs '-Xmx1024m'
+	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiHcvProjectBuild.glue'
 }
 
 task dumpHcvGlueDB(type: Exec, dependsOn: 'updateHcvGlueDB') {
