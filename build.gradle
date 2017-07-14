@@ -89,6 +89,8 @@ task deployHcvGlueDbToGlueHomeAWS(dependsOn: 'zipHcvGlueDB') {
   }
 }
 
+def scmCustomKey = InetAddress.getLocalHost().getCanonicalHostName().equals('225pc177.cvr.gla.ac.uk') ? '/Users/joshsinger/.ssh/github_id_rsa' : '/home/ubuntu/github_id_rsa'
+
 scmVersion {
 	hooks {
         pre 'fileUpdate', [file: 'glue/ncbiHcvProjectSettings.glue', pattern: {v, c -> /set setting extension-version $v/}, replacement: {v, c -> "set setting extension-version $v"}]
@@ -98,7 +100,7 @@ scmVersion {
     scmVersion {
         versionCreator 'versionWithBranch'
 	    repository {
-	        customKey = file('/Users/joshsinger/.ssh/github_id_rsa')
+	        customKey = file(scmCustomKey)
 	    }
 	    tag {
 	        prefix = 'NCBI-HCV-GLUE'
