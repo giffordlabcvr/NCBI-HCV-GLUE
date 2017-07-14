@@ -6,7 +6,7 @@ function syncCurated() {
 		glue.log("FINEST", "NCBI syncronization report", syncResults);
 		glue.log("INFO", "Synchronization complete");
 	});
-	_each(syncResults, function(syncResult) {
+	_.each(syncResults, function(syncResult) {
 		glue.command(["file-util", "delete-file", "sources/ncbi-curated/"+syncResult.sequenceID+".xml"]);
 	});
 	glue.log("INFO", "Exporting incoming sequences to file system...");
