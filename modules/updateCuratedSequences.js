@@ -6,9 +6,15 @@ function syncCurated() {
 		glue.log("FINEST", "NCBI syncronization report", syncResults);
 		glue.log("INFO", "Synchronization complete");
 	});
+	glue.log("INFO", "Deleting surplus sequence files");
+	var deleted = 0;
 	_.each(syncResults, function(syncResult) {
-		glue.command(["file-util", "delete-file", "sources/ncbi-curated/"+syncResult.sequenceID+".xml"]);
+		if(syncResult.status == "SURPLUS") {
+			glue.command(["file-util", "delete-file", "sources/ncbi-curated/"+syncResult.sequenceID+".xml"]);
+			deleted++;
+		}
 	});
+	glue.log("INFO", "Deleted "+deleted+" surplus sequence files");
 	glue.log("INFO", "Exporting incoming sequences to file system...");
 	glue.command(["export", "source", "--whereClause", "ncbi_incoming = null", "--parentDir", source.path, source.name]);
 }
