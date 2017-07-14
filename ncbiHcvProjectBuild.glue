@@ -1,5 +1,6 @@
 # this file expects the core HCV project to be in place, and 
-# builds the NCBI extension project from disk
+# all NCBI data including placements to be on disk.
+# it builds the NCBI extension project from disk
 
 run file glue/deleteNcbiExtension.glue
 
@@ -20,4 +21,6 @@ project hcv
 # build remainder of project 
 run file glue/ncbiHcvProject
 
- 
+project hcv
+  multi-set field sequence -w "source.name = 'ncbi-curated'" ncbi_incoming false
+  exit 

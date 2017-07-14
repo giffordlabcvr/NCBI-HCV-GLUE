@@ -1,36 +1,57 @@
 function syncCurated() {
-	glue.log("INFO", "Importing source "+source.name+" from file system...");
-	var importResult = glue.command(["import", "source", "--batchSize", "1000", source.path+"/"+source.name], {convertTableToObjects:true});
-	glue.log("INFO", "Imported "+importResult.length+" sequences");
 	glue.log("INFO", "Synchronizing source "+source.name+" with NCBI...");
+	var syncResults;
 	glue.inMode("module/"+modules.ncbiImporter, function() {
-		var syncResult = glue.command(["sync", "--detailed"], {convertTableToObjects:true});
+		syncResults = glue.command(["sync", "--detailed"], {convertTableToObjects:true});
 		glue.log("FINEST", "NCBI syncronization report", syncResult);
 		glue.log("INFO", "Synchronization complete");
 	});
-	glue.log("INFO", "Exporting source "+source.name+" to file system...");
-	glue.command(["export", "source", "--sync", "--parentDir", source.path, source.name]);
+	_each(syncResults, function(syncResult) {
+		glue.command(["file-util", "delete-file", "sources/ncbi-curated/"+syncResult.sequenceID+".xml"]);
+	});
+	glue.log("INFO", "Exporting incoming sequences to file system...");
+	glue.command(["export", "source", "--whereClause", "ncbi_incoming = null", "--parentDir", source.path, source.name]);
 }
 
-function placeCurated() {
+function placeCuratedAll() {
 	glue.log("INFO", "Deleting files in placement path "+placement.path);
 	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
 	_.each(placementPathFiles, function(placementPathFile) {
 		glue.command(["file-util", "delete-file", placement.path+"/"+placementPathFile.fileName]);
 	});
 	glue.log("INFO", "Deleted "+placementPathFiles.length+" files");
-	glue.log("INFO", "Counting sequences in source "+source.name);
-	var numSequences = glue.command(["count", "sequence", "--whereClause", "source.name = '"+source.name+"'"]).countResult.count;
-	glue.log("INFO", "Found "+numSequences+" sequences in source "+source.name);
+	var fileSuffix = 1;
+	var whereClause = "source.name = 'ncbi-curated'";
+	placeCurated(whereClause, fileSuffix);
+}
+
+function placeCuratedIncoming() {
+	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
+	var placementFileNames = _.map(placementPathFiles, function(placementPathFile) {return placementPathFile.fileName;});
+	var fileSuffix = 1;
+	while(true) {
+		if(_.contains(placementFileNames, placement.prefix + fileSuffix + ".xml")) {
+			fileSuffix++;
+		} else {
+			break;
+		}
+	}
+	var whereClause = "source.name = 'ncbi-curated' and ncbi_incoming = true";
+	placeCurated(whereClause, fileSuffix);
+}
+
+function placeCurated(whereClause, fileSuffix) {
+	glue.log("INFO", "Counting sequences where "+whereClause);
+	var numSequences = glue.command(["count", "sequence", "--whereClause", whereClause]).countResult.count;
+	glue.log("INFO", "Found "+numSequences+" sequences where "+whereClause);
 	var batchSize = 50;
 	var offset = 0;
-	var fileSuffix = 1;
 	while(offset < numSequences) {
 		glue.log("INFO", "Placing "+batchSize+" sequences starting at offset "+offset);
 		glue.inMode("module/"+modules.placer, function() {
 			var outputFile = placement.path + "/" + placement.prefix + fileSuffix + ".xml";
 			glue.command(["place", "sequence", 
-                           "--whereClause", "source.name = '"+source.name+"'",
+                           "--whereClause", whereClause,
                            "--pageSize", batchSize, "--fetchLimit", batchSize, "--fetchOffset", offset, 
                            "--outputFile", outputFile]);
 		});
@@ -38,6 +59,7 @@ function placeCurated() {
 		fileSuffix++;
 	}
 }
+
 
 function genotypeCurated() {
 	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
