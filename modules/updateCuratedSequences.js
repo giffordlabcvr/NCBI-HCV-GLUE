@@ -70,6 +70,7 @@ function placeCurated(whereClause, fileSuffix) {
 function genotypeCurated() {
 	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
 	_.each(placementPathFiles, function(placementPathFile) {
+		glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
 		var batchGenotyperResults;
 		glue.inMode("module/"+modules.genotyper, function() {
 			batchGenotyperResults = glue.command(
@@ -78,6 +79,9 @@ function genotypeCurated() {
 					 "--detailLevel", "HIGH"], 
 					{convertTableToObjects:true});
 		});
+		glue.log("INFO", "Assigning genotype metadata for "+batchGenotyperResults.length+" genotyping results from placement file "+placementPathFile.fileName);
+		var batchSize = 500;
+		var numUpdates = 0;
 		_.each(batchGenotyperResults, function(genotyperResult) {
 			glue.inMode("sequence/"+genotyperResult.queryName, function() {
 				var epaGenotype = genotyperResult.genotypeFinalClade;
@@ -99,8 +103,16 @@ function genotypeCurated() {
 					}
 				}
 			});
+			if(numUpdates % batchSize == 0) {
+				glue.command("commit");
+				glue.command("new-context");
+				glue.log("FINE", "Metadata assigned for "+numUpdates+" sequences.");
+			}
+			numUpdates++;
 		});
 		glue.command("commit");
+		glue.command("new-context");
+		glue.log("FINE", "Metadata assigned for "+numUpdates+" sequences.");
 	});
 	
 }
