@@ -1,6 +1,6 @@
 
   # populate certain fields from Genbank XML.
-  module gb-populator populate --batchSize 1000 -w "source.name = 'ncbi-curated'"
+  module gb-populator populate --batchSize 1000 --silent -w "source.name = 'ncbi-curated'"
 
   # Incorporate Ru Xu's metadata improvements for Genotype 6
   module ruXuDataCorrectedImporter populate --whereClause "source.name = 'ncbi-curated'" -f tabular/geno6metadata/Ru_Xu_Corrected_15_2_2017.txt
