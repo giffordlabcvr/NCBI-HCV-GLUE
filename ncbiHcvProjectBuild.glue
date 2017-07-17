@@ -19,7 +19,7 @@ project hcv
   exit
 
 # build remainder of project 
-run file glue/ncbiHcvProject
+run file glue/ncbiHcvProject.glue
 
 project hcv
   multi-set field sequence -w "source.name = 'ncbi-curated'" ncbi_incoming false
