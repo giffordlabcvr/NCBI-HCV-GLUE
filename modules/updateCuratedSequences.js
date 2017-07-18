@@ -53,7 +53,7 @@ function placeCurated(whereClause, fileSuffix) {
 	var batchSize = 50;
 	var offset = 0;
 	while(offset < numSequences) {
-		glue.log("INFO", "Placing "+batchSize+" sequences starting at offset "+offset);
+		glue.log("INFO", "Placing sequences starting at offset "+offset);
 		glue.inMode("module/"+modules.placer, function() {
 			var outputFile = placement.path + "/" + placement.prefix + fileSuffix + ".xml";
 			glue.command(["place", "sequence", 
