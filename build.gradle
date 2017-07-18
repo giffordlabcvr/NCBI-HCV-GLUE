@@ -75,6 +75,7 @@ task zipHcvGlueDB(type: Exec, dependsOn: 'dumpHcvGlueDB') {
 }
 
 task pushUpdatesToGit() {
+	def grgit = org.ajoberstar.grgit.Grgit.open(dir: '.')
     grgit.add(patterns: ['sources/ncbi-curated', 'placement'])
     status = grgit.status()
     if(!status.staged.added.isEmpty() || !status.staged.modified.isEmpty() || !status.staged.removed.isEmpty()) {
