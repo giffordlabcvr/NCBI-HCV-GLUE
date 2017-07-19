@@ -1,0 +1,7 @@
+# updates the extension settings 
+
+project hcv
+
+  run file glue/ncbiHcvProjectSettings.glue
+
+  exit

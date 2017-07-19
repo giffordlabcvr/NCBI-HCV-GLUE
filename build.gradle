@@ -64,6 +64,14 @@ task ncbiHcvProjectBuild(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiHcvProjectBuild.glue'
 }
 
+task ncbiHcvExtensionSettings(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
+	classpath "build/runtimeJars/gluetools-core.jar"
+	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
+	jvmArgs '-Xmx10000m'
+	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiHcvExtensionSettings.glue'
+}
+
+
 task dumpHcvGlueDB(type: Exec, dependsOn: 'updateHcvGlueDB') {
 	standardOutput = new FileOutputStream(new File('/tmp/hcv_glue.sql'))
 	commandLine '/usr/local/mysql/bin/mysqldump', '-u', 'hcvglue', '--password=hcvglue', 'HCV_GLUE'
