@@ -31,12 +31,21 @@ function placeCuratedAll() {
 	placeCurated(whereClause, fileSuffix);
 }
 
+function pad(num, size) {
+    var s = num+"";
+    while (s.length < size) {
+    	s = "0" + s;
+    }
+    return s;
+}
+
 function placeCuratedIncoming() {
 	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
 	var placementFileNames = _.map(placementPathFiles, function(placementPathFile) {return placementPathFile.fileName;});
 	var fileSuffix = 1;
 	while(true) {
-		if(_.contains(placementFileNames, placement.prefix + fileSuffix + ".xml")) {
+		fileSuffixString = pad(fileSuffix, 6);
+		if(_.contains(placementFileNames, placement.prefix + fileSuffixString + ".xml")) {
 			fileSuffix++;
 		} else {
 			break;
@@ -55,7 +64,8 @@ function placeCurated(whereClause, fileSuffix) {
 	while(offset < numSequences) {
 		glue.log("INFO", "Placing sequences starting at offset "+offset);
 		glue.inMode("module/"+modules.placer, function() {
-			var outputFile = placement.path + "/" + placement.prefix + fileSuffix + ".xml";
+			fileSuffixString = pad(fileSuffix, 6);
+			var outputFile = placement.path + "/" + placement.prefix + fileSuffixString + ".xml";
 			glue.command(["place", "sequence", 
                            "--whereClause", whereClause,
                            "--pageSize", batchSize, "--fetchLimit", batchSize, "--fetchOffset", offset, 
