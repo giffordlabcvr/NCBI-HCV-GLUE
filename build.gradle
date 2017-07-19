@@ -100,6 +100,7 @@ def scmCustomKey = InetAddress.getLocalHost().getCanonicalHostName().equals('225
 scmVersion {
 	hooks {
         pre 'fileUpdate', [file: 'glue/ncbiHcvProjectSettings.glue', pattern: {v, c -> /set setting extension-version $v/}, replacement: {v, c -> "set setting extension-version $v"}]
+        pre 'fileUpdate', [file: 'glue/ncbiHcvProjectSettings.glue', pattern: {v, c -> /set setting extension-build-date .*/}, replacement: {v, c -> "set setting extension-build-date '"+new Date().format("dd-MMM-yyyy")+"'"}]
 		pre 'commit', {v, p -> "Release version $v"}
     }
 
