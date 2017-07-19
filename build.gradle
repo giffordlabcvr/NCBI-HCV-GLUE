@@ -1,8 +1,7 @@
 apply plugin: 'pl.allegro.tech.build.axion-release'
 apply plugin: 'org.hidetake.ssh'
-apply plugin: 'org.ajoberstar.grgit'
 
-project.ext.set("glueVersion", "0.1.119")
+project.ext.set("glueVersion", "0.1.120")
 
 project.version = scmVersion.version
 
@@ -72,16 +71,6 @@ task dumpHcvGlueDB(type: Exec, dependsOn: 'updateHcvGlueDB') {
 
 task zipHcvGlueDB(type: Exec, dependsOn: 'dumpHcvGlueDB') {
 	commandLine '/usr/bin/gzip', '-f', '/tmp/hcv_glue.sql'
-}
-
-task pushUpdatesToGit() {
-	def grgit = org.ajoberstar.grgit.Grgit.open(dir: '.')
-    grgit.add(patterns: ['sources/ncbi-curated', 'placement'])
-    status = grgit.status()
-    if(!status.staged.added.isEmpty() || !status.staged.modified.isEmpty() || !status.staged.removed.isEmpty()) {
-	    grgit.commit(message: 'Automatic changes to curated set / placements')
-	    grgit.push()
-    }
 }
 
 task deployHcvGlueDbToGlueHomeAWS(dependsOn: 'zipHcvGlueDB') {
