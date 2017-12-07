@@ -91,7 +91,7 @@ def scmCustomKey = System.getProperty("user.name").equals('joshsinger') ? '/User
 
 scmVersion {
 	hooks {
-        pre 'fileUpdate', [file: 'glue/ncbiHcvProjectSettings.glue', pattern: {v, c -> /set extension-setting ncbi_hcv extension-version $v/}, replacement: {v, c -> "set extension-setting ncbi_hcv extension-version $v"}]
+        pre 'fileUpdate', [file: 'glue/ncbiHcvExtensionSettings.glue', pattern: {v, c -> /set extension-setting ncbi_hcv extension-version $v/}, replacement: {v, c -> "set extension-setting ncbi_hcv extension-version $v"}]
 		pre 'commit', {v, p -> "Release version $v"}
     }
 
