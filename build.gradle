@@ -1,7 +1,7 @@
 apply plugin: 'pl.allegro.tech.build.axion-release'
 apply plugin: 'org.hidetake.ssh'
 
-project.ext.set("glueVersion", "0.1.126")
+project.ext.set("glueVersion", "0.1.135")
 
 project.version = scmVersion.version
 
@@ -91,7 +91,7 @@ def scmCustomKey = System.getProperty("user.name").equals('joshsinger') ? '/User
 
 scmVersion {
 	hooks {
-        pre 'fileUpdate', [file: 'glue/ncbiHcvProjectSettings.glue', pattern: {v, c -> /set setting extension-version $v/}, replacement: {v, c -> "set setting extension-version $v"}]
+        pre 'fileUpdate', [file: 'glue/ncbiHcvProjectSettings.glue', pattern: {v, c -> /set extension-setting ncbi_hcv extension-version $v/}, replacement: {v, c -> "set extension-setting ncbi_hcv extension-version $v"}]
 		pre 'commit', {v, p -> "Release version $v"}
     }
 

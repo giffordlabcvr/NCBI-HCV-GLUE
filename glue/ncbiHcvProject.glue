@@ -1,6 +1,6 @@
 project hcv
 
-  run file glue/ncbiHcvProjectSettings.glue
+  run file glue/ncbiHcvExtensionSettings.glue
 
   # curated sequences
   run file glue/hcvCuratedSequences.glue
