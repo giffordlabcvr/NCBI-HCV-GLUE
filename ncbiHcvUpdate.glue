@@ -16,7 +16,8 @@ project hcv
   	exit
 
   exit
-
+  
 project hcv
+  run script ncbiHcvRecordNumIncoming.js
   multi-set field sequence -w "source.name = 'ncbi-curated'" ncbi_incoming false
   exit 
