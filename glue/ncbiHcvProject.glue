@@ -13,9 +13,6 @@ project hcv
   # generate the frequencies of all resistance associated variations
   run file glue/hcvGenerateVariationFrequencies.glue
 
-  # geneate the "uncommon AA" variations
-  module hcvAlignmentsToUncommonAaVariations transform tabular/constrained_alignments.txt --run
-
   ## record feature presence
   module hcvFeaturePresenceRecorder 
     record feature-presence AL_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName whole_genome --descendentFeatures
