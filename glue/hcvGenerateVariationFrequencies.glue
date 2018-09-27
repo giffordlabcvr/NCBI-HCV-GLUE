@@ -1,4 +1,4 @@
 module variationFrequenciesGenerator
   # generate frequencies for resistance associated polymorphisms
-  generate frequencies AL_MASTER -q -c -w "sequence.source.name = 'ncbi-curated'" -r REF_MASTER_NC_004102 -f precursor_polyprotein -d -v "phdr_ras != null"
+  generate frequencies AL_MASTER -q -c -w "sequence.source.name = 'ncbi-curated'" -r REF_MASTER_NC_004102 -f precursor_polyprotein -d -v "phdr_ras.phdr_alignment_ras.id != null"
   exit
