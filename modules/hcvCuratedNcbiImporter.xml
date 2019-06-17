@@ -3,9 +3,12 @@
   <sourceName>ncbi-curated</sourceName>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <!-- publication date range such as 1900/01/01:2016/12/31[PDAT] may be used to limit incoming update -->
+  <!-- TLS (Targeted Locus Study) sequences are excluded -->
   <eSearchTerm>
   	"Hepacivirus C"[Organism] AND 
-  	500:20000[SLEN]</eSearchTerm>
+  	500:20000[SLEN] 
+  	NOT TLS [PROP]
+  	</eSearchTerm>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <maxDownloaded>200000</maxDownloaded>
   <eFetchBatchSize>500</eFetchBatchSize>
