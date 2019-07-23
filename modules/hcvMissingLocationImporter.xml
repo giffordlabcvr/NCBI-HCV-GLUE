@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    <textFileColumn>
+        <identifier>true</identifier>
+        <property>sequenceID</property>
+        <header>Accession</header>
+    </textFileColumn>
+    <textFileColumn>
+        <property>who_country</property>
+        <header>Country</header>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+    <textFileColumn>
+        <property>gb_place_sampled</property>
+        <header>Region</header>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+    <textFileColumn>
+        <property>gb_pubmed_id</property>
+        <header>PMID</header>
+    </textFileColumn>
+    <skipMissing>true</skipMissing>
+</textFilePopulator>

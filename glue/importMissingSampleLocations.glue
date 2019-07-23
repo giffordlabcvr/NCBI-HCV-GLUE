@@ -1,0 +1,3 @@
+delete module hcvMissingLocationImporter
+create module -f modules/hcvMissingLocationImporter.xml
+module hcvMissingLocationImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/missing_data/countries_locations.tsv
