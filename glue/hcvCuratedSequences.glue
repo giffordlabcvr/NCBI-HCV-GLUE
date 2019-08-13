@@ -22,6 +22,9 @@
   # LANL metadata
   run file glue/importLanlMetadata.glue
   
+  # missing place sampled / country
+  run file glue/ncbiHcvImportMissingSampleLocations.glue
+  
   # fill in sampling year where possible
   multi-copy field sequence -w "source.name = 'ncbi-curated' and gb_collection_year = null and lanl_sampling_year != null" lanl_sampling_year gb_collection_year
   

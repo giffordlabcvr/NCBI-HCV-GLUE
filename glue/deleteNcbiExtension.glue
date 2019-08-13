@@ -14,6 +14,8 @@ project hcv
   delete module viprSubtypePopulator
   delete module epaSubtypePopulator
   delete module updateCuratedSequences
+  delete module ncbiHcvMissingLocationImporter
+  
   
   exit
   

@@ -19,6 +19,9 @@
   create module --fileName modules/epaSubtypePopulator.xml
   
   create module --fileName modules/updateCuratedSequences.xml --loadResources
+  
+  create module -f modules/ncbiHcvMissingLocationImporter.xml
+  
 
 
   
