@@ -17,8 +17,13 @@
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
     </textFileColumn>
     <textFileColumn>
+        <property>gb_lab_construct</property>
+        <header>gb_lab_construct</header>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+    <textFileColumn>
         <property>gb_pubmed_id</property>
         <header>PMID</header>
     </textFileColumn>
-    <skipMissing>true</skipMissing>
+    <skipMissing>false</skipMissing>
 </textFilePopulator>
