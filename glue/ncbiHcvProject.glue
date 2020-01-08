@@ -5,13 +5,14 @@ project hcv
   # curated sequences
   run file glue/hcvCuratedSequences.glue
  
-  run file glue/ncbiHcvAlignmentTree.glue
+  # temporarily skip
+  # run file glue/ncbiHcvAlignmentTree.glue
  
   # add the curated sequences into the alignment tree according to their genotype/subtype
-  run file glue/computeCuratedAlignments.glue
+  # run file glue/computeCuratedAlignments.glue
 
   # generate the frequencies of all resistance associated variations
-  run file glue/hcvGenerateVariationFrequencies.glue
+  # run file glue/hcvGenerateVariationFrequencies.glue
 
   ## record feature presence
   module hcvFeaturePresenceRecorder 

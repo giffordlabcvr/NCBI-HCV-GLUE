@@ -3,27 +3,25 @@
   module gb-populator populate --batchSize 1000 --silent -w "source.name = 'ncbi-curated'"
 
   # Incorporate Ru Xu's metadata improvements for Genotype 6
-  module ruXuDataCorrectedImporter populate --whereClause "source.name = 'ncbi-curated'" -f tabular/geno6metadata/Ru_Xu_Corrected_15_2_2017.txt
-  module ruXuDataMissingImporter populate --whereClause "source.name = 'ncbi-curated'" -f tabular/geno6metadata/Ru_Xu_Missing_15_2_2017.txt
+  # temporarily skip
+  # module ruXuDataCorrectedImporter populate --whereClause "source.name = 'ncbi-curated'" -f tabular/geno6metadata/Ru_Xu_Corrected_15_2_2017.txt
+  # temporarily skip
+  # module ruXuDataMissingImporter populate --whereClause "source.name = 'ncbi-curated'" -f tabular/geno6metadata/Ru_Xu_Missing_15_2_2017.txt
 
   # if there's no evidence the sequence is a recombinant, assume it is not.
-  multi-set field sequence -w "source.name = 'ncbi-curated' and gb_recombinant = null" gb_recombinant false
+  # temporarily skip
+  # multi-set field sequence -w "source.name = 'ncbi-curated' and gb_recombinant = null" gb_recombinant false
   # same for lab constructs.
-  multi-set field sequence -w "source.name = 'ncbi-curated' and gb_lab_construct = null" gb_lab_construct false
+  # temporarily skip
+  # multi-set field sequence -w "source.name = 'ncbi-curated' and gb_lab_construct = null" gb_lab_construct false
   
-  # import ViPR and EPA genotyping results
-  run file glue/curatedGenotypingResults.glue
-
-  # copy the genbank genotype / subtypes into genotype / subtype, and indicate their provanance
-  multi-copy field sequence -w "source.name = 'ncbi-curated' and epa_genotype != null" epa_genotype genotype
-  multi-copy field sequence -w "source.name = 'ncbi-curated' and epa_subtype != null" epa_subtype subtype
-  multi-set field sequence -w "source.name = 'ncbi-curated' and epa_genotype != null" genotyping_method "EPA genotyping"
-
   # LANL metadata
-  run file glue/importLanlMetadata.glue
+  # temporarily skip
+  # run file glue/importLanlMetadata.glue
   
   # missing place sampled / country
-  run file glue/ncbiHcvImportMissingSampleLocations.glue
+  # temporarily skip
+  # run file glue/ncbiHcvImportMissingSampleLocations.glue
   
   # fill in sampling year where possible
   multi-copy field sequence -w "source.name = 'ncbi-curated' and gb_collection_year = null and lanl_sampling_year != null" lanl_sampling_year gb_collection_year
