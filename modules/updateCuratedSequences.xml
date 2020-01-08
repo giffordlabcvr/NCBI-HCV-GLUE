@@ -18,7 +18,7 @@
   <configDocument name="modules">
     <placer>maxLikelihoodPlacer</placer>
     <genotyper>maxLikelihoodGenotyper</genotyper>
-    <ncbiImporter>curatedNcbiImporter</ncbiImporter>
+    <ncbiImporter>ncbiHcvCuratedNcbiImporter</ncbiImporter>
   </configDocument>
   <configDocument name="source">
     <name>ncbi-curated</name>

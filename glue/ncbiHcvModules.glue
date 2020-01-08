@@ -1,5 +1,5 @@
    # this download the curated sequences from NCBI
-  create module --fileName modules/hcvCuratedNcbiImporter.xml curatedNcbiImporter
+  create module --fileName modules/ncbiHcvCuratedNcbiImporter.xml
   
   # module to populate fields from Genbank XML
   create module --fileName modules/hcvGenbankXmlPopulator.xml gb-populator
