@@ -81,10 +81,8 @@ function placeCurated(whereClause, fileSuffix) {
 
 function genotypeCurated() {
 	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
-	glue.logInfo("placementPathFiles", placementPathFiles);
 	_.each(placementPathFiles, function(placementPathFile) {
-		glue.logInfo("placementPathFile", placementPathFile);
-		if(placementPathFile.indexOf("xml") >= 0) {
+		if(placementPathFile.fileName.indexOf("xml") >= 0) {
 			glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
 			var batchGenotyperResults;
 			glue.inMode("module/"+modules.genotyper, function() {
