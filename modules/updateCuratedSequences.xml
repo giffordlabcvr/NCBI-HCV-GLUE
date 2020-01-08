@@ -16,8 +16,8 @@
     <name>hcv</name>
   </configDocument>
   <configDocument name="modules">
-    <placer>maxLikelihoodPlacer</placer>
-    <genotyper>maxLikelihoodGenotyper</genotyper>
+    <placer>hcvMaxLikelihoodPlacer</placer>
+    <genotyper>hcvMaxLikelihoodGenotyper</genotyper>
     <ncbiImporter>ncbiHcvCuratedNcbiImporter</ncbiImporter>
   </configDocument>
   <configDocument name="source">
