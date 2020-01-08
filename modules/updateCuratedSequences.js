@@ -23,7 +23,9 @@ function placeCuratedAll() {
 	glue.log("INFO", "Deleting files in placement path "+placement.path);
 	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
 	_.each(placementPathFiles, function(placementPathFile) {
-		glue.command(["file-util", "delete-file", placement.path+"/"+placementPathFile.fileName]);
+		if(placementPathFile.indexOf("xml") >= 0) {
+			glue.command(["file-util", "delete-file", placement.path+"/"+placementPathFile.fileName]);
+		}
 	});
 	glue.log("INFO", "Deleted "+placementPathFiles.length+" files");
 	var fileSuffix = 1;
@@ -80,49 +82,51 @@ function placeCurated(whereClause, fileSuffix) {
 function genotypeCurated() {
 	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
 	_.each(placementPathFiles, function(placementPathFile) {
-		glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
-		var batchGenotyperResults;
-		glue.inMode("module/"+modules.genotyper, function() {
-			batchGenotyperResults = glue.command(
-					["genotype", "placer-result", 
-					 "--fileName", placement.path+"/"+placementPathFile.fileName, 
-					 "--detailLevel", "HIGH"], 
-					{convertTableToObjects:true});
-		});
-		glue.log("INFO", "Assigning genotype metadata for "+batchGenotyperResults.length+" genotyping results from placement file "+placementPathFile.fileName);
-		var batchSize = 500;
-		var numUpdates = 0;
-		_.each(batchGenotyperResults, function(genotyperResult) {
-			glue.inMode("sequence/"+genotyperResult.queryName, function() {
-				var epaGenotype = genotyperResult.genotypeFinalClade;
-				if(epaGenotype) {
-					glue.command(["set", "field", "--noCommit", "epa_genotype_final_clade", epaGenotype]);
-					var gtRegex = /AL_([0-9]+)/;
-					var gtMatch = gtRegex.exec(epaGenotype);
-					if(gtMatch) {
-						glue.command(["set", "field", "--noCommit", "epa_genotype", gtMatch[1]]);
-					}
-				}
-				var epaSubtype = genotyperResult.subtypeFinalClade;
-				if(epaSubtype) {
-					glue.command(["set", "field", "--noCommit", "epa_subtype_final_clade", epaSubtype]);
-					var stRegex = /AL_([0-9]+)([a-z]+)/;
-					var stMatch = stRegex.exec(epaSubtype);
-					if(stMatch) {
-						glue.command(["set", "field", "--noCommit", "epa_subtype", stMatch[2]]);
-					}
-				}
+		if(placementPathFile.indexOf("xml") >= 0) {
+			glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
+			var batchGenotyperResults;
+			glue.inMode("module/"+modules.genotyper, function() {
+				batchGenotyperResults = glue.command(
+						["genotype", "placer-result", 
+						 "--fileName", placement.path+"/"+placementPathFile.fileName, 
+						 "--detailLevel", "HIGH"], 
+						{convertTableToObjects:true});
 			});
-			if(numUpdates % batchSize == 0) {
-				glue.command("commit");
-				glue.command("new-context");
-				glue.log("FINE", "Metadata assigned for "+numUpdates+" sequences.");
-			}
-			numUpdates++;
-		});
-		glue.command("commit");
-		glue.command("new-context");
-		glue.log("FINE", "Metadata assigned for "+numUpdates+" sequences.");
+			glue.log("INFO", "Assigning genotype metadata for "+batchGenotyperResults.length+" genotyping results from placement file "+placementPathFile.fileName);
+			var batchSize = 500;
+			var numUpdates = 0;
+			_.each(batchGenotyperResults, function(genotyperResult) {
+				glue.inMode("sequence/"+genotyperResult.queryName, function() {
+					var epaGenotype = genotyperResult.genotypeFinalClade;
+					if(epaGenotype) {
+						glue.command(["set", "field", "--noCommit", "epa_genotype_final_clade", epaGenotype]);
+						var gtRegex = /AL_([0-9]+)/;
+						var gtMatch = gtRegex.exec(epaGenotype);
+						if(gtMatch) {
+							glue.command(["set", "field", "--noCommit", "epa_genotype", gtMatch[1]]);
+						}
+					}
+					var epaSubtype = genotyperResult.subtypeFinalClade;
+					if(epaSubtype) {
+						glue.command(["set", "field", "--noCommit", "epa_subtype_final_clade", epaSubtype]);
+						var stRegex = /AL_([0-9]+)([a-z]+)/;
+						var stMatch = stRegex.exec(epaSubtype);
+						if(stMatch) {
+							glue.command(["set", "field", "--noCommit", "epa_subtype", stMatch[2]]);
+						}
+					}
+				});
+				if(numUpdates % batchSize == 0) {
+					glue.command("commit");
+					glue.command("new-context");
+					glue.log("FINE", "Metadata assigned for "+numUpdates+" sequences.");
+				}
+				numUpdates++;
+			});
+			glue.command("commit");
+			glue.command("new-context");
+			glue.log("FINE", "Metadata assigned for "+numUpdates+" sequences.");
+		}
 	});
 	
 }
