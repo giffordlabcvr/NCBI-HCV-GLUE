@@ -6,11 +6,11 @@
   <!-- TLS (Targeted Locus Study) sequences are excluded -->
   <eSearchTerm>
   	"Hepacivirus C"[Organism] AND 
-  	500:20000[SLEN] 
+  	200:20000[SLEN] 
   	NOT TLS [PROP]
   	</eSearchTerm>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
-  <maxDownloaded>200000</maxDownloaded>
+  <maxDownloaded>300000</maxDownloaded>
   <eFetchBatchSize>500</eFetchBatchSize>
-  <eSearchRetMax>200000</eSearchRetMax>
+  <eSearchRetMax>300000</eSearchRetMax>
 </ncbiImporter>
