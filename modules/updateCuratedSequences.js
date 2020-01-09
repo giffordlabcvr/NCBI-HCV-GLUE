@@ -2,7 +2,7 @@ function syncCurated() {
 	glue.log("INFO", "Synchronizing source "+source.name+" with NCBI...");
 	var syncResults;
 	glue.inMode("module/"+modules.ncbiImporter, function() {
-		syncResults = glue.command(["sync", "--detailed"], {convertTableToObjects:true});
+		syncResults = glue.tableToObjects(glue.command(["sync", "--detailed"]));
 		glue.log("FINEST", "NCBI syncronization report", syncResults);
 		glue.log("INFO", "Synchronization complete");
 	});
@@ -23,7 +23,7 @@ function placeCuratedAll() {
 	glue.log("INFO", "Deleting files in placement path "+placement.path);
 	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
 	_.each(placementPathFiles, function(placementPathFile) {
-		if(placementPathFile.indexOf("xml") >= 0) {
+		if(placementPathFile.fileName.indexOf("xml") >= 0) {
 			glue.command(["file-util", "delete-file", placement.path+"/"+placementPathFile.fileName]);
 		}
 	});
