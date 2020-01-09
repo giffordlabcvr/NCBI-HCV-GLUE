@@ -21,7 +21,7 @@ function syncCurated() {
 
 function placeCuratedAll() {
 	glue.log("INFO", "Deleting files in placement path "+placement.path);
-	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]);
+	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
 	_.each(placementPathFiles, function(placementPathFile) {
 		if(placementPathFile.indexOf("xml") >= 0) {
 			glue.command(["file-util", "delete-file", placement.path+"/"+placementPathFile.fileName]);
