@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DQ362889</GBSeq_locus>
+    <GBSeq_length>351</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>31-DEC-2006</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate MAD-G20199 from Madagascar envelope polyprotein E1/E2 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>DQ362889</GBSeq_primary-accession>
+    <GBSeq_accession-version>DQ362889.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|DQ362889.1|</GBSeqid>
+      <GBSeqid>gi|86212172</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..351</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Razafindratsimandresy,R.</GBAuthor>
+          <GBAuthor>Dubot,A.</GBAuthor>
+          <GBAuthor>Ramarokoto,C.E.</GBAuthor>
+          <GBAuthor>Iehle,C.</GBAuthor>
+          <GBAuthor>Soares,J.L.</GBAuthor>
+          <GBAuthor>Rousset,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Hepatitis C virus infection and genotypes in Antananarivo, Madagascar</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 79 (8), 1082-1088 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/jmv.20810</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17596831</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..351</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Razafindratsimandresy,R.</GBAuthor>
+          <GBAuthor>Dubot,A.</GBAuthor>
+          <GBAuthor>Ramarokoto,C.-E.</GBAuthor>
+          <GBAuthor>Iehle,C.</GBAuthor>
+          <GBAuthor>Soares,J.-L.</GBAuthor>
+          <GBAuthor>Rousset,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-JAN-2006) Unit of Virology, Institut Pasteur de Madagascar, BP1274, Antananarivo 101, Madagascar</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..351</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>351</GBInterval_to>
+            <GBInterval_accession>DQ362889.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MAD-G20199</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>human serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Madagascar: Antananarivo</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2004</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;351</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>351</GBInterval_to>
+            <GBInterval_accession>DQ362889.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains hypervariable region HVR1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope polyprotein E1/E2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABC87746.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>CSIYPGHVTGHRMAWDMMMNWSPTVTMILAYAMRIPGLIIDVVAGGHWGVLFGLAYFGVQGAWLKVVVILLMTAGVESNTHITGSAAGRSANAIAGLLTPGSRQNIQLINTNGSWHI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgctcaatctacccgggtcacgtgacaggccaccgtatggcctgggatatgatgatgaactggtcccctaccgtcaccatgattctcgcgtatgctatgcgcatcccgggtctcataattgacgtggtagctggcggccattggggcgtgctctttggcctagcttattttggggtacagggtgcttggttgaaggtggtggtgatcctcctaatgacagctggagttgagagtaatacccacatcaccggctcggcggctggccgcagcgcgaatgcgattgctggcctccttacccctgggtctcggcaaaatatccagcttattaacaccaatggcagctggcacata</GBSeq_sequence>
+  </GBSeq>

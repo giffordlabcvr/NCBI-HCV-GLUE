@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPCCOREAE</GBSeq_locus>
+    <GBSeq_length>308</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-MAR-1997</GBSeq_update-date>
+    <GBSeq_create-date>21-DEC-1995</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus core protein gene fragment</GBSeq_definition>
+    <GBSeq_primary-accession>L50544</GBSeq_primary-accession>
+    <GBSeq_accession-version>L50544.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L50544.1|HPCCOREAE</GBSeqid>
+      <GBSeqid>gi|1129023</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..308</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Simmonds,P.</GBAuthor>
+          <GBAuthor>Mellor,J.</GBAuthor>
+          <GBAuthor>Sakuldamrongpanich,T.</GBAuthor>
+          <GBAuthor>Nuchaprayoon,C.</GBAuthor>
+          <GBAuthor>Tanprasert,S.</GBAuthor>
+          <GBAuthor>Holmes,E.C.</GBAuthor>
+          <GBAuthor>Smith,D.B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evolutionary analysis of variants of hepatitis C virus found in South-East Asia: comparison with classifications based upon sequence similarity</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 77 (Pt 12), 3013-3024 (1996)</GBReference_journal>
+        <GBReference_pubmed>9000092</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..308</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>308</GBInterval_to>
+            <GBInterval_accession>L50544.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>EUTHD31</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaaaccaaaagaaacaccaaccgtcgcccaatggacgtcaagttcccgggcggcggccagatcgttggtggagtttacttgctgccgcgcaggggcccacgattgggtgtgcgcgccacaagaaagacttccgagcgatcccagcccagaggtaggcgccaacctatacccaaggcgcgcccatctcagggccggacctggggtcagcctggctacccctggcctctgtatgggaatgagggctgcgggtgggcaggttggcttatgtctccccgcggctctcgcccttcttggggcccaaacgaccc</GBSeq_sequence>
+  </GBSeq>

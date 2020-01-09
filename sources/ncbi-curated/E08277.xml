@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>E08277</GBSeq_locus>
+    <GBSeq_length>332</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>06-JUN-1997</GBSeq_create-date>
+    <GBSeq_definition>cDNA encoding 5'UTR of hepatitis C virus</GBSeq_definition>
+    <GBSeq_primary-accession>E08277</GBSeq_primary-accession>
+    <GBSeq_accession-version>E08277.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|E08277.1|</GBSeqid>
+      <GBSeqid>pat|JP|1994292600|1</GBSeqid>
+      <GBSeqid>gi|2176397</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 1994292600-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..332</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hasegawa,A.</GBAuthor>
+          <GBAuthor>Yamaguchi,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PCR PRIMER SET FOR GROUPING OF HEPATITIC C VIRUS AND GROUPING METHOD USING THE SET</GBReference_title>
+        <GBReference_journal>JP1994292600-A 1 21-OCT-1994 TONEN CORP</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 1994292600-A/1~PD 21-OCT-1994~PF 09-APR-1993 JP 1993083289~PI HASEGAWA AKIRA, YAMAGUCHI KENJIRO~PC C12Q1/68,C12N15/51;~CC strandedness: Double;~CC topology: Linear;~CC hypothetical: No;~CC anti-sense: No;~FH Key Location/Qualifiers~FH~FT source 1..332~FT /organism='Hepatitis C virus' FT misc_feature 1..332~FT /note='5'UTR of hepatitis C virus'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..332</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>332</GBInterval_to>
+            <GBInterval_accession>E08277.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ckrwtrggggcgacactccrccatrraycactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtrcagcctccaggyccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattrccrgramgacygggtcctttcttggayhaacccrctcwrtgycygghsatttgggcrygcccccgcragmctgctagccgwgtagygttgggtygcgaaaggccwtgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcatc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPCNS5R</GBSeq_locus>
+    <GBSeq_length>222</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-JAN-1994</GBSeq_update-date>
+    <GBSeq_create-date>22-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus type 2b (GC167999) nonstructural protein 5 (NS5) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>L23452</GBSeq_primary-accession>
+    <GBSeq_accession-version>L23452.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L23452.1|HPCNS5R</GBSeqid>
+      <GBSeqid>gi|385142</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>nonstructural protein 5</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepatitis C virus subtype 2b</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus subtype 2b</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..222</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Simmonds,P.</GBAuthor>
+          <GBAuthor>Holmes,E.C.</GBAuthor>
+          <GBAuthor>Cha,T.A.</GBAuthor>
+          <GBAuthor>Chan,S.W.</GBAuthor>
+          <GBAuthor>McOmish,F.</GBAuthor>
+          <GBAuthor>Irvine,B.</GBAuthor>
+          <GBAuthor>Beall,E.</GBAuthor>
+          <GBAuthor>Yap,P.L.</GBAuthor>
+          <GBAuthor>Kolberg,J.</GBAuthor>
+          <GBAuthor>Urdea,M.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Classification of hepatitis C virus into six major genotypes and a series of subtypes by phylogenetic analysis of the NS-5 region</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 74 (Pt 11), 2391-2399 (1993)</GBReference_journal>
+        <GBReference_pubmed>8245854</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Hepatitis C virus type 2b (individual_isolate USA GC167999) DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..222</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>222</GBInterval_to>
+            <GBInterval_accession>L23452.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus subtype 2b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>USA GC167999</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:31650</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..222</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>222</GBInterval_to>
+            <GBInterval_accession>L23452.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS5</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;222</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>222</GBInterval_to>
+            <GBInterval_accession>L23452.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA45665.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IYQACSLPQEARTAIHSLTERLYVGGPMTNSKGQSCGYRRCRASGVFTTSMGNTMTCYIKALAACKAAGIVDPV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atatatcaggcttgttccctgccccaagaggccagaactgctatacactcactcactgagagactctacgtaggagggcccatgacaaacagcaaggggcaatcctgcggttacaggcgttgtcgcgcaagcggcgttttcactaccagcatggggaataccatgacatgctacatcaaagcccttgcggcgtgcaaagctgcagggatcgtggaccccgtt</GBSeq_sequence>
+  </GBSeq>

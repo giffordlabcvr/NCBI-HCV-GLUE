@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FJ696502</GBSeq_locus>
+    <GBSeq_length>341</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-MAR-2010</GBSeq_update-date>
+    <GBSeq_create-date>15-JUN-2009</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus clone PA85 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>FJ696502</GBSeq_primary-accession>
+    <GBSeq_accession-version>FJ696502.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|FJ696502.1|</GBSeqid>
+      <GBSeqid>gi|239736456</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..341</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Oliveira-Filho,A.B.</GBAuthor>
+          <GBAuthor>Pimenta,A.S.</GBAuthor>
+          <GBAuthor>Rojas,M.F.</GBAuthor>
+          <GBAuthor>Chagas,M.C.</GBAuthor>
+          <GBAuthor>Crescente,J.A.</GBAuthor>
+          <GBAuthor>Crespo,D.M.</GBAuthor>
+          <GBAuthor>Lemos,J.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Prevalence and genotyping of hepatitis C virus in blood donors in the state of Para, Northern Brazil</GBReference_title>
+        <GBReference_journal>Mem. Inst. Oswaldo Cruz 105 (1), 103-106 (2010)</GBReference_journal>
+        <GBReference_pubmed>20209338</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..341</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Oliveira Filho,A.B.</GBAuthor>
+          <GBAuthor>Pimenta,A.S.C.</GBAuthor>
+          <GBAuthor>Rojas,M.F.M.</GBAuthor>
+          <GBAuthor>Chagas,M.M.</GBAuthor>
+          <GBAuthor>Crespo,D.M.</GBAuthor>
+          <GBAuthor>Crescente,J.A.B.</GBAuthor>
+          <GBAuthor>Lemos,J.A.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-FEB-2009) Programa de Pos-Graduacao em Genetica e Biologia Molecular, PPGBM, Instituto de Ciencias Biologicas, Universidade Federal do Para, Av. Augusto Correa, 01 Cidade Universitaria Professor Jose da Silveira Neto, UFPA, Guama, Belem, PA CEP: 66075110, Brasil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..341</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>341</GBInterval_to>
+            <GBInterval_accession>FJ696502.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>LBCM 4133</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>PA85</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil: Northern Brazil, Para State</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2006</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..&gt;341</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>341</GBInterval_to>
+            <GBInterval_accession>FJ696502.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gccagcccccgattgggggcgacactccaccatagatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaagaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggataaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcacc</GBSeq_sequence>
+  </GBSeq>

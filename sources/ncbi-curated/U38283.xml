@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HCU38283</GBSeq_locus>
+    <GBSeq_length>204</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JAN-1900</GBSeq_update-date>
+    <GBSeq_create-date>30-JAN-1999</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus 5' non-coding region sequence</GBSeq_definition>
+    <GBSeq_primary-accession>U38283</GBSeq_primary-accession>
+    <GBSeq_accession-version>U38283.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U38283.1|HCU38283</GBSeqid>
+      <GBSeqid>gi|4204353</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..204</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lecuit,M.</GBAuthor>
+          <GBAuthor>Roche,C.</GBAuthor>
+          <GBAuthor>Morvan,J.M.</GBAuthor>
+          <GBAuthor>Chungue,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Hepatitis C genotype study and identification of a novel subtype in virus isolates from Madagascar</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..204</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lecuit,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-OCT-1995) Marc Lecuit, Unit of Virology, Institut Territorial de Recherches Medicales Louis Malarde, 33 Rue de l'Artemise, Papeete, Tahiti 98713, French Polynesia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..204</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>204</GBInterval_to>
+            <GBInterval_accession>U38283.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>15MAD</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>map</GBQualifier_name>
+            <GBQualifier_value>-269 to -66 204bp</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagcgtctagccatggcgttagtatgagtgtcgtacagcctccaggcccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccgggaagactgggtcctttcttggattaacccactctatgcccggccatttgggcgtgcccccgcaagactgctagccgagtagcgttgggttgcgaaa</GBSeq_sequence>
+  </GBSeq>

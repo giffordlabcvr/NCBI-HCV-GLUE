@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FR671516</GBSeq_locus>
+    <GBSeq_length>406</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2013</GBSeq_update-date>
+    <GBSeq_create-date>10-JAN-2011</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus subtype 1a partial gene for polyprotein, E1-E2 region, genomic RNA, isolate patient 10015, clone e10015h</GBSeq_definition>
+    <GBSeq_primary-accession>FR671516</GBSeq_primary-accession>
+    <GBSeq_accession-version>FR671516.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|FR671516.1|</GBSeqid>
+      <GBSeqid>gi|317427515</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepatitis C virus subtype 1a</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus subtype 1a</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..406</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gonzalez-Candelas,F.</GBAuthor>
+          <GBAuthor>Bracho,M.A.</GBAuthor>
+          <GBAuthor>Wrobel,B.</GBAuthor>
+          <GBAuthor>Moya,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular evolution in court: analysis of a large hepatitis C virus outbreak from an evolving source</GBReference_title>
+        <GBReference_journal>BMC Biol. 11, 76 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1186/1741-7007-11-76</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23870105</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..406</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bracho,M.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-JUL-2010) Bracho M.A., Genomics and Health, CSISP, Avinguda Catalunya 21, 46020, SPAIN</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..406</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>406</GBInterval_to>
+            <GBInterval_accession>FR671516.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus subtype 1a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>patient 10015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:31646</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>e10015h</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Spain:Valencia</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;406</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>406</GBInterval_to>
+            <GBInterval_accession>FR671516.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CBW39546.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:E7AKU9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR002519</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR002531</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:E7AKU9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>GAHWGVLAGIAYFSMVGNWAKVLLVLLLFAGVDAETHTTGGTVARAASGLAGLFTPGPKQNIQLINSNGSWHINRTALNCNASLDTGWIAGLFYHNRFNSSGCPERMASCRPLADFDQGWGPISYANGSGPDHRP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1..103</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>103</GBInterval_to>
+            <GBInterval_accession>FR671516.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein 1, E1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>GAHWGVLAGIAYFSMVGNWAKVLLVLLLFAGVDA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>104..&gt;406</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>104</GBInterval_from>
+            <GBInterval_to>406</GBInterval_to>
+            <GBInterval_accession>FR671516.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein 2, E2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>ETHTTGGTVARAASGLAGLFTPGPKQNIQLINSNGSWHINRTALNCNASLDTGWIAGLFYHNRFNSSGCPERMASCRPLADFDQGWGPISYANGSGPDHRP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tggtgcccactggggagtcctagcgggcatagcgtatttctccatggtggggaactgggcgaaggtcctgctagtgctgttgttgtttgccggcgtcgatgcggaaacccacaccaccggggggaccgtcgccagggccgcgtctggactcgctggtctttttactccgggccccaagcagaacatccagctaatcaactccaacggcagttggcacatcaatcgtactgccttgaactgtaatgcgagcctcgacaccggctggatagcggggctcttctatcacaacagattcaactcttcaggctgccccgagaggatggccagctgtagacccctcgccgacttcgaccagggctggggccctatcagctacgccaacggaagtggccccgaccaccgcccc</GBSeq_sequence>
+  </GBSeq>

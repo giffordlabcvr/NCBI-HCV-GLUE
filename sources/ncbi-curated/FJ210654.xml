@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FJ210654</GBSeq_locus>
+    <GBSeq_length>474</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>06-OCT-2008</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus strain CMBD 1 polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>FJ210654</GBSeq_primary-accession>
+    <GBSeq_accession-version>FJ210654.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|FJ210654.1|</GBSeqid>
+      <GBSeqid>gi|207559724</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..474</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jutavijittum,P.</GBAuthor>
+          <GBAuthor>Jiviriyawat,Y.</GBAuthor>
+          <GBAuthor>Yousukh,A.</GBAuthor>
+          <GBAuthor>Pantip,C.</GBAuthor>
+          <GBAuthor>Maneekarn,B.</GBAuthor>
+          <GBAuthor>Toriyama,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genotypic distribution of Hepatitis C virus in voluntary blood donors of Northern Thailand</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..474</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Maneekarn,N.</GBAuthor>
+          <GBAuthor>Jutavijittum,P.</GBAuthor>
+          <GBAuthor>Pantip,C.</GBAuthor>
+          <GBAuthor>Jiviriyawat,Y.</GBAuthor>
+          <GBAuthor>Yousukh,A.</GBAuthor>
+          <GBAuthor>Toriyama,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-SEP-2008) Department of Microbiology, Faculty of Medicine, Chiang Mai University, 110 Intawaroros Rd., Mueang Chiang Mai, Chiang Mai 50200, Thailand</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..474</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>474</GBInterval_to>
+            <GBInterval_accession>FJ210654.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>CMBD 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Thailand: Chiang Mai</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2003</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 1a; genotype: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;474</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>474</GBInterval_to>
+            <GBInterval_accession>FJ210654.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>core-envelope 1 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACI24365.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>NLPGCSFSIFLLALLSCLTVPASAYQVRNSSGLYHVTNDCPNSSIVYETADAILHSPGCVPCVREGNASKCWVPVAPTVATKDGKLPATQLRRHIDLLVGSATLCSALYVGDLCGSVFLVGQLFTFSPRRHWTTQDCNCSMYPGHITGHRMAWDMMMN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaccttcctggttgctctttctctatcttccttctagccctcctctcttgcctgactgtgcccgcgtcagcctaccaagtacgcaactcctcgggcctttaccatgtcaccaatgactgccctaactcgagtattgtgtacgagacggccgatgccattctgcactctccggggtgtgtcccttgcgttcgtgagggtaatgcctcgaagtgttgggtgccggtggcccccacagtggccaccaaggacggcaaactccccgcgacgcagcttcgacgtcacatcgatctgctagtcgggagcgccaccctttgctcggccctttatgtgggggacttgtgcgggtctgtctttcttgtcggtcagctgttcaccttttcccccaggcgtcattggacaacgcaggactgcaactgttctatgtaccccggccatataacgggtcaccgcatggcatgggatatgatgatgaac</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ582126</GBSeq_locus>
+    <GBSeq_length>277</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-JAN-2004</GBSeq_update-date>
+    <GBSeq_create-date>05-SEP-2003</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus type 1 partial 5'UTR, isolate PE8</GBSeq_definition>
+    <GBSeq_primary-accession>AJ582126</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ582126.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ582126.1|</GBSeqid>
+      <GBSeqid>gi|34494605</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>5'UTR</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepatitis C virus genotype 1</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus genotype 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..277</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Colina,R.</GBAuthor>
+          <GBAuthor>Casane,D.</GBAuthor>
+          <GBAuthor>Vasquez,S.</GBAuthor>
+          <GBAuthor>Garcia-Aguirre,L.</GBAuthor>
+          <GBAuthor>Chunga,A.</GBAuthor>
+          <GBAuthor>Romero,H.</GBAuthor>
+          <GBAuthor>Khan,B.</GBAuthor>
+          <GBAuthor>Cristina,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evidence of intratypic recombination in natural populations of hepatitis C virus</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 85 (PT 1), 31-37 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.19472-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>14718617</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..277</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cristina,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-SEP-2003) Cristina J., Centro de Investigaciones Nucleares, Facultad de Ciencias, Igua 4225, 11400 Montevideo, URUGUAY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..277</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>277</GBInterval_to>
+            <GBInterval_accession>AJ582126.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus genotype 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PE8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:41856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Peru</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..277</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>277</GBInterval_to>
+            <GBInterval_accession>AJ582126.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggataaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcacc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HZ771563</GBSeq_locus>
+    <GBSeq_length>490</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>29-JUN-2016</GBSeq_update-date>
+    <GBSeq_create-date>29-JUN-2016</GBSeq_create-date>
+    <GBSeq_definition>JP 2015003913-A/11: Conserved HBV and HCV Sequences Useful for Gene Silencing</GBSeq_definition>
+    <GBSeq_primary-accession>HZ771563</GBSeq_primary-accession>
+    <GBSeq_accession-version>HZ771563.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HZ771563.1|</GBSeqid>
+      <GBSeqid>pat|JP|2015003913|11</GBSeqid>
+      <GBSeqid>gi|1041445170</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2015003913-A/11</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..490</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mintz,L.</GBAuthor>
+          <GBAuthor>Zurawski,V. Jr.</GBAuthor>
+          <GBAuthor>Satishchandran,C.</GBAuthor>
+          <GBAuthor>Pachuk,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Conserved HBV and HCV Sequences Useful for Gene Silencing</GBReference_title>
+        <GBReference_journal>JP2015003913-A 11 08-JAN-2015 Alnylam Pharmaceuticals Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 2015003913-A/11~PD 08-JAN-2015~PF 03-SEP-2014 JP 2014179056~PR 22-DEC-2004 US 60/638294~PA Alnylam Pharmaceuticals Inc~PI liat mintz,vincent zurawski jr,chandrasekhar satishchandran,~PI catherine pachuk~PT 'Conserved HBV and HCV Sequences Useful for Gene Silencing'~PS N11~CC~FH Key Location/Qualifiers~FT misc_feature (86)..(86)~FT /note='n is a, c, g, or t'~FT misc_feature (434)..(434)~FT /note='n is a, c, g, or t'~FT misc_feature (455)..(455)~FT /note='n is a, c, g, or t'~FT misc_feature (476)..(476)~FT /note='n is a, c, g, or t'~FT misc_feature (488)..(488)~FT /note='n is a, c, g, or t'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..490</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>490</GBInterval_to>
+            <GBInterval_accession>HZ771563.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ddatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtygtgcagcytccaggnccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccrggahgaccgggtcctttcttggatdaacccgctcwatgccyggavatttgggcgtgcccccgcragacygctagccgagtagygttgggtygcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcahcatgagcacrmwtcchaaacchcaaagaaaaaccaaamgwaacaccaaccgycgcccacaggacgthaagttcccgggyggygghcagatcgttggbggagthtacbtgttgccgcgcaggggcccnmvdttgggtgtgcgcgcgacnaggaagacttcbgarcggtcncarcchcghggnag</GBSeq_sequence>
+  </GBSeq>

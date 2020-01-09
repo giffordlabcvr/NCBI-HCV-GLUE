@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF029297</GBSeq_locus>
+    <GBSeq_length>285</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>10-NOV-1997</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus type 3a NS3 protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF029297</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF029297.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF029297.1|</GBSeqid>
+      <GBSeqid>gi|2599509</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepatitis C virus subtype 3a</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus subtype 3a</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..285</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Neville,J.A.</GBAuthor>
+          <GBAuthor>Prescott,L.E.</GBAuthor>
+          <GBAuthor>Bhattacherjee,V.</GBAuthor>
+          <GBAuthor>Adams,N.</GBAuthor>
+          <GBAuthor>Pike,I.</GBAuthor>
+          <GBAuthor>Rodgers,B.</GBAuthor>
+          <GBAuthor>El-Zayadi,A.</GBAuthor>
+          <GBAuthor>Hamid,S.</GBAuthor>
+          <GBAuthor>Dusheiko,G.M.</GBAuthor>
+          <GBAuthor>Saeed,A.A.</GBAuthor>
+          <GBAuthor>Haydon,G.H.</GBAuthor>
+          <GBAuthor>Simmonds,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Antigenic variation of core, NS3, and NS5 proteins among genotypes of hepatitis C virus</GBReference_title>
+        <GBReference_journal>J. Clin. Microbiol. 35 (12), 3062-3070 (1997)</GBReference_journal>
+        <GBReference_pubmed>9399495</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..285</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Neville,J.A.</GBAuthor>
+          <GBAuthor>Prescott,L.E.</GBAuthor>
+          <GBAuthor>Bhatttacherjee,V.</GBAuthor>
+          <GBAuthor>Adams,N.</GBAuthor>
+          <GBAuthor>Pike,I.</GBAuthor>
+          <GBAuthor>Rodgers,B.</GBAuthor>
+          <GBAuthor>El-Zayadi,A.</GBAuthor>
+          <GBAuthor>Hamid,S.</GBAuthor>
+          <GBAuthor>Dushieko,G.M.</GBAuthor>
+          <GBAuthor>Saeed,A.A.</GBAuthor>
+          <GBAuthor>Haydon,G.H.</GBAuthor>
+          <GBAuthor>Simmonds,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (09-OCT-1997) Medical Microbiology, University of Edinburgh, Medical School, Teviot Place, Edinburgh, Scotland EH8 9AG, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..285</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>285</GBInterval_to>
+            <GBInterval_accession>AF029297.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus subtype 3a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:356426</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;285</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>285</GBInterval_to>
+            <GBInterval_accession>AF029297.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS3 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB84146.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PNIEEVALGSEGEIPFYGKAIPIALLKGGRHLIFCHSKKKCDEIASKLRGMGLNAVAYYRGLDVSVIPTTGDVVVCATDALMTGFTGDFDSLIDC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctaacattgaggaggtggccctgggttctgaaggtgagatccctttctacggcaaggctataccaatagccctgctcaagggggggaggcaccttatcttttgccattccaagaaaaagtgcgatgagatagcatccaaactcagaggcatggggctcaacgctgtagcatactatagaggtctcgatgtgtccgtcataccaacaacaggggatgtcgtagtttgcgctactgacgccctcatgactggattcactggggacttcgactccctgatcgactgt</GBSeq_sequence>
+  </GBSeq>

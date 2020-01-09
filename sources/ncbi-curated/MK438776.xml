@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK438776</GBSeq_locus>
+    <GBSeq_length>326</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-JUN-2019</GBSeq_update-date>
+    <GBSeq_create-date>17-JUN-2019</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus C isolate b0301180 polyprotein, NS5B RNA-dependent RNA polymerase region, (POLY) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK438776</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK438776.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK438776.1|</GBSeqid>
+      <GBSeqid>gi|1681059901</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..326</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nouhin,J.</GBAuthor>
+          <GBAuthor>Iwamoto,M.</GBAuthor>
+          <GBAuthor>Prak,S.</GBAuthor>
+          <GBAuthor>Dousset,J.P.</GBAuthor>
+          <GBAuthor>Phon,K.</GBAuthor>
+          <GBAuthor>Heng,S.</GBAuthor>
+          <GBAuthor>Kerleguer,A.</GBAuthor>
+          <GBAuthor>Le Paih,M.</GBAuthor>
+          <GBAuthor>Dussart,P.</GBAuthor>
+          <GBAuthor>Maman,D.</GBAuthor>
+          <GBAuthor>Rouet,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular epidemiology of hepatitis C virus in Cambodia during 2016-2017</GBReference_title>
+        <GBReference_journal>Sci Rep 9 (1), 7314 (2019)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/s41598-019-43785-4</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>31086236</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..326</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nouhin,J.</GBAuthor>
+          <GBAuthor>Iwamoto,M.</GBAuthor>
+          <GBAuthor>Prak,S.</GBAuthor>
+          <GBAuthor>Dousset,J.-P.</GBAuthor>
+          <GBAuthor>Phon,K.</GBAuthor>
+          <GBAuthor>Heng,S.</GBAuthor>
+          <GBAuthor>Kerleguer,A.</GBAuthor>
+          <GBAuthor>Paih,M.L.</GBAuthor>
+          <GBAuthor>Dussart,P.</GBAuthor>
+          <GBAuthor>Maman,D.</GBAuthor>
+          <GBAuthor>Rouet,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-JAN-2019) Virology Unit, Institut Pasteur du Cambodge, Monivong Boulevard, Phnom Penh 12201, Cambodia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..326</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>326</GBInterval_to>
+            <GBInterval_accession>MK438776.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>b0301180</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cambodia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Mar-2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 6e</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;326</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>326</GBInterval_to>
+            <GBInterval_accession>MK438776.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;326</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>326</GBInterval_to>
+            <GBInterval_accession>MK438776.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QDA20918.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>TERDIQTERDIYQCCELEPAARTAITSLTDRLYCGGPMFNSKGQACGYRRCRASGVLTTSLGNTLTCYLKAQAACRAAGLKDXDMLVCGDDLVVISESLGVSEDTSAL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;326</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>326</GBInterval_to>
+            <GBInterval_accession>MK438776.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS5B RNA-dependent RNA polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>TERDIQTERDIYQCCELEPAARTAITSLTDRLYCGGPMFNSKGQACGYRRCRASGVLTTSLGNTLTCYLKAQAACRAAGLKDXDMLVCGDDLVVISESLGVSEDTSAL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acrgagcgcgayattcagacagagcgcgacatctaycagtgctgygarttagagcctgcagcacggacagccatyacatcgcttactgaccggctatactgtggyggccccatgtttaactctaarggtcaggcatgtgggtaccgcaggtgcagggccagtggcgttttracaaccagcctaggcaayaccytgacttgctacytgaargctcaagcggcgtgcagrgcygctgggctgaaggattwtgacatgttggtctgcggagacgatcttgtcgttatttcggagagtttgggggtctcggaggacaccagtgcactgag</GBSeq_sequence>
+  </GBSeq>

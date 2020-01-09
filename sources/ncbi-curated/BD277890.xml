@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>BD277890</GBSeq_locus>
+    <GBSeq_length>307</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>04-NOV-2005</GBSeq_create-date>
+    <GBSeq_definition>Meth1 and Meth2 Polynucleotides and Polypeptides</GBSeq_definition>
+    <GBSeq_primary-accession>BD277890</GBSeq_primary-accession>
+    <GBSeq_accession-version>BD277890.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|BD277890.1|</GBSeqid>
+      <GBSeqid>pat|JP|2003500041|45</GBSeqid>
+      <GBSeqid>gi|92115567</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2003500041-A/45</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..307</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Terrett,J.A.</GBAuthor>
+          <GBAuthor>Fornwald,J.A.</GBAuthor>
+          <GBAuthor>Jonak,Z.L.</GBAuthor>
+          <GBAuthor>Ruben,S.M.</GBAuthor>
+          <GBAuthor>Trulli,S.H.</GBAuthor>
+          <GBAuthor>Hastings,G.A.</GBAuthor>
+          <GBAuthor>IruelaMarispe,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Meth1 and Meth2 Polynucleotides and Polypeptides</GBReference_title>
+        <GBReference_journal>JP2003500041-A 45 07-JAN-2003 Human Genome Sciences Inc,SmithKline Beecham Corporation, Beth Israel Deaconess Medical Center,Luisa Iruela-Arispe, Gregg A Hastings, Steven M Ruben,Zdenka L Jonak,Stephen H Trulli,James A Fornwald, Jonathan A Terrett</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 2003500041-A/45~PD 07-JAN-2003~PF 25-MAY-2000 JP 2000619832~PR 22-FEB-2000 US 60/183792,13-AUG-1999 US 09/373658, PR 10-AUG-1999 US 60/147823,22-DEC-1999 US 60/171503, PR 20-JUL-1999 US 60/144882,25-MAY-1999 US 09/318208 PI jonathan a terrett,james a fornwald,zdenka l jonak,steven m PI ruben,~PI stephen h trulli,gregg a hastings,luisa iruela-arispe CC~FH Key Location/Qualifiers~FT UNSURE (212)~FT /note='May be any nucleic acid'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..307</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>307</GBInterval_to>
+            <GBInterval_accession>BD277890.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tggggtgtgaagctccggtgctggtgcggcgggggactgcggggccagcctcagtttaaaccccctcagcagtctttctgtcgttgccctccacactgcgagactctggagggcgatctggaggtctggaagataaccgattcctgggagatttgggggtagtctccaatctgtccctggctcatcttgtgacccgaagccggcggccttgncaggagtattctagaatgagtgcacataaaaataccttcaaacggtagcagcagcagcagcagcagcagcagcaagcagcagcagcagcagcagc</GBSeq_sequence>
+  </GBSeq>

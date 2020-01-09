@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AM400879</GBSeq_locus>
+    <GBSeq_length>252</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>22-AUG-2007</GBSeq_update-date>
+    <GBSeq_create-date>14-DEC-2006</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus partial 5' UTR, genomic RNA, strain Bol7</GBSeq_definition>
+    <GBSeq_primary-accession>AM400879</GBSeq_primary-accession>
+    <GBSeq_accession-version>AM400879.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AM400879.1|</GBSeqid>
+      <GBSeqid>gi|119416766</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>5' UTR</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..252</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Moratorio,G.</GBAuthor>
+          <GBAuthor>Martinez,M.</GBAuthor>
+          <GBAuthor>Gutierrez,M.F.</GBAuthor>
+          <GBAuthor>Gonzalez,K.</GBAuthor>
+          <GBAuthor>Colina,R.</GBAuthor>
+          <GBAuthor>Lopez-Tort,F.</GBAuthor>
+          <GBAuthor>Lopez,L.</GBAuthor>
+          <GBAuthor>Recarey,R.</GBAuthor>
+          <GBAuthor>Schijman,A.G.</GBAuthor>
+          <GBAuthor>Moreno,M.P.</GBAuthor>
+          <GBAuthor>Garcia-Aguirre,L.</GBAuthor>
+          <GBAuthor>Manascero,A.R.</GBAuthor>
+          <GBAuthor>Cristina,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evolution of naturally occurring 5'non-coding region variants of Hepatitis C virus in human populations of the South American region</GBReference_title>
+        <GBReference_journal>Virol. J. 4, 79 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1186/1743-422X-4-79</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17683527</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..252</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gutierrez,M.F.</GBAuthor>
+          <GBAuthor>Gonzalez,K.</GBAuthor>
+          <GBAuthor>Moratorio,G.</GBAuthor>
+          <GBAuthor>Lopez-Tort,F.</GBAuthor>
+          <GBAuthor>Lopez,L.</GBAuthor>
+          <GBAuthor>Martinez,M.</GBAuthor>
+          <GBAuthor>Recarey,R.</GBAuthor>
+          <GBAuthor>Schijman,A.</GBAuthor>
+          <GBAuthor>Moreno,P.</GBAuthor>
+          <GBAuthor>Garcia-Aguirre,L.</GBAuthor>
+          <GBAuthor>Manascero,A.R.</GBAuthor>
+          <GBAuthor>Cristina,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic variability of Hepatitis C virus isolated from Colombia and Bolivia</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..252</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cristina,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-SEP-2006) Cristina J., Centro de Investigaciones Nucleares, Facultad de Ciencias, Igua 4225, Montevideo, 11400, URUGUAY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..252</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>252</GBInterval_to>
+            <GBInterval_accession>AM400879.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Bol 7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>host serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Bolivia</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;252</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>252</GBInterval_to>
+            <GBInterval_accession>AM400879.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtacagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcaagatcgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgctcgagagtga</GBSeq_sequence>
+  </GBSeq>

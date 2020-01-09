@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EU747823</GBSeq_locus>
+    <GBSeq_length>239</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-JUN-2008</GBSeq_update-date>
+    <GBSeq_create-date>17-JUN-2008</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate IDURJ124 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>EU747823</GBSeq_primary-accession>
+    <GBSeq_accession-version>EU747823.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EU747823.1|</GBSeqid>
+      <GBSeqid>gi|190336354</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C (HCV)</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..239</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Oliveira,M.L.A.</GBAuthor>
+          <GBAuthor>Bastos,F.I.</GBAuthor>
+          <GBAuthor>Telles,P.R.</GBAuthor>
+          <GBAuthor>Oliveira,S.A.N.</GBAuthor>
+          <GBAuthor>Miguel,J.C.</GBAuthor>
+          <GBAuthor>Silva,E.F.</GBAuthor>
+          <GBAuthor>doO,K.M.R.</GBAuthor>
+          <GBAuthor>Yoshida,C.F.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Trends in HCV prevalence, risk behaviors and distribution of HCV genotypes among injection drug users from Rio de Janeiro, 1994-2001</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..239</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Oliveira,M.L.A.</GBAuthor>
+          <GBAuthor>Bastos,F.I.</GBAuthor>
+          <GBAuthor>Telles,P.R.</GBAuthor>
+          <GBAuthor>Oliveira,S.A.N.</GBAuthor>
+          <GBAuthor>Miguel,J.C.</GBAuthor>
+          <GBAuthor>Silva,E.F.</GBAuthor>
+          <GBAuthor>doO,K.M.R.</GBAuthor>
+          <GBAuthor>Yoshida,C.F.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-MAY-2008) National Reference Laboratory for Viral Hepatitis, Oswaldo Cruz Institute, FIOCRUZ, Av, Brasil, 4365 Manguinhos, Rio de Janeiro, Rio de Janeiro 21045-900, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..239</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>239</GBInterval_to>
+            <GBInterval_accession>EU747823.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>IDURJ124</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>intravenous drug user</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>1996</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 3a; acronym: HCV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;239</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>239</GBInterval_to>
+            <GBInterval_accession>EU747823.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaggaacttctgtcttcacgcggaaagcgcctagccatggcgttagtacgagtgtcgtgcagcctccaggcccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaatcgctggggtgaccgggtcctttcttggagcaacccgctcaatacccagaaatttgggcgtgcccccgcgagatcactagccgagtagtgttgggtcgcgaaaggccttgtggt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPC5UTR4</GBSeq_locus>
+    <GBSeq_length>202</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-FEB-2008</GBSeq_update-date>
+    <GBSeq_create-date>29-APR-1993</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus genome, 5'-untranslated region</GBSeq_definition>
+    <GBSeq_primary-accession>D12509</GBSeq_primary-accession>
+    <GBSeq_accession-version>D12509.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|D12509.1|HPC5UTR4</GBSeqid>
+      <GBSeqid>gi|221518</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>D01255</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..202</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nakao,T.</GBAuthor>
+          <GBAuthor>Enomoto,N.</GBAuthor>
+          <GBAuthor>Takada,N.</GBAuthor>
+          <GBAuthor>Takada,A.</GBAuthor>
+          <GBAuthor>Date,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Typing of hepatitis C virus genomes by restriction fragment length polymorphism</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. (1992) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..202</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nakao,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-NOV-1991) Contact:Toshifumi Nakao Mitsui Toatsu Chemicals, Inc., Life Science Institute; 1144 Togo, Mobara, Chiba 297, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..202</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>202</GBInterval_to>
+            <GBInterval_accession>D12509.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>HCV-K2b-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..202</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>202</GBInterval_to>
+            <GBInterval_accession>D12509.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcatgcagcctccaggcccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattaccgggaagactgggtcctttcttggataaacccactctatgtccggtcatttgggcgtgcccccgcaag</GBSeq_sequence>
+  </GBSeq>

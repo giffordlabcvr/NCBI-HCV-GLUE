@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB327055</GBSeq_locus>
+    <GBSeq_length>338</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>06-MAR-2008</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus gene for polyprotein, NS5B region, partial cds, isolate: ALT30 (RU-UKK-1)</GBSeq_definition>
+    <GBSeq_primary-accession>AB327055</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB327055.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB327055.1|</GBSeqid>
+      <GBSeqid>gi|169636096</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..338</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kurbanov,F.</GBAuthor>
+          <GBAuthor>Tanaka,Y.</GBAuthor>
+          <GBAuthor>Chub,E.</GBAuthor>
+          <GBAuthor>Maruyama,I.</GBAuthor>
+          <GBAuthor>Azlarova,A.</GBAuthor>
+          <GBAuthor>Kamitsukasa,H.</GBAuthor>
+          <GBAuthor>Ohno,T.</GBAuthor>
+          <GBAuthor>Bonetto,S.</GBAuthor>
+          <GBAuthor>Moreau,I.</GBAuthor>
+          <GBAuthor>Fanning,L.J.</GBAuthor>
+          <GBAuthor>Legrand-Abravanel,F.</GBAuthor>
+          <GBAuthor>Izopet,J.</GBAuthor>
+          <GBAuthor>Naoumov,N.</GBAuthor>
+          <GBAuthor>Shimada,T.</GBAuthor>
+          <GBAuthor>Netesov,S.</GBAuthor>
+          <GBAuthor>Mizokami,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular epidemiology and interferon susceptibility of the natural recombinant hepatitis C virus strain RF1_2k/1b</GBReference_title>
+        <GBReference_journal>J. Infect. Dis. 198 (10), 1448-1456 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1086/592757</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18928375</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..338</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kurbanov,F.</GBAuthor>
+          <GBAuthor>Tanaka,Y.</GBAuthor>
+          <GBAuthor>Mizokami,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-JUN-2007) Contact:Fuat Kurbanov Nagoya City University Graduate School of Medical Sciences, Department of Clinical Molecular Informative Medicine; Kawasumi 1, Mizuho-ku, Nagoya, Aichi 467-8601, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..338</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>338</GBInterval_to>
+            <GBInterval_accession>AB327055.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>ALT30 (RU-UKK-1)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>Serum specimen obtained from anti-HCV positive individual</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Russia: Southern Siberia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype RF1_2k/1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;336</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>336</GBInterval_to>
+            <GBInterval_accession>AB327055.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Method: conceptual translation with partial peptide sequencing;
+NS5B region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAG12471.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>TVTESDIRVEESIYQCCDLAPEARQAIRSLTERLYIGGPLTNSKGQNCGYRRCRASGVLTTSCGNTLTCYLKASAACRAAKLRDCTMLVCGDDLVVICESAGTQEDAASLRV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acggtcactgagagtgatatccgtgttgaggagtcaatttaccaatgttgtgacttggcccccgaagccagacaggccataaggtcgctcacagagcggctttatatcgggggccccctgactaattcaaaagggcagaactgcggttatcgccggtgccgcgcgagcggcgtgctgacgactagctgtggtaataccctcacatgttacttgaaggcctctgcagcctgtcgagctgcgaagctccgggactgcacgatgcttgtgtgcggagacgaccttgtcgttatctgtgagagcgcggggacccaggaggatgcggcgagcctacgagtctt</GBSeq_sequence>
+  </GBSeq>

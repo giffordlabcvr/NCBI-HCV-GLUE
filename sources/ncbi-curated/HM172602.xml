@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HM172602</GBSeq_locus>
+    <GBSeq_length>341</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>05-NOV-2012</GBSeq_update-date>
+    <GBSeq_create-date>01-SEP-2010</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate ISO-NE64 polymerase (NS5b) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>HM172602</GBSeq_primary-accession>
+    <GBSeq_accession-version>HM172602.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|HM172602.1|</GBSeqid>
+      <GBSeqid>gi|304633435</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..341</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Medhi,S.</GBAuthor>
+          <GBAuthor>Goswami,B.</GBAuthor>
+          <GBAuthor>Das,A.K.</GBAuthor>
+          <GBAuthor>Singh,T.B.</GBAuthor>
+          <GBAuthor>Husain,S.A.</GBAuthor>
+          <GBAuthor>Sehgal,A.</GBAuthor>
+          <GBAuthor>Kar,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>New insights into hepatitis C virus infection in the tribal-dominant part of Northeast India</GBReference_title>
+        <GBReference_journal>Arch. Virol. 157 (11), 2083-2093 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-012-1374-z</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22791109</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..341</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Medhi,S.</GBAuthor>
+          <GBAuthor>Singh,B.</GBAuthor>
+          <GBAuthor>Das,A.</GBAuthor>
+          <GBAuthor>Goswami,B.</GBAuthor>
+          <GBAuthor>Kar,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-APR-2010) Medicine, Maulana Azad Medical College, B.S.Z Marg, New Delhi, Delhi 11002, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..341</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>341</GBInterval_to>
+            <GBInterval_accession>HM172602.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>ISO-NE64</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;341</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>341</GBInterval_to>
+            <GBInterval_accession>HM172602.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS5b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;341</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>341</GBInterval_to>
+            <GBInterval_accession>HM172602.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS5b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ADM46236.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>TSMGNTITCYIKALAACKAAGIVAPTMLVCGDDLVVISESQGTEEDERNLRAFTEAMTRYSAPPGDPPRPEYDLELITSCSSNVSVAXGPQGRRRYYLTRDPTTPLSRAAWET</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cactagcatggggaacaccatcacatgctacataaaagccctagcggcttgcaaggctgcggggatagttgcgcctaccatgctggtatgcggcgacgacttggttgttatctcagaaagccaggggactgaggaggacgagcgaaacctgagagccttcacggaggctatgaccaggtattctgcccctcctggtgacccccccagaccggaatatgacctggagctgataacatcttgttcctcaaatgtatccgtggcartcggcccacagggccgccgcagatactacctgaccagagaccctaccactccactctcccgggctgcctgggaaacag</GBSeq_sequence>
+  </GBSeq>

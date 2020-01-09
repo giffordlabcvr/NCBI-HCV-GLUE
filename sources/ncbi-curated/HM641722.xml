@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HM641722</GBSeq_locus>
+    <GBSeq_length>223</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-AUG-2010</GBSeq_update-date>
+    <GBSeq_create-date>07-AUG-2010</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate 384 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>HM641722</GBSeq_primary-accession>
+    <GBSeq_accession-version>HM641722.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|HM641722.1|</GBSeqid>
+      <GBSeqid>gi|302122887</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..223</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Revie,D.</GBAuthor>
+          <GBAuthor>Alberti,M.O.</GBAuthor>
+          <GBAuthor>Prichard,J.G.</GBAuthor>
+          <GBAuthor>Kelley,A.S.</GBAuthor>
+          <GBAuthor>Salahuddin,S.Z.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Analysis of the 5'UTR of HCV genotype 3 grown in vitro in human B cells, T cells, and macrophages</GBReference_title>
+        <GBReference_journal>Virol. J. 7, 155 (2010)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1186/1743-422X-7-155</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>20626910</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..223</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Revie,D.</GBAuthor>
+          <GBAuthor>Alberti,M.O.</GBAuthor>
+          <GBAuthor>Prichard,J.G.</GBAuthor>
+          <GBAuthor>Kelley,A.S.</GBAuthor>
+          <GBAuthor>Salahuddin,S.Z.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JUL-2010) Basic Research, California Institute of Molecular Medicine, 1710 Donlon St. Unit 6, Ventura, CA 93003, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..223</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>223</GBInterval_to>
+            <GBInterval_accession>HM641722.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>384</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>08-Jan-2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 3a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;223</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>223</GBInterval_to>
+            <GBInterval_accession>HM641722.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaagcgtctagccatggcgttagtacgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaatcgctggggtgaccgggtcctttcttggaacaacccgctcaatacccagaaatttgggcgtgcccccgcgagatcactagccgagtagtgttgggtcgcgaaaggccttgtggtactgcct</GBSeq_sequence>
+  </GBSeq>

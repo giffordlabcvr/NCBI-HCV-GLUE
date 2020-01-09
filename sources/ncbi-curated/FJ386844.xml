@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FJ386844</GBSeq_locus>
+    <GBSeq_length>436</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>31-OCT-2009</GBSeq_update-date>
+    <GBSeq_create-date>31-OCT-2009</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate UN_AM19_2005.71 NS5B gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>FJ386844</GBSeq_primary-accession>
+    <GBSeq_accession-version>FJ386844.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|FJ386844.1|</GBSeqid>
+      <GBSeqid>gi|228552577</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..436</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>van de Laar,T.J.W.</GBAuthor>
+          <GBAuthor>Pybus,O.G.</GBAuthor>
+          <GBAuthor>Bruisten,S.M.</GBAuthor>
+          <GBAuthor>Brown,D.</GBAuthor>
+          <GBAuthor>Nelson,M.</GBAuthor>
+          <GBAuthor>Bhagani,S.</GBAuthor>
+          <GBAuthor>Vogel,M.</GBAuthor>
+          <GBAuthor>Baumgarten,A.</GBAuthor>
+          <GBAuthor>Chaix,M.-L.</GBAuthor>
+          <GBAuthor>Fisher,M.</GBAuthor>
+          <GBAuthor>Gotz,H.</GBAuthor>
+          <GBAuthor>Matthews,G.V.</GBAuthor>
+          <GBAuthor>Neifer,S.</GBAuthor>
+          <GBAuthor>White,P.A.</GBAuthor>
+          <GBAuthor>Rawlinson,W.D.</GBAuthor>
+          <GBAuthor>Pol,S.</GBAuthor>
+          <GBAuthor>Rockstroh,J.K.</GBAuthor>
+          <GBAuthor>Coutinho,R.A.</GBAuthor>
+          <GBAuthor>Dore,G.J.</GBAuthor>
+          <GBAuthor>Dusheiko,G.M.</GBAuthor>
+          <GBAuthor>Danta,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evidence of a large international HCV transmission network in HIV-positive men who have sex with men (MSM)</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..436</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>van de Laar,T.J.W.</GBAuthor>
+          <GBAuthor>Pybus,O.G.</GBAuthor>
+          <GBAuthor>Bruisten,S.M.</GBAuthor>
+          <GBAuthor>Brown,D.</GBAuthor>
+          <GBAuthor>Nelson,M.</GBAuthor>
+          <GBAuthor>Bhagani,S.</GBAuthor>
+          <GBAuthor>Vogel,M.</GBAuthor>
+          <GBAuthor>Baumgarten,A.</GBAuthor>
+          <GBAuthor>Chaix,M.-L.</GBAuthor>
+          <GBAuthor>Fisher,M.</GBAuthor>
+          <GBAuthor>Gotz,H.</GBAuthor>
+          <GBAuthor>Matthews,G.V.</GBAuthor>
+          <GBAuthor>Neifer,S.</GBAuthor>
+          <GBAuthor>White,P.A.</GBAuthor>
+          <GBAuthor>Rawlinson,W.D.</GBAuthor>
+          <GBAuthor>Pol,S.</GBAuthor>
+          <GBAuthor>Rockstroh,J.K.</GBAuthor>
+          <GBAuthor>Coutinho,R.A.</GBAuthor>
+          <GBAuthor>Dore,G.J.</GBAuthor>
+          <GBAuthor>Dusheiko,G.M.</GBAuthor>
+          <GBAuthor>Danta,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-OCT-2008) Cluster Infectious Diseases, Health Service Amsterdam, Nieuwe Achtergracht 100, Amsterdam, Northern Holland 1092EK, The Netherlands</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..436</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>436</GBInterval_to>
+            <GBInterval_accession>FJ386844.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>UN_AM19_2005.71</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Australia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 3a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;436</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>436</GBInterval_to>
+            <GBInterval_accession>FJ386844.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS5B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACQ45013.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>CGDDLVVVAESDGVDEDRATLRAFTEAMTRYSAPPGDVPQPTYDLELITSCSSNVSVARDDKGKRYYYLTRDATTPLARAAWETARHTPVNSWLGNIIMFAPTIWVRMVMMTHFFSILQSQEILDRPLDFEMYGATYSVTPLDLP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgcggagatgatctggtcgtggtggctgagagtgatggcgtcgatgaggatagagcaaccctgagagccttcacggaggctatgaccaggtactctgctccacccggagacgttccacagcccacctacgaccttgagctcattacatcttgctcctccaacgtctccgtggcacgggacgacaaggggaagaggtactattacctcacccgtgatgcaactactcccctggcccgtgcggcttgggaaacagctcgacacactccagttaactcctggttgggaaacatcatcatgttcgcgcctaccatctgggtgcgcatggtgatgatgacacacttcttttccatactccaatcccaggagatacttgatcgcccccttgactttgaaatgtacggggccacttactctgtcactccgctggacttaccag</GBSeq_sequence>
+  </GBSeq>

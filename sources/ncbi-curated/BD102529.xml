@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>BD102529</GBSeq_locus>
+    <GBSeq_length>279</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>05-AUG-2014</GBSeq_update-date>
+    <GBSeq_create-date>27-AUG-2002</GBSeq_create-date>
+    <GBSeq_definition>WO 2001077317-A/2: Method for amplifying nucleic acid in which double-stranded nucleic acid is a template</GBSeq_definition>
+    <GBSeq_primary-accession>BD102529</GBSeq_primary-accession>
+    <GBSeq_accession-version>BD102529.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|BD102529.1|</GBSeqid>
+      <GBSeqid>pat|WO|2001077317|2</GBSeqid>
+      <GBSeqid>gi|22648103</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>WO 2001077317-A/2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..279</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Notomi,T.</GBAuthor>
+          <GBAuthor>Nagamine,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Method for amplifying nucleic acid in which double-stranded nucleic acid is a template</GBReference_title>
+        <GBReference_journal>WO2001077317-A 2 18-OCT-2001 EIKEN CHEMICAL CO LTD,TSUGUNORI NOTOMI,KENTARO NAGAMINE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis virus (hepatitis C virus)~PN WO 2001077317-A/2~PD 18-OCT-2001~PF 30-MAR-2001 WO 2001JP002771~PR 07-APR-2000 JP 00P 111939~PA EIKEN CHEMICAL CO LTD,TSUGUNORI NOTOMI,KENTARO NAGAMINE~PI TSUGUNORI NOTOMI,KENTARO NAGAMINE~PT 'Method for amplifying nucleic acid in which double-stranded~PT nucleic acid~PT is a template'~PS~PC C12N15/10,C12Q1/68~CC Method for amplifying nucleic acid in which double-stranded~CC nucleic acid~CC is a template~FH Key Location/Qualifiers~FT source 1..279~FT /organism='Hepatitis virus (hepatitis C virus)'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..279</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>279</GBInterval_to>
+            <GBInterval_accession>BD102529.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcagaaagcgtctagccatggcgttagtatgagtgtcgtacagcctccaggcccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattaccggaaagactgggtcctttcttggataaacccactctatgtccggtcatttgggcgtgcccccgcaagactgctagccgagtagcgttgggttgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcatcatgag</GBSeq_sequence>
+  </GBSeq>

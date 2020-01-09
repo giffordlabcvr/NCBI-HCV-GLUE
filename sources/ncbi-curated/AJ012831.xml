@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ012831</GBSeq_locus>
+    <GBSeq_length>253</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-MAY-1999</GBSeq_update-date>
+    <GBSeq_create-date>18-NOV-1998</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus, strain Montevideo 1, 5'UTR</GBSeq_definition>
+    <GBSeq_primary-accession>AJ012831</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ012831.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ012831.1|</GBSeqid>
+      <GBSeqid>gi|3893114</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..253</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Colina,R.</GBAuthor>
+          <GBAuthor>Azambuja,C.</GBAuthor>
+          <GBAuthor>Uriarte,R.</GBAuthor>
+          <GBAuthor>Mogdasy,C.</GBAuthor>
+          <GBAuthor>Cristina,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evidence of increasing diversification of hepatitis C viruses</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 80 (PT 6), 1377-1382 (1999)</GBReference_journal>
+        <GBReference_pubmed>10374954</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..253</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cristina,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-NOV-1998) Cristina J., Departamento de Tecnicas Nucleares Aplicadas, Centro de Investigaciones Nucleares - Facultad de Ciencias, Igua 4225, 11400 Montevideo, URUGUAY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..253</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>253</GBInterval_to>
+            <GBInterval_accession>AJ012831.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Montevideo 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..253</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>253</GBInterval_to>
+            <GBInterval_accession>AJ012831.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtacagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtccttttcttggatcaaccccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgctcgagagt</GBSeq_sequence>
+  </GBSeq>

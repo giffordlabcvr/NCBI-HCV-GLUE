@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB005714</GBSeq_locus>
+    <GBSeq_length>270</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>06-OCT-2007</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus gene for E2 protein, partial cds, clone: JaCHC(S)-6-D</GBSeq_definition>
+    <GBSeq_primary-accession>AB005714</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB005714.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB005714.1|</GBSeqid>
+      <GBSeqid>gi|157939967</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..270</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kato,T.</GBAuthor>
+          <GBAuthor>Mizokami,M.</GBAuthor>
+          <GBAuthor>Nakano,T.</GBAuthor>
+          <GBAuthor>Orito,E.</GBAuthor>
+          <GBAuthor>Ohba,K.</GBAuthor>
+          <GBAuthor>Kondo,Y.</GBAuthor>
+          <GBAuthor>Tanaka,Y.</GBAuthor>
+          <GBAuthor>Ueda,R.</GBAuthor>
+          <GBAuthor>Mukaide,M.</GBAuthor>
+          <GBAuthor>Fujita,K.</GBAuthor>
+          <GBAuthor>Yasuda,K.</GBAuthor>
+          <GBAuthor>Iino,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Heterogeneity in E2 region of GBV-C/hepatitis G virus and hepatitis C virus</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 55 (2), 109-117 (1998)</GBReference_journal>
+        <GBReference_pubmed>9598930</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..270</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kato,T.</GBAuthor>
+          <GBAuthor>Mizokami,M.</GBAuthor>
+          <GBAuthor>Nakano,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-JUL-1997) Takanobu Kato, Nagoya City University Medical School, Second Department of Medicine; Kawasumi, Mizuho, Nagoya, Aichi 467-8601, Japan (E-mail:takanobu@med.nagoya-cu.ac.jp, Tel:81-52-851-5511, Fax:81-52-852-0849)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..270</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>270</GBInterval_to>
+            <GBInterval_accession>AB005714.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MK/28/F</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>JaCHC(S)-6-D</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>clones were identified by SSCP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;270</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>270</GBInterval_to>
+            <GBInterval_accession>AB005714.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>E2 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAF81594.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SPTAALVVSQLLRIPQAVVDMVAGAHWGVLAGLAYYSMAGNWAKVLIVMLLFAGVDGTTHVGGAVASNTRRLTSLFTFGSSQNIQLINTN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcgcccacagcagccttagtggtgtcgcagttactccggatcccacaagctgtcgtggacatggtagcaggggcccactggggagtcctggcgggccttgcctactactccatggcggggaactgggctaaggtcttgattgtgatgctactctttgccggcgttgacggcaccacccacgtggggggggcggtagcctctaacacccgtaggcttacttccctctttacatttgggtcgtctcagaatatccagctcataaacaccaat</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPCFRO</GBSeq_locus>
+    <GBSeq_length>251</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-AUG-1994</GBSeq_update-date>
+    <GBSeq_create-date>28-JAN-1994</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus type 5 isolate Australia gene fragment</GBSeq_definition>
+    <GBSeq_primary-accession>L28057</GBSeq_primary-accession>
+    <GBSeq_accession-version>L28057.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L28057.1|HPCFRO</GBSeqid>
+      <GBSeqid>gi|451080</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepatitis C virus genotype 5</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus genotype 5</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..251</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McOmish,F.</GBAuthor>
+          <GBAuthor>Yap,P.L.</GBAuthor>
+          <GBAuthor>Dow,B.C.</GBAuthor>
+          <GBAuthor>Follett,E.A.C.</GBAuthor>
+          <GBAuthor>Seed,C.</GBAuthor>
+          <GBAuthor>Keller,A.J.</GBAuthor>
+          <GBAuthor>Cobain,T.J.</GBAuthor>
+          <GBAuthor>Krusius,T.</GBAuthor>
+          <GBAuthor>Kolho,E.</GBAuthor>
+          <GBAuthor>Naukkarinen,R.</GBAuthor>
+          <GBAuthor>Lin,C.</GBAuthor>
+          <GBAuthor>Lai,C.</GBAuthor>
+          <GBAuthor>Leong,S.</GBAuthor>
+          <GBAuthor>Medgyesi,G.A.</GBAuthor>
+          <GBAuthor>Hejjas,M.</GBAuthor>
+          <GBAuthor>Kiyokawa,H.</GBAuthor>
+          <GBAuthor>Fukuda,K.</GBAuthor>
+          <GBAuthor>Cuypers,T.</GBAuthor>
+          <GBAuthor>Saeed,A.A.</GBAuthor>
+          <GBAuthor>Al-Rasheed,A.M.</GBAuthor>
+          <GBAuthor>Simmonds,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Geographical distribution of hepatitis C virus genotypes in blood donors: an international collaborative survey</GBReference_title>
+        <GBReference_journal>J. Clin. Microbiol. 32 (4), 884-892 (1994)</GBReference_journal>
+        <GBReference_pubmed>7913097</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Hepatitis C virus type 5 DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..251</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>251</GBInterval_to>
+            <GBInterval_accession>L28057.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus genotype 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Australia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:33746</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>2 sequences are presented. Each sequence is obtained from a different HCV-infected individual and given an identifier. The country of origin of the isolate and the genotype to which it has been assigned are also presented.</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgaacagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccgggatgaccgggtcctttcttggataaacccgctcaatgcccggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgctcgagagtg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY725958</GBSeq_locus>
+    <GBSeq_length>232</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-APR-2005</GBSeq_update-date>
+    <GBSeq_create-date>19-SEP-2004</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus subtype 1a from Czech Republic 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>AY725958</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY725958.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY725958.1|</GBSeqid>
+      <GBSeqid>gi|52001165</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..232</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Krekulova,L.</GBAuthor>
+          <GBAuthor>Rehak,V.</GBAuthor>
+          <GBAuthor>Riley,L.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Hepatitis C virus (HCV) 5'NC sequence variants and their association with hepatitis C risk groups</GBReference_title>
+        <GBReference_journal>J. Clin. Virol. 32 (4), 300-304 (2005)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.jcv.2004.08.019</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15780809</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..232</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Krekulova,L.</GBAuthor>
+          <GBAuthor>Riley,L.W.</GBAuthor>
+          <GBAuthor>Rehak,V.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Hepatitis C virus (HCV) 5'NC sequence variants and their association with Hepatitis C risk groups</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..232</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Krekulova,L.</GBAuthor>
+          <GBAuthor>Riley,L.W.</GBAuthor>
+          <GBAuthor>Rehak,V.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-AUG-2004) School of Public Health, UC Berkeley, 140 Warren Hall, Berkeley, CA 94720, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..232</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>232</GBInterval_to>
+            <GBInterval_accession>AY725958.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Czech Republic: Prague</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 1a; genotype: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;232</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>232</GBInterval_to>
+            <GBInterval_accession>AY725958.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaaacccgctcaatgcctggagatttgggcgtgcccccgcaagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG739129</GBSeq_locus>
+    <GBSeq_length>231</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>06-AUG-2018</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Hepacivirus C isolate 1470885 failure_2016_01 NS5A-like gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MG739129</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG739129.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG739129.1|</GBSeqid>
+      <GBSeqid>gi|1440803165</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..231</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Perez,A.B.</GBAuthor>
+          <GBAuthor>Vrancken,B.</GBAuthor>
+          <GBAuthor>Chueca,N.</GBAuthor>
+          <GBAuthor>Aguilera,A.</GBAuthor>
+          <GBAuthor>Reina,G.</GBAuthor>
+          <GBAuthor>Garcia-Deltoro,M.</GBAuthor>
+          <GBAuthor>Vera,F.</GBAuthor>
+          <GBAuthor>Von-Wichmann,M.A.</GBAuthor>
+          <GBAuthor>Arenas,J.I.</GBAuthor>
+          <GBAuthor>Tellez,F.</GBAuthor>
+          <GBAuthor>Pineda,J.A.</GBAuthor>
+          <GBAuthor>Omar,M.</GBAuthor>
+          <GBAuthor>Bernal,E.</GBAuthor>
+          <GBAuthor>Rivero-Juarez,A.</GBAuthor>
+          <GBAuthor>Fernandez-Fuertes,E.</GBAuthor>
+          <GBAuthor>De la Iglesia,A.</GBAuthor>
+          <GBAuthor>Pascasio,J.M.</GBAuthor>
+          <GBAuthor>Lemey,P.</GBAuthor>
+          <GBAuthor>Vandamme,A.M.</GBAuthor>
+          <GBAuthor>Garcia,F.</GBAuthor>
+          <GBAuthor>Cuypers,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Increasing importance of European lineages in seeding the Spanish hepatitis C virus subtype 1a epidemic</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..231</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Perez,A.B.</GBAuthor>
+          <GBAuthor>Vrancken,B.</GBAuthor>
+          <GBAuthor>Chueca,N.</GBAuthor>
+          <GBAuthor>Aguilera,A.</GBAuthor>
+          <GBAuthor>Reina,G.</GBAuthor>
+          <GBAuthor>Garcia-Deltoro,M.</GBAuthor>
+          <GBAuthor>Vera,F.</GBAuthor>
+          <GBAuthor>Von-Wichmann,M.A.</GBAuthor>
+          <GBAuthor>Arenas,J.I.</GBAuthor>
+          <GBAuthor>Tellez,F.</GBAuthor>
+          <GBAuthor>Pineda,J.A.</GBAuthor>
+          <GBAuthor>Omar,M.</GBAuthor>
+          <GBAuthor>Bernal,E.</GBAuthor>
+          <GBAuthor>Rivero-Juarez,A.</GBAuthor>
+          <GBAuthor>Fernandez-Fuertes,E.</GBAuthor>
+          <GBAuthor>De la Iglesia,A.</GBAuthor>
+          <GBAuthor>Pascasio,J.M.</GBAuthor>
+          <GBAuthor>Lemey,P.</GBAuthor>
+          <GBAuthor>Vandamme,A.M.</GBAuthor>
+          <GBAuthor>Garcia,F.</GBAuthor>
+          <GBAuthor>Cuypers,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (29-DEC-2017) Microbiology Department, Hospital Universitario San Cecilio. Instituto de Investigacion Biosanitaria Ibs.Granada, Av del Conocimiento s/n, Granada, Spain 18006, Spain</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..231</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>231</GBInterval_to>
+            <GBInterval_accession>MG739129.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>1470885 failure_2016_01</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Spain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Jan-2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;231</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>231</GBInterval_to>
+            <GBInterval_accession>MG739129.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to NS5A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>taagacctggctgaaggccaagctcatgccacaactgcctgggattccctttgtgtcctgccaacgcgggtacaggggggtctggaagggagagggcattatgcacactcgctgccactgtggagctgaaatcactggacatgtcaagaacgggacgatgaggatcgtcggtcctaagacctgcaggaacatgtggagtgggaccttccccatcaacgcctacaccacgga</GBSeq_sequence>
+  </GBSeq>

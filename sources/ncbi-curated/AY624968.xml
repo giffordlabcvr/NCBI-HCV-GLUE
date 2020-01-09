@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY624968</GBSeq_locus>
+    <GBSeq_length>224</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-MAR-2005</GBSeq_update-date>
+    <GBSeq_create-date>19-MAR-2005</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate maha-46 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>AY624968</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY624968.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY624968.1|</GBSeqid>
+      <GBSeqid>gi|54793281</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..224</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zekri,A.R.</GBAuthor>
+          <GBAuthor>El-Din,H.M.</GBAuthor>
+          <GBAuthor>Bahnassy,A.A.</GBAuthor>
+          <GBAuthor>El-Shehabi,A.M.</GBAuthor>
+          <GBAuthor>El-Leethy,H.</GBAuthor>
+          <GBAuthor>Omar,A.</GBAuthor>
+          <GBAuthor>Khaled,H.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>TRUGENE sequencing versus INNO-LiPA for sub-genotyping of HCV genotype-4</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 75 (3), 412-420 (2005)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/jmv.20293</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15648068</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..224</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zekri,A.-R.N.</GBAuthor>
+          <GBAuthor>Bahnassy,A.A.</GBAuthor>
+          <GBAuthor>Alam El-Din,H.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-MAY-2004) Virology and Immunology, National Cancer Institute, Fom El-Khalig, Kaser El-Aini St., Cairo 11976, Egypt</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..224</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>224</GBInterval_to>
+            <GBInterval_accession>AY624968.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>maha-46</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Egypt</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>clinical sample;
+genotype: 4</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;224</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>224</GBInterval_to>
+            <GBInterval_accession>AY624968.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agtcatagccatrggcgttagtatgagtgttgtacagcctccaggacccccctcccgggagagccatagtggtctgcggaaccggtgagttcaccggaatcgccgggacgaccgggtcctttcttggaacaaacccgctcaatgcccggcaatttgggcgtgcccccgcaagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtamtgcaytga</GBSeq_sequence>
+  </GBSeq>

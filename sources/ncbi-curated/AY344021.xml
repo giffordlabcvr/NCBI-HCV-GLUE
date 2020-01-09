@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY344021</GBSeq_locus>
+    <GBSeq_length>365</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-APR-2004</GBSeq_update-date>
+    <GBSeq_create-date>01-JAN-2004</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate UT-S11 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>AY344021</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY344021.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY344021.1|</GBSeqid>
+      <GBSeqid>gi|37790660</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..365</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bhattacharyya,S.</GBAuthor>
+          <GBAuthor>Mapa,K.</GBAuthor>
+          <GBAuthor>Prabhavathi,S.</GBAuthor>
+          <GBAuthor>Sudhamani,S.R.</GBAuthor>
+          <GBAuthor>Menon,P.K.</GBAuthor>
+          <GBAuthor>John,K.P.</GBAuthor>
+          <GBAuthor>Shivaram,C.</GBAuthor>
+          <GBAuthor>Amarnath,S.</GBAuthor>
+          <GBAuthor>Das,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenetic conservation of the stem-loop III structure of the 5' untranslated region of Hepatitis C virus RNA among natural variants in samples collected from Southern India</GBReference_title>
+        <GBReference_journal>Arch. Virol. 149 (5), 1015-1026 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-003-0265-8</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15098115</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..365</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bhattacharyya,S.</GBAuthor>
+          <GBAuthor>Prabhavathi,S.</GBAuthor>
+          <GBAuthor>Mapa,K.</GBAuthor>
+          <GBAuthor>Das,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-JUL-2003) Microbiology &amp; Cell Biology, Indian Institute of Science, C.V. Raman Street, Bangalore, Karnataka 560012, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..365</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>365</GBInterval_to>
+            <GBInterval_accession>AY344021.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>UT-S11</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..365</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>365</GBInterval_to>
+            <GBInterval_accession>AY344021.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggcgacactccaccatagatcactctccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggattaacccgctcaatgcctggagatttgggcgtgcccccgcgagaannntagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggagtnctcgtagaccgtgcatcatgagcacaaatccttaacctcaaagaaaaaccgaaacgt</GBSeq_sequence>
+  </GBSeq>

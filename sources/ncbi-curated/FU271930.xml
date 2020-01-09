@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FU271930</GBSeq_locus>
+    <GBSeq_length>393</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>21-JAN-2010</GBSeq_update-date>
+    <GBSeq_create-date>21-JAN-2010</GBSeq_create-date>
+    <GBSeq_definition>INHIBITION OF VIRAL GENE EXPRESSION USING SMALL INTERFERING RNA</GBSeq_definition>
+    <GBSeq_primary-accession>FU271930</GBSeq_primary-accession>
+    <GBSeq_accession-version>FU271930.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|FU271930.1|</GBSeqid>
+      <GBSeqid>pat|JP|2009521207|11</GBSeqid>
+      <GBSeqid>gi|284646604</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2009521207-A/11</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..393</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vlassov,A.V.</GBAuthor>
+          <GBAuthor>Johnston,B.H.</GBAuthor>
+          <GBAuthor>Kaspar,R.L.</GBAuthor>
+          <GBAuthor>Ilves,H.</GBAuthor>
+          <GBAuthor>Seyhan,A.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>INHIBITION OF VIRAL GENE EXPRESSION USING SMALL INTERFERING RNA</GBReference_title>
+        <GBReference_journal>JP2009521207-A 11 04-JUN-2009 SOMAGENICS INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C Virus~PN JP 2009521207-A/11~PD 04-JUN-2009~PF 01-JUN-2006 JP 2008529981~PR 12-SEP-2005 US S2005/032768~PI alexander v vlassov,brian h johnston,roger l kaspar,heini PI ilves,~PI attila a seyhan~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..393</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>393</GBInterval_to>
+            <GBInterval_accession>FU271930.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gccagcccccgattgggggcgacactccaccatagatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcaccatgagcacgaatcctaaacctcaaagaaaaaccaaacgtaacaccaaccgcc</GBSeq_sequence>
+  </GBSeq>

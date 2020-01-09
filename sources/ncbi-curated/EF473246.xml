@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF473246</GBSeq_locus>
+    <GBSeq_length>229</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>21-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>10-APR-2007</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate Ind-DB6 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>EF473246</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF473246.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF473246.1|</GBSeqid>
+      <GBSeqid>gi|141602411</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..229</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Medhi,S.</GBAuthor>
+          <GBAuthor>Das,A.</GBAuthor>
+          <GBAuthor>Singh,B.</GBAuthor>
+          <GBAuthor>Goswami,B.</GBAuthor>
+          <GBAuthor>Swargiary,S.S.</GBAuthor>
+          <GBAuthor>Polipalli,S.K.</GBAuthor>
+          <GBAuthor>Kar,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-FEB-2007) Medicine, Maulana Azad Medical College, Bahadur Shah Zafar Marg, New Delhi, Delhi 110002, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..229</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>229</GBInterval_to>
+            <GBInterval_accession>EF473246.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Ind-DB6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India: northeastern region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..229</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>229</GBInterval_to>
+            <GBInterval_accession>EF473246.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>catggcgttagtatgaggtcgtgcagcctccaggaccccccctcccgggagagccataggttctgcggaaccggtgatcatgacggaattgccagggtgaccgggtcctttcttggatcaacccgctcaatacccagaaatttgggcgtgcccccgccagatcactagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgc</GBSeq_sequence>
+  </GBSeq>

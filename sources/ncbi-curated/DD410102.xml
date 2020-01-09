@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DD410102</GBSeq_locus>
+    <GBSeq_length>349</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>21-FEB-2007</GBSeq_update-date>
+    <GBSeq_create-date>21-FEB-2007</GBSeq_create-date>
+    <GBSeq_definition>IRES</GBSeq_definition>
+    <GBSeq_primary-accession>DD410102</GBSeq_primary-accession>
+    <GBSeq_accession-version>DD410102.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DD410102.1|</GBSeqid>
+      <GBSeqid>pat|JP|2006516402|1</GBSeqid>
+      <GBSeqid>gi|126148684</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2006516402-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..349</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rabbitts,T.</GBAuthor>
+          <GBAuthor>Yamada,Y.</GBAuthor>
+          <GBAuthor>Chung,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>IRES</GBReference_title>
+        <GBReference_journal>JP2006516402-A 1 06-JUL-2006 Medical Research Council</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 2006516402-A/1~PD 06-JUL-2006~PF 28-JAN-2004 JP 2006502213~PR 29-JAN-2003 GB 0302113.6~PI terence rabbitts,yoshihiro yamada,grace chung CC~FH Key Location/Qualifiers~FT misc_feature (299)..(299)~FT /note='n is a, c, g, or t'~FT misc_feature (319)..(319)~FT /note='n is a, c, g, or t'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..349</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>349</GBInterval_to>
+            <GBInterval_accession>DD410102.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggatccggcgacactccaccatgaatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagcgccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttgataaacccgctcaatgcctggagatttgggcgtgcccccgcaagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgantgccccgggaggtctcgtanaccgtgcaccatgagcacgaatctggatcc</GBSeq_sequence>
+  </GBSeq>

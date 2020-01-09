@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG818222</GBSeq_locus>
+    <GBSeq_length>254</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-DEC-2018</GBSeq_update-date>
+    <GBSeq_create-date>11-DEC-2018</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus subtype 1a isolate 1a_493 nonstructural protein 5B gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MG818222</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG818222.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG818222.1|</GBSeqid>
+      <GBSeqid>gi|1530829017</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepatitis C virus subtype 1a</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus subtype 1a</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..254</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Landgraf de Castro,V.O.</GBAuthor>
+          <GBAuthor>Stabile,A.C.</GBAuthor>
+          <GBAuthor>Silva,E.F.</GBAuthor>
+          <GBAuthor>Leone de Oliveira,S.M.</GBAuthor>
+          <GBAuthor>Carvalho,P.R.</GBAuthor>
+          <GBAuthor>Puga,M.A.</GBAuthor>
+          <GBAuthor>Tanaka,T.S.</GBAuthor>
+          <GBAuthor>Lago,B.V.</GBAuthor>
+          <GBAuthor>Ibanhes,M.L.</GBAuthor>
+          <GBAuthor>Araujo,A.</GBAuthor>
+          <GBAuthor>Forb,J.</GBAuthor>
+          <GBAuthor>Tejada-Strop,A.</GBAuthor>
+          <GBAuthor>Lin,Y.</GBAuthor>
+          <GBAuthor>Xia,G.-L.</GBAuthor>
+          <GBAuthor>Sue,A.</GBAuthor>
+          <GBAuthor>Teles,S.A.</GBAuthor>
+          <GBAuthor>Kamili,S.</GBAuthor>
+          <GBAuthor>Motta-Castro,A.R.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>High HCV prevalence among crack users in an important international drug trafficking route in Central Brazil</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..254</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Landgraf de Castro,V.O.</GBAuthor>
+          <GBAuthor>Stabile,A.C.</GBAuthor>
+          <GBAuthor>Silva,E.F.</GBAuthor>
+          <GBAuthor>Leone de Oliveira,S.M.</GBAuthor>
+          <GBAuthor>Carvalho,P.R.</GBAuthor>
+          <GBAuthor>Puga,M.A.</GBAuthor>
+          <GBAuthor>Tanaka,T.S.</GBAuthor>
+          <GBAuthor>Lago,B.V.</GBAuthor>
+          <GBAuthor>Ibanhes,M.L.</GBAuthor>
+          <GBAuthor>Araujo,A.</GBAuthor>
+          <GBAuthor>Forb,J.</GBAuthor>
+          <GBAuthor>Tejada-Strop,A.</GBAuthor>
+          <GBAuthor>Lin,Y.</GBAuthor>
+          <GBAuthor>Xia,G.-L.</GBAuthor>
+          <GBAuthor>Sue,A.</GBAuthor>
+          <GBAuthor>Teles,S.A.</GBAuthor>
+          <GBAuthor>Kamili,S.</GBAuthor>
+          <GBAuthor>Motta-Castro,A.R.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (19-JAN-2018) Laboratorio de Imunologia Clinica, Universidade Federal de Mato Grosso do Sul, Av. Costa e Silva sn Bairro Universitario, Campo Grande, Mato Grosso do Sul 79070-900, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: MEGA v. 7.0 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..254</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>254</GBInterval_to>
+            <GBInterval_accession>MG818222.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus subtype 1a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>1a_493</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:31646</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Jun-2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;254</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>254</GBInterval_to>
+            <GBInterval_accession>MG818222.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NS5B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein 5B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AZJ51014.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AIYQCCDLDPQARVAIRSLTERLYVGGPLTNSKGENCGYRRCRASGVLTTSCGNTLTCYIKAQAACRAAGLRDCTMLVCGDDLV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aggcaatctaccaatgttgtgacctggacccccaagcccgcgtggccatcaggtctctcactgagaggctttatgttgggggccctcttaccaattcaaagggggagaactgcggctatcgcaggtgccgcgcgagcggcgtactgacgactagctgtggtaacaccctcacttgctacatcaaggcccaggcagcctgtcgagccgcagggctccgggactgcaccatgctcgtgtgtggcgacgacttagtc</GBSeq_sequence>
+  </GBSeq>

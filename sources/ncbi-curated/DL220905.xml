@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DL220905</GBSeq_locus>
+    <GBSeq_length>222</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>20-NOV-2008</GBSeq_update-date>
+    <GBSeq_create-date>20-NOV-2008</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis-C Virus 4, 5, and 6</GBSeq_definition>
+    <GBSeq_primary-accession>DL220905</GBSeq_primary-accession>
+    <GBSeq_accession-version>DL220905.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DL220905.1|</GBSeqid>
+      <GBSeqid>pat|JP|2005124585|3</GBSeqid>
+      <GBSeqid>gi|213661247</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2005124585-A/3</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..222</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Simons,P.</GBAuthor>
+          <GBAuthor>Yap,P.L.</GBAuthor>
+          <GBAuthor>Pike,I.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Hepatitis-C Virus 4, 5, and 6</GBReference_title>
+        <GBReference_journal>JP2005124585-A 3 19-MAY-2005 Common Services Agency,Murex Diagnostics Limited</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C Virus~PN JP 2005124585-A/3~PD 19-MAY-2005~PF 26-JAN-2005 JP 2005018491~PR 05-MAY-1993 GB 9309237.7,07-JAN-1994 GB 9400263.1 PI peter simons,peng lee yap,ian hugo pike~CC This description about &lt;220&gt; can't be interpreted CC &lt;220&gt;~CC &lt;221&gt; misc_feature~CC &lt;223&gt; HCV 4A NS5 REGION; ISOLATE EG19~FH Key Location/Qualifiers~FT CDS (1)...(222).</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..222</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>222</GBInterval_to>
+            <GBInterval_accession>DL220905.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtctatcagtgttgtagtctggagctcgaggctcgcaaggttattactgccctcacggaaagactctacgtgggcggccccatgcacaatagcaagggagacctttgtgggtaccggagatgccgggcaagcggagtctatacgaccagcttcggaaacacgctgacgtgctacctcaaagccacagccgctattagggcggcgggactaaaagacagcact</GBSeq_sequence>
+  </GBSeq>

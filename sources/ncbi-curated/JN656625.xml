@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JN656625</GBSeq_locus>
+    <GBSeq_length>434</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>21-APR-2015</GBSeq_update-date>
+    <GBSeq_create-date>04-FEB-2012</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Hepatitis C virus genotype 3a 5'UTR and core protein-like gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>JN656625</GBSeq_primary-accession>
+    <GBSeq_accession-version>JN656625.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JN656625.1|</GBSeqid>
+      <GBSeqid>gi|374264134</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..434</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>K,P.</GBAuthor>
+          <GBAuthor>R,B.</GBAuthor>
+          <GBAuthor>J,M.</GBAuthor>
+          <GBAuthor>H,A.</GBAuthor>
+          <GBAuthor>R,R.</GBAuthor>
+          <GBAuthor>G,C.</GBAuthor>
+          <GBAuthor>H N,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Optimization and application of subtype specific polymerase chain reaction for detection and identification of mixed subtypes of hepatitis C virus in patients with renal disease</GBReference_title>
+        <GBReference_journal>J. Virol. Methods 186 (1-2), 113-118 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.jviromet.2012.06.023</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22964112</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..434</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Prathiba,K.</GBAuthor>
+          <GBAuthor>Bagyalakshmi,R.</GBAuthor>
+          <GBAuthor>Malathi,J.</GBAuthor>
+          <GBAuthor>Madhavan,H.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-SEP-2011) Microbiology, Lecturer, Vision Research Foundation, 18, College Road, Chennai, Tamil Nadu 600006, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..434</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>434</GBInterval_to>
+            <GBInterval_accession>JN656625.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Jan-2011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: Universal Round I FP, fwd_seq: ttgtggtactgcctgataggg, rev_name: Universal Round I RP, rev_seq: ggatgtaccccatgaggatcg</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: Round II FP, fwd_seq: gtgccccgggaggtctcgtag, rev_name: Round II RP 3a, rev_seq: caggaccggccttcgctccg</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 3a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(&lt;1..&gt;434)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>434</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>JN656625.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains 5'UTR and core protein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gggatagctgcgtcgtcgcgagctgtgaccgttcagaagttttacgcgtcgcgcgcacacccaatcgcgggcccctgcgcggcaacacgtatactccaccaacgatctgtccgccacccgggaacttgacgtcctgtgggcgacggatggtatttcttttggtttttctttgaggtttaggaagtgtgctcatgatgcacggtctacgagacctcccggggcacccttcctaaacctaaaagaaaaaccaaaacatctaccccccggcgcccacttccaggtggggtacgaggtttggcggaatatattgttgccgcagggcccggttttgggtggtgcccggcccccaaaaatttttgaatttgcggcctggcggacaaaggggtccttatccccaaagccggtcaaggggaaggcgggtcggggaattcccg</GBSeq_sequence>
+  </GBSeq>

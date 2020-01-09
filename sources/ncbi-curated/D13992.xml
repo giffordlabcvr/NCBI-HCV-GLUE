@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPCIFN26G</GBSeq_locus>
+    <GBSeq_length>251</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JAN-2008</GBSeq_update-date>
+    <GBSeq_create-date>17-DEC-1993</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus genomic RNA, 5'UTR, isolate: patient IFN26 T=O</GBSeq_definition>
+    <GBSeq_primary-accession>D13992</GBSeq_primary-accession>
+    <GBSeq_accession-version>D13992.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|D13992.1|HPCIFN26G</GBSeqid>
+      <GBSeqid>gi|435632</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..251</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stuyver,L.</GBAuthor>
+          <GBAuthor>Rossau,R.</GBAuthor>
+          <GBAuthor>Wyseur,A.</GBAuthor>
+          <GBAuthor>Duhamel,M.</GBAuthor>
+          <GBAuthor>Vanderborght,B.</GBAuthor>
+          <GBAuthor>Van Heuverswyn,H.</GBAuthor>
+          <GBAuthor>Maertens,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Typing of hepatitis C virus isolates and characterization of new subtypes using a line probe assay</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 74 (PT 6), 1093-1102 (1993)</GBReference_journal>
+        <GBReference_pubmed>8389799</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..251</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stuyver,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-DEC-1992) Contact:Lieven Stuyver Innogenetics N.V.; Industriepark Zwijnaarde 7, Box 4, Gent B-9052, Belgium</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..251</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>251</GBInterval_to>
+            <GBInterval_accession>D13992.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>patient IFN26 T=O</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..251</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>251</GBInterval_to>
+            <GBInterval_accession>D13992.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagaccgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccggg</GBSeq_sequence>
+  </GBSeq>

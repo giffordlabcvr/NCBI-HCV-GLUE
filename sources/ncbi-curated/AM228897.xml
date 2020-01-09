@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AM228897</GBSeq_locus>
+    <GBSeq_length>242</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-JUL-2009</GBSeq_update-date>
+    <GBSeq_create-date>08-JAN-2008</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus subtype 3a partial 5'UTR, isolate 159940 UR</GBSeq_definition>
+    <GBSeq_primary-accession>AM228897</GBSeq_primary-accession>
+    <GBSeq_accession-version>AM228897.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AM228897.1|</GBSeqid>
+      <GBSeqid>gi|164510459</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepatitis C virus subtype 3a</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus subtype 3a</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..242</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yasmeen,A.</GBAuthor>
+          <GBAuthor>Siddiqui,A.A.</GBAuthor>
+          <GBAuthor>Hamid,S.</GBAuthor>
+          <GBAuthor>Sultana,T.</GBAuthor>
+          <GBAuthor>Jafri,W.</GBAuthor>
+          <GBAuthor>Persson,M.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic variations in a well conserved 5'-untranslated region of hepatitis C virus genome isolated in Pakistan</GBReference_title>
+        <GBReference_journal>J. Virol. Methods 160 (1-2), 38-47 (2009)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.jviromet.2009.04.007</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19406160</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..242</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yasmeen,A.Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-DEC-2005) Yasmeen A.Y., Biological and Biomedical Sciences, Aga Khan University, Stadium Road PO Box 3500, 74800, PAKISTAN</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..242</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>242</GBInterval_to>
+            <GBInterval_accession>AM228897.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus subtype 3a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>159940 UR</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>patient serum sample</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:356426</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Pakistan</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;242</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>242</GBInterval_to>
+            <GBInterval_accession>AM228897.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttcacgcggaaagcgcctagccatggcgttagtacgactgtcttgcaacctccagggacgccccctcccaggagatccatagtggtctgcggaaccggtggagtacaccggaatcgctggggtgaccgggtcctttcttggagcaacccgctcaatacccagaaatttgggcgtgcccccgcgagatcactagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgagcgagt</GBSeq_sequence>
+  </GBSeq>

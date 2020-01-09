@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HV547404</GBSeq_locus>
+    <GBSeq_length>490</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>28-FEB-2012</GBSeq_update-date>
+    <GBSeq_create-date>28-FEB-2012</GBSeq_create-date>
+    <GBSeq_definition>JP 2011224013-A/11: Conserved HBV and HCV Sequences Useful for Gene Silencing</GBSeq_definition>
+    <GBSeq_primary-accession>HV547404</GBSeq_primary-accession>
+    <GBSeq_accession-version>HV547404.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HV547404.1|</GBSeqid>
+      <GBSeqid>pat|JP|2011224013|11</GBSeqid>
+      <GBSeqid>gi|378736869</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2011224013-A/11</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..490</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mintz,L.</GBAuthor>
+          <GBAuthor>Zurawski,V.R. Jr.</GBAuthor>
+          <GBAuthor>Satishchandran,C.</GBAuthor>
+          <GBAuthor>Pachuk,C.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Conserved HBV and HCV Sequences Useful for Gene Silencing</GBReference_title>
+        <GBReference_journal>JP2011224013-A 11 10-NOV-2011 Alnylam Pharmaceuticals Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C Virus~PN JP 2011224013-A/11~PD 10-NOV-2011~PF 04-JUL-2011 JP 2011148461~PR 12-JUN-2003 US 60/478076~PI liat mintz,vincent r zurawski jr,c satishchandran,catherine j PI pachuk~CC~FH Key Location/Qualifiers~FT misc_feature (86)..(86)~FT /note='n is a, c, g, or t'~FT misc_feature (434)..(434)~FT /note='n is a, c, g, or t'~FT misc_feature (455)..(455)~FT /note='n is a, c, g, or t'~FT misc_feature (476)..(476)~FT /note='n is a, c, g, or t'~FT misc_feature (488)..(488)~FT /note='n is a, c, g, or t'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..490</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>490</GBInterval_to>
+            <GBInterval_accession>HV547404.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ddatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtygtgcagcytccaggnccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccrggahgaccgggtcctttcttggatdaacccgctcwatgccyggavatttgggcgtgcccccgcragacygctagccgagtagygttgggtygcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcahcatgagcacrmwtcchaaacchcaaagaaaaaccaaamgwaacaccaaccgycgcccacaggacgthaagttcccgggyggygghcagatcgttggbggagthtacbtgttgccgcgcaggggcccnmvdttgggtgtgcgcgcgacnaggaagacttcbgarcggtcncarcchcghggnag</GBSeq_sequence>
+  </GBSeq>

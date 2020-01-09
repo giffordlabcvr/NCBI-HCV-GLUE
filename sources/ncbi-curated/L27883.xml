@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPCA8A</GBSeq_locus>
+    <GBSeq_length>232</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-JUL-1994</GBSeq_update-date>
+    <GBSeq_create-date>03-FEB-1994</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus (clone A8A) mRNA, 5' end</GBSeq_definition>
+    <GBSeq_primary-accession>L27883</GBSeq_primary-accession>
+    <GBSeq_accession-version>L27883.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L27883.1|HPCA8A</GBSeqid>
+      <GBSeqid>gi|451997</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..232</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Martell,M.</GBAuthor>
+          <GBAuthor>Esteban,J.I.</GBAuthor>
+          <GBAuthor>Quer,J.</GBAuthor>
+          <GBAuthor>Vargas,V.</GBAuthor>
+          <GBAuthor>Esteban,R.</GBAuthor>
+          <GBAuthor>Guardia,J.</GBAuthor>
+          <GBAuthor>Gomez,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Dynamic behavior of hepatitis C virus quasispecies in patients undergoing orthotopic liver transplantation</GBReference_title>
+        <GBReference_journal>J. Virol. 68 (5), 3425-3436 (1994)</GBReference_journal>
+        <GBReference_pubmed>8151804</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Hepatitis C virus (individual_isolate JOCI0) plasma cDNA to mRNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..232</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>232</GBInterval_to>
+            <GBInterval_accession>L27883.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>JOCI0</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>plasma</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..232</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>232</GBInterval_to>
+            <GBInterval_accession>L27883.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>E2/NS2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggatgatgctactcatatcccaagcagaggcagctttggaaaaccttgtgttactcaatgcagcgtctctggccgggacgcacggtcttgtgtccttcctcgtgtttttctgctttgcacggtatctgaagggtaagtgggtgcccggagtggcctacgccgtctacgggatgtggcctctcctcctgctcctgttagcgttgccccaacgggcatacgcgctggacgcggt</GBSeq_sequence>
+  </GBSeq>

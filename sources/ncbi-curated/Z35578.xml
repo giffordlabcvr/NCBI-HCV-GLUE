@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Z35578</GBSeq_locus>
+    <GBSeq_length>222</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-APR-1996</GBSeq_update-date>
+    <GBSeq_create-date>01-AUG-1994</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus (isolate 3010NS5) RNA for NS-5 region (partial)</GBSeq_definition>
+    <GBSeq_primary-accession>Z35578</GBSeq_primary-accession>
+    <GBSeq_accession-version>Z35578.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Z35578.1|</GBSeqid>
+      <GBSeqid>gi|520722</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>non-structural protein 5</GBKeyword>
+      <GBKeyword>NS-5</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..222</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Feucht,H.H.</GBAuthor>
+          <GBAuthor>Zollner,B.</GBAuthor>
+          <GBAuthor>Schroter,M.</GBAuthor>
+          <GBAuthor>Hoyer,A.</GBAuthor>
+          <GBAuthor>Sterneck,M.</GBAuthor>
+          <GBAuthor>Polywka,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Distribution of genotypes and response to alpha-interferon in patients with hepatitis C virus infection in Germany</GBReference_title>
+        <GBReference_journal>Eur. J. Clin. Microbiol. Infect. Dis. 15 (2), 128-132 (1996)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/BF01591485</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>8801084</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..222</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Feucht,H.H.</GBAuthor>
+          <GBAuthor>Schroter,M.</GBAuthor>
+          <GBAuthor>Zollner,B.</GBAuthor>
+          <GBAuthor>Polywka,S.</GBAuthor>
+          <GBAuthor>Nolte,H.</GBAuthor>
+          <GBAuthor>Laufs,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The influence of age on the prevalence of hepatitis C virus subtypes 1a and 1b</GBReference_title>
+        <GBReference_journal>J. Infect. Dis. 175 (3), 685-688 (1997)</GBReference_journal>
+        <GBReference_pubmed>9041344</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..222</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Feucht,H.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-JUL-1994) Heinz-Hubert Feucht, Institut fuer Mieizinische Mikrobiologie und Immunologie, Universitaets-Krankenhaus Eppendorf, Martinstrasse 52, 20246 Hamburg, Germany</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..222</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>222</GBInterval_to>
+            <GBInterval_accession>Z35578.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>3010NS5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;222</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>222</GBInterval_to>
+            <GBInterval_accession>Z35578.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>non-structural 5 (NS-5) region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcgtatgatacccgcygctttgactcwactgtcactgaacaggacatcagggtggaagaggagatataccaatgctgtaaccttgaaccggaggccaggaaagtgatctcctccctcacggaacggctctactgcgggggccctatgttcaacatcaagggggcccagtgtggttatcgccgttgccgtgccagtggaggtctgcctaccagcttcggcaac</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT336358</GBSeq_locus>
+    <GBSeq_length>225</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-DEC-2015</GBSeq_update-date>
+    <GBSeq_create-date>28-DEC-2015</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate HCV1b/S4/chennai/2015 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>KT336358</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT336358.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT336358.1|</GBSeqid>
+      <GBSeqid>gi|969987223</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..225</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Magesh,S.</GBAuthor>
+          <GBAuthor>Gunasekaran,P.</GBAuthor>
+          <GBAuthor>Kaveri,K.</GBAuthor>
+          <GBAuthor>Kavita,A.</GBAuthor>
+          <GBAuthor>Anupama,C.P.</GBAuthor>
+          <GBAuthor>Sathiyamurthy,K.</GBAuthor>
+          <GBAuthor>Saran,N.</GBAuthor>
+          <GBAuthor>Sureshbabu,B.V.</GBAuthor>
+          <GBAuthor>Vennila,S.</GBAuthor>
+          <GBAuthor>Bupesh,G.</GBAuthor>
+          <GBAuthor>Senthilraja,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>HCV in Tamilnadu 2014-2015</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..225</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Magesh,S.</GBAuthor>
+          <GBAuthor>Gunasekaran,P.</GBAuthor>
+          <GBAuthor>Kaveri,K.</GBAuthor>
+          <GBAuthor>Kavita,A.</GBAuthor>
+          <GBAuthor>Anupama,C.P.</GBAuthor>
+          <GBAuthor>Sathiyamurthy,K.</GBAuthor>
+          <GBAuthor>Saran,N.</GBAuthor>
+          <GBAuthor>Sureshbabu,B.V.</GBAuthor>
+          <GBAuthor>Vennila,S.</GBAuthor>
+          <GBAuthor>Bupesh,G.</GBAuthor>
+          <GBAuthor>Senthilraja,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-JUL-2015) Virology, King Institute of Preventive Medicine and Research, Anna Salai, Chennai, Tamilnadu 600032, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..225</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>225</GBInterval_to>
+            <GBInterval_accession>KT336358.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>HCV1b/S4/chennai/2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>21-Dec-2014</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Magesh S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;225</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>225</GBInterval_to>
+            <GBInterval_accession>KT336358.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggataaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG891185</GBSeq_locus>
+    <GBSeq_length>1245</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-MAR-2018</GBSeq_update-date>
+    <GBSeq_create-date>26-MAR-2018</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus C isolate RBV100-Day4(Exp6b)_02 NS5B gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MG891185</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG891185.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG891185.1|</GBSeqid>
+      <GBSeqid>gi|1368089189</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1245</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Galli,A.</GBAuthor>
+          <GBAuthor>Mens,H.</GBAuthor>
+          <GBAuthor>Gottwein,J.M.</GBAuthor>
+          <GBAuthor>Gerstoft,J.</GBAuthor>
+          <GBAuthor>Bukh,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Antiviral Effect of Ribavirin against HCV Associated with Increased Frequency of G-to-A and C-to-U Transitions in Infectious Cell Culture Model</GBReference_title>
+        <GBReference_journal>Sci Rep 8 (1), 4619 (2018)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/s41598-018-22620-2</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29545599</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1245</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Galli,A.</GBAuthor>
+          <GBAuthor>Mens,H.</GBAuthor>
+          <GBAuthor>Gottwein,J.M.</GBAuthor>
+          <GBAuthor>Gerstoft,J.</GBAuthor>
+          <GBAuthor>Bukh,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-FEB-2018) Department of Infectious Diseases, Copenhagen University Hospital Hvidovre, Kettegaard Alle 30, Hvidovre 2650, Denmark</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: DNAstar Lasergene v. 12 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1245</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1245</GBInterval_to>
+            <GBInterval_accession>MG891185.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>RBV100-Day4(Exp6b)_02</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lab_host</GBQualifier_name>
+            <GBQualifier_value>Huh-7.5 cell line</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Denmark</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 2a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1245</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1245</GBInterval_to>
+            <GBInterval_accession>MG891185.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>RNA-dependent RNA polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS5B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AVP38985.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>DAHYDSVLKDIKLAASKVSARLLTLEEACQLTPPHSARSKYGFGAKEVRSLSGRAVNHIKSVWKDLLEDPQTPIPTTIMAKNEVFCVDPAKGGKKPARLIVYPDLGVRVCEKMALYDITQKLPQAVMGASYGFQYSPAQRVEYLLKAWAEKKDPMGFSYDTRCFDSTVTERDIRTEESIYQACSLPEEARTAIHSLTERLYVGGPMFNSKGQTCGYRRCRASGVLTTSMGNTITCYVKALAACKAAGIVAPTMLVCGDDLVVISESQGTEEDERNLRAFTEAMTRYSAPPGDPPRPEYDLELITSCSSNVSVALGPRGRRRYYLTRDPTTPLARAAWETVRHSPINSWLGNIIQYAPTIWVRMVLMTHFFSILMVQDTLDQNLNFEMYGSVYSVNPLDLPAIIERLHGLDAFSMH</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gacgcccattatgactcagtcttaaaggacatcaagctagcggcttccaaggtcagcgcaaggctcctcaccttggaggaggcgtgccagttgactccaccccattctgcaagatccaagtatggattcggggccaaggaggtccgcagcttgtccgggagggccgttaaccacatcaagtccgtgtggaaggacctcctggaagacccacaaacaccaattcccacaaccatcatggccaaaaatgaggtgttctgcgtggaccccgccaaggggggtaagaaaccagctcgcctcatcgtttaccctgacctcggcgtccgggtctgcgagaaaatggccctctatgacattacacaaaagcttcctcaggcggtaatgggagcttcctatggcttccagtactcccctgcccaacgggtggagtatctcttgaaagcatgggcggaaaagaaggaccccatgggtttttcgtatgatacccgatgcttcgactcaaccgtcactgagagagacatcaggaccgaggagtccatataccaggcctgctccctgcccgaggaggcccgcactgccatacactcgctgactgagagactttacgtaggagggcccatgttcaacagcaagggtcaaacctgcggttacagacgttgccgcgccagcggggtgctaaccactagcatgggtaacaccatcacatgctatgtgaaagccctagcggcctgcaaggctgcggggatagttgcgcccacaatgctggtatgcggcgatgacctagtagtcatctcagaaagccaggggactgaggaggacgagcggaacctgagagccttcacggaggccatgaccaggtactctgcccctcctggtgatccccccagaccggaatatgacctggagctaataacatcctgttcctcaaatgtgtctgtggcgttgggcccgcggggccgccgcagatactacctgaccagagacccaaccactccactcgcccgggctgcctgggaaacagttagacactcccctatcaattcatggctgggaaacatcatccagtatgctccaaccatatgggttcgcatggtcctaatgacacacttcttctccattctcatggtccaagacaccctggaccagaacctcaactttgagatgtatggatcagtatactccgtgaatcctttggaccttccagccataattgagaggttacacgggcttgacgccttttctatgcac</GBSeq_sequence>
+  </GBSeq>

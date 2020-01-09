@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LG000931</GBSeq_locus>
+    <GBSeq_length>401</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>07-JAN-2016</GBSeq_update-date>
+    <GBSeq_create-date>07-JAN-2016</GBSeq_create-date>
+    <GBSeq_definition>KR 1020150021493-A/14: MODIFIED OLIGONUCLEOTIDES COMPRISING THIOL FUNCTIONS AND THE USE OF SAME FOR THE DETECTION OF NUCLEIC ACIDS</GBSeq_definition>
+    <GBSeq_primary-accession>LG000931</GBSeq_primary-accession>
+    <GBSeq_accession-version>LG000931.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LG000931.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020150021493|14</GBSeqid>
+      <GBSeqid>gi|972805239</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020150021493-A/14</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..401</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fournier-Wirth,C.</GBAuthor>
+          <GBAuthor>Lereau,M.</GBAuthor>
+          <GBAuthor>Cantaloube,J.</GBAuthor>
+          <GBAuthor>Vasseur,J.</GBAuthor>
+          <GBAuthor>Morvan,F.</GBAuthor>
+          <GBAuthor>Meyer,A.</GBAuthor>
+          <GBAuthor>Mayen,J.</GBAuthor>
+          <GBAuthor>Chaix,C.</GBAuthor>
+          <GBAuthor>Farre,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>MODIFIED OLIGONUCLEOTIDES COMPRISING THIOL FUNCTIONS AND THE USE OF SAME FOR THE DETECTION OF NUCLEIC ACIDS</GBReference_title>
+        <GBReference_journal>KR1020150021493-A 14 02-MAR-2015 Etablissement Fran&amp;ccedil;ais du Sang|CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE(CNRS)|Universite de Montpellier 1|UNIVERSITE CLAUDE BERNARD LYON I</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020147027987-A/14~AN KR 1020147027987~AD 2014-10-02~PN KR 1020150021493~PD 2015-03-02~AT MODIFIED OLIGONUCLEOTIDES COMPRISING THIOL FUNCTIONS AND THE~AT USE OF SAME FOR THE DETECTION OF NUCLEIC ACIDS~AI Fournier-Wirth, Chantal|Lereau, Myriam|Cantaloube,~AI Jean-Francois|Vasseur, Jean-Jacques|Morvan, Francois|Meyer,~AI Albert|Mayen, Julie|Chaix, Carole|Farre, Carole~AA Etablissement Fran&amp;ccedil;ais du Sang|CENTRE NATIONAL DE LA~AA RECHERCHE SCIENTIFIQUE(CNRS)|Universite de Montpellier~AA 1|UNIVERSITE CLAUDE BERNARD LYON I~PR~OS Hepatitis C virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..401</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>401</GBInterval_to>
+            <GBInterval_accession>LG000931.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tggggatcccgtatgatacccgctgctttgactcgactgtcactgaacaggatatcagggtggaagaggagatataccaatgctgtaatcttgaaccggaggccaggaaggtgatctcctccctcacggagcggctttactgcgggggtcctatgttcaacagcaaaggggcccagtgtggttatcgccgttgccgtgctagtggagttctacctaccagcttcggcaatacaatcacttgctacatcaaggccacagcggctgcaagggccgcaggcctccggaacccggactttcttgtctgcggagacgatctagtcgtggtggctgagagtgacggcgtcgacgaggatggggcggccctgagagccttcacggaggctatgaccaggaattccgcc</GBSeq_sequence>
+  </GBSeq>

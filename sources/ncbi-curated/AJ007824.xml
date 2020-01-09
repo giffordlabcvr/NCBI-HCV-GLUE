@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ007824</GBSeq_locus>
+    <GBSeq_length>228</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-OCT-1998</GBSeq_update-date>
+    <GBSeq_create-date>14-OCT-1998</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus 1, 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>AJ007824</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ007824.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ007824.1|</GBSeqid>
+      <GBSeqid>gi|3758813</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UTR</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepatitis C virus genotype 1</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus genotype 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..228</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rapicetta,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Characterisation of indeterminate hepatitis c viruses</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..228</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rapicetta,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-JUL-1998) Rapicetta M., virology, Istituto Sup Sanita\, vilae regian elena 299, Roma, 00169, ITALY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..228</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>228</GBInterval_to>
+            <GBInterval_accession>AJ007824.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus genotype 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Molte</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:41856</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..228</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>228</GBInterval_to>
+            <GBInterval_accession>AJ007824.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgcgtctagccatggcgttagtatgagtgttgarcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccrggaygaccgggtcctttcttggatcaacccgctcaatgcctggaratttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgataggg</GBSeq_sequence>
+  </GBSeq>

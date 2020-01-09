@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY385898</GBSeq_locus>
+    <GBSeq_length>264</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>31-JAN-2004</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate TV356-132 E2 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY385898</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY385898.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY385898.1|</GBSeqid>
+      <GBSeqid>gi|40388964</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..264</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Canobio,S.</GBAuthor>
+          <GBAuthor>Guilbert,C.M.</GBAuthor>
+          <GBAuthor>Troesch,M.</GBAuthor>
+          <GBAuthor>Samson,J.</GBAuthor>
+          <GBAuthor>Lemay,M.</GBAuthor>
+          <GBAuthor>Pelletier,V.A.</GBAuthor>
+          <GBAuthor>Bernard-Bonnin,A.C.</GBAuthor>
+          <GBAuthor>Kozielski,R.</GBAuthor>
+          <GBAuthor>Lapointe,N.</GBAuthor>
+          <GBAuthor>Martin,S.R.</GBAuthor>
+          <GBAuthor>Soudeyns,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Differing patterns of liver disease progression and hepatitis C virus (HCV) quasispecies evolution in children vertically coinfected with HCV and human immunodeficiency virus type 1</GBReference_title>
+        <GBReference_journal>J. Clin. Microbiol. 42 (9), 4365-4369 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JCM.42.9.4365-4369.2004</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15365046</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..264</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Soudeyns,H.</GBAuthor>
+          <GBAuthor>Canobio,S.</GBAuthor>
+          <GBAuthor>Guilbert,C.</GBAuthor>
+          <GBAuthor>Troesch,M.</GBAuthor>
+          <GBAuthor>Samson,J.</GBAuthor>
+          <GBAuthor>Lemay,M.</GBAuthor>
+          <GBAuthor>Pelletier,V.A.</GBAuthor>
+          <GBAuthor>Bernard-Bonnin,A.C.</GBAuthor>
+          <GBAuthor>Lapointe,N.</GBAuthor>
+          <GBAuthor>Martin,S.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-SEP-2003) Centre de Recherche, Hopital Sainte-Justine, 3175 Cote Sainte-Catherine, Montreal, Quebec H3T 1C5, Canada</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..264</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>264</GBInterval_to>
+            <GBInterval_accession>AY385898.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>TV356-132</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Canada</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;264</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>264</GBInterval_to>
+            <GBInterval_accession>AY385898.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>E2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAR85660.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LAYYSMVGNWAKVLVVMLLFAGVDGHTYAVGAAEGRAAFGLTGLFSSGSSQRIQLINTNGSWHINRTALNCNDSLHTGFFAALFYTHK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cttgcctactattccatggtggggaactgggctaaggtattggttgtgatgctactttttgccggcgtcgacggacacacctatgcggtaggggcggcggaaggccgtgctgccttcggtctcacgggcctcttttcatctgggtcgtctcagagaatccagctcataaacaccaacggcagctggcacattaacaggactgccctcaactgcaatgattccctccatactgggttctttgctgcgttgttctacacacacaag</GBSeq_sequence>
+  </GBSeq>

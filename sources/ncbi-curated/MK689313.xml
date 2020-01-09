@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK689313</GBSeq_locus>
+    <GBSeq_length>342</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-OCT-2019</GBSeq_update-date>
+    <GBSeq_create-date>03-OCT-2019</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus C strain Mx_87 polyprotein, NS5B RNA-dependent RNA polymerase region, (POLY) mRNA, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK689313</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK689313.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK689313.1|</GBSeqid>
+      <GBSeqid>gi|1682026941</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..342</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Uribe-Noguez,L.A.</GBAuthor>
+          <GBAuthor>Mata-Marin,J.A.</GBAuthor>
+          <GBAuthor>Ocana-Mondragon,A.</GBAuthor>
+          <GBAuthor>Pompa-Mera,E.N.</GBAuthor>
+          <GBAuthor>Ribas-Aparicio,R.M.</GBAuthor>
+          <GBAuthor>Arroyo-Anduiza,C.I.</GBAuthor>
+          <GBAuthor>Gomez-Torres,M.E.</GBAuthor>
+          <GBAuthor>Chaparro-Sanchez,A.</GBAuthor>
+          <GBAuthor>Gaytan-Martinez,J.</GBAuthor>
+          <GBAuthor>Mauss,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Comparison of direct sequencing of the NS5B region with the Versant HCV genotype 2.0 assay for genotyping of viral isolates in Mexico</GBReference_title>
+        <GBReference_journal>J. Infect. Chemother. (2019) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.jiac.2019.08.009</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>31537472</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..342</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Uribe-Noguez,L.A.</GBAuthor>
+          <GBAuthor>Mata-Marin,J.A.</GBAuthor>
+          <GBAuthor>Ocana-Mondragon,A.</GBAuthor>
+          <GBAuthor>Ribas-Aparicio,R.M.</GBAuthor>
+          <GBAuthor>Arroyo-Anduiza,C.I.</GBAuthor>
+          <GBAuthor>Pompa-Mera,E.N.</GBAuthor>
+          <GBAuthor>Gomez-Torres,M.E.</GBAuthor>
+          <GBAuthor>Chaparro-Sanchez,A.</GBAuthor>
+          <GBAuthor>Gaytan-Martinez,J.</GBAuthor>
+          <GBAuthor>Mauss,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-MAR-2019) Department of Infectious Diseases, Hospital of Infectology, Instituto Mexicano del Seguro Social, Calzada Vallejo S/N Col. La Raza Del. Azcapotzalco, Mexico City, CDMX 02990, Mexico</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..342</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>342</GBInterval_to>
+            <GBInterval_accession>MK689313.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Mx_87</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>plasma</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mexico</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2016/2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;342</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>342</GBInterval_to>
+            <GBInterval_accession>MK689313.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;342</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>342</GBInterval_to>
+            <GBInterval_accession>MK689313.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QDA69720.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>RVEEEIYQCCKLEPEAKKVISSLTERLYCGGPMFNSKGAQCGYRRCRASGVLPTSFGNTITCYIKATAAARAAGLRNPDFLVCGDDLVVVAESDGVDEDRATLRAFTEAMTRYS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;342</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>342</GBInterval_to>
+            <GBInterval_accession>MK689313.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS5B RNA-dependent RNA polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>RVEEEIYQCCKLEPEAKKVISSLTERLYCGGPMFNSKGAQCGYRRCRASGVLPTSFGNTITCYIKATAAARAAGLRNPDFLVCGDDLVVVAESDGVDEDRATLRAFTEAMTRYS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagggtagaagaggagatataccaatgttgtaaacttgagccggaggccaagaaagtgatctcctccctcacggagcggctttactgcggaggccctatgttcaacagcaagggggcccagtgtggttatcgccgttgccgtgctagtggagttctgcctaccagcttcggcaatacaatcacttgttacatcaaggccacagcggctgcgagggccgcaggcctccggaacccggactttcttgtctgcggagatgatctggtcgtggtggctgagagtgatggcgtcgatgaggatagagcaaccctgagagccttcacggaggctatgaccaggtattc</GBSeq_sequence>
+  </GBSeq>

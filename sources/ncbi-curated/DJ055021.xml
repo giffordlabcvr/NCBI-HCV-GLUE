@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DJ055021</GBSeq_locus>
+    <GBSeq_length>377</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-JAN-2008</GBSeq_update-date>
+    <GBSeq_create-date>15-JAN-2008</GBSeq_create-date>
+    <GBSeq_definition>Scintillation Proximity Assay</GBSeq_definition>
+    <GBSeq_primary-accession>DJ055021</GBSeq_primary-accession>
+    <GBSeq_accession-version>DJ055021.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DJ055021.1|</GBSeqid>
+      <GBSeqid>pat|JP|2007159578|1</GBSeqid>
+      <GBSeqid>gi|165281367</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2007159578-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..377</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gang,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Scintillation Proximity Assay</GBReference_title>
+        <GBReference_journal>JP2007159578-A 1 28-JUN-2007 F Hoffmann-La Roche AG</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 2007159578-A/1~PD 28-JUN-2007~PF 07-DEC-2006 JP 2006330130~PR 09-DEC-2005 US 60/748786~PI kin-feng gang~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..377</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>377</GBInterval_to>
+            <GBInterval_accession>DJ055021.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtttggttttctttgaggtttaggaatcgtgctcatggtgcacggtctacgagacctcccggggcactcgcaagcaccctatcaggcagtaccacaaggcctttcgcgacccaacactactcggctagtagtctcgcgggggcacgcccaaatctccaggcattgagcgggttgatccaagaaaggacccggtcgtcctggcaattccggtgtactcaccggttccgcagaccaccatggctctcccgggagggggggtcccggaggctacacgacactcatactaacgccatggctagacgctttctgcgtgaagacagtagttcctcacaggggagtgatctatggtggagtgtcatttttaatcaaaaattggc</GBSeq_sequence>
+  </GBSeq>

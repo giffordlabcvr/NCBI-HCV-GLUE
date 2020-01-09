@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HQ833262</GBSeq_locus>
+    <GBSeq_length>268</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-FEB-2012</GBSeq_update-date>
+    <GBSeq_create-date>10-MAY-2011</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate MOR67 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>HQ833262</GBSeq_primary-accession>
+    <GBSeq_accession-version>HQ833262.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|HQ833262.1|</GBSeqid>
+      <GBSeqid>gi|332182999</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..268</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Brahim,I.</GBAuthor>
+          <GBAuthor>Akil,A.</GBAuthor>
+          <GBAuthor>Mtairag,E.M.</GBAuthor>
+          <GBAuthor>Pouillot,R.</GBAuthor>
+          <GBAuthor>Malki,A.E.</GBAuthor>
+          <GBAuthor>Nadir,S.</GBAuthor>
+          <GBAuthor>Alaoui,R.</GBAuthor>
+          <GBAuthor>Njouom,R.</GBAuthor>
+          <GBAuthor>Pineau,P.</GBAuthor>
+          <GBAuthor>Ezzikouri,S.</GBAuthor>
+          <GBAuthor>Benjelloun,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Morocco underwent a drift of circulating hepatitis C virus subtypes in recent decades</GBReference_title>
+        <GBReference_journal>Arch. Virol. (2011) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-011-1193-7</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22160625</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..268</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Brahim,I.</GBAuthor>
+          <GBAuthor>Akil,A.</GBAuthor>
+          <GBAuthor>Mtairag,E.M.</GBAuthor>
+          <GBAuthor>El Malki,A.</GBAuthor>
+          <GBAuthor>Nadir,S.</GBAuthor>
+          <GBAuthor>Ezzikouri,S.</GBAuthor>
+          <GBAuthor>Benjelloun,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-DEC-2010) Medical Virology, Institut Pasteur du Maroc, 1, Place Louis Pasteur, Casablanca, Morocco</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..268</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>268</GBInterval_to>
+            <GBInterval_accession>HQ833262.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MOR67</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Morocco</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Apr-2010</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 1b; genotype: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;268</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>268</GBInterval_to>
+            <GBInterval_accession>HQ833262.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgag</GBSeq_sequence>
+  </GBSeq>

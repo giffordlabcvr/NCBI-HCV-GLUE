@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPC5UTR</GBSeq_locus>
+    <GBSeq_length>341</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-MAR-1995</GBSeq_update-date>
+    <GBSeq_create-date>11-MAR-1995</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus gene, 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>L40552</GBSeq_primary-accession>
+    <GBSeq_accession-version>L40552.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L40552.1|HPC5UTR</GBSeqid>
+      <GBSeqid>gi|705350</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..341</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yen,J.H.</GBAuthor>
+          <GBAuthor>Chang,S.C.</GBAuthor>
+          <GBAuthor>Hu,C.R.</GBAuthor>
+          <GBAuthor>Chu,S.C.</GBAuthor>
+          <GBAuthor>Lin,S.S.</GBAuthor>
+          <GBAuthor>Hsieh,Y.S.</GBAuthor>
+          <GBAuthor>Chang,M.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Cellular proteins specifically bind to the 5'-noncoding region of hepatitis C virus RNA</GBReference_title>
+        <GBReference_journal>Virology 208 (2), 723-732 (1995)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1006/viro.1995.1204</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>7747444</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Hepatitis C virus (strain Taiwanese) cDNA to genomic RNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..341</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>341</GBInterval_to>
+            <GBInterval_accession>L40552.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Taiwanese</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..341</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>341</GBInterval_to>
+            <GBInterval_accession>L40552.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>protein_bind</GBFeature_key>
+        <GBFeature_location>131..253</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>131</GBInterval_from>
+            <GBInterval_to>253</GBInterval_to>
+            <GBInterval_accession>L40552.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>bound_moiety</GBQualifier_name>
+            <GBQualifier_value>p120 and p87</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gccagccccctgatgggggcgacactccaccatagatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcacc</GBSeq_sequence>
+  </GBSeq>

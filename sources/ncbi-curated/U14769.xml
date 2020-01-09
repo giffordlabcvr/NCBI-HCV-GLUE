@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HCU14769</GBSeq_locus>
+    <GBSeq_length>239</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JAN-1900</GBSeq_update-date>
+    <GBSeq_create-date>12-APR-1995</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus clone pBS1401a 5' non-coding region, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>U14769</GBSeq_primary-accession>
+    <GBSeq_accession-version>U14769.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U14769.1|HCU14769</GBSeqid>
+      <GBSeqid>gi|765121</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..239</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vizmanos,J.L.</GBAuthor>
+          <GBAuthor>Jauregui,J.I.</GBAuthor>
+          <GBAuthor>Gullon,A.</GBAuthor>
+          <GBAuthor>Gonzalez,C.J.</GBAuthor>
+          <GBAuthor>Civeira,M.P.</GBAuthor>
+          <GBAuthor>Prieto,J.</GBAuthor>
+          <GBAuthor>Garcia-Delgado,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The GCGGAA gene-regulatory motif of herpes simplex virus type-1 is also found in hepatitis C virus</GBReference_title>
+        <GBReference_journal>Gene 154 (1), 131-132 (1995)</GBReference_journal>
+        <GBReference_pubmed>7867941</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..239</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vizmanos,J.</GBAuthor>
+          <GBAuthor>Jauregui,J.</GBAuthor>
+          <GBAuthor>Gullon,A.</GBAuthor>
+          <GBAuthor>Civeira,M.</GBAuthor>
+          <GBAuthor>Prieto,J.</GBAuthor>
+          <GBAuthor>Garcia-Delgado,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sequence analysis of the 5'non-coding region in isolates of hepatitis C virus in Spain</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..239</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vizmanos,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-SEP-1994) Jose Luis Vizmanos Jr., Department of Genetics, University of Navarra, C/. Irunlarrea s/n, Pamplona, Navarra, E-31080, Spain</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..239</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>239</GBInterval_to>
+            <GBInterval_accession>U14769.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>pBS1401a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lab_host</GBQualifier_name>
+            <GBQualifier_value>Escherichia coli</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaacggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggt</GBSeq_sequence>
+  </GBSeq>
