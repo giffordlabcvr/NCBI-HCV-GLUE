@@ -1,0 +1,20 @@
+# builds a minimal subset of the extension (basically the modules plus curated source)
+# deletes all placement files
+# redoes all placements.
+
+run file glue/deleteNcbiExtension.glue
+
+project hcv
+
+  run file glue/ncbiHcvModules.glue
+
+  # import curated NCBI sequences from files
+  import source --batchSize 1000 sources/ncbi-curated 
+
+  module updateCuratedSequences
+	# deletes all placement files
+	# redoes all placements.
+  	invoke-function placeCuratedAll
+  	exit
+
+  exit
