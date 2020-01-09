@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX870932</GBSeq_locus>
+    <GBSeq_length>214</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-FEB-2017</GBSeq_update-date>
+    <GBSeq_create-date>14-FEB-2017</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus strain Tha-35 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>KX870932</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX870932.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX870932.1|</GBSeqid>
+      <GBSeqid>gi|1143632484</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bastani,M.N.</GBAuthor>
+          <GBAuthor>Bokharaei-Salim,F.</GBAuthor>
+          <GBAuthor>Keyvani,H.</GBAuthor>
+          <GBAuthor>Esghaei,M.</GBAuthor>
+          <GBAuthor>Monavari,S.H.</GBAuthor>
+          <GBAuthor>Ebrahimi,M.</GBAuthor>
+          <GBAuthor>Garshasebi,S.</GBAuthor>
+          <GBAuthor>Fakhim,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Prevalence of occult hepatitis C virus infection in Iranian patients with beta thalassemia major</GBReference_title>
+        <GBReference_journal>Arch. Virol. 161 (7), 1899-1906 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-016-2862-3</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>27132015</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bokharaei-Salim,F.</GBAuthor>
+          <GBAuthor>Esfandiary,R.</GBAuthor>
+          <GBAuthor>Sadigh,Z.-A.</GBAuthor>
+          <GBAuthor>Esghaei,M.</GBAuthor>
+          <GBAuthor>Monavari,S.H.</GBAuthor>
+          <GBAuthor>Keyvani,H.</GBAuthor>
+          <GBAuthor>Bastani,M.-N.</GBAuthor>
+          <GBAuthor>Najafi,A.</GBAuthor>
+          <GBAuthor>Fakhim,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-SEP-2016) Virology, Iran University of Medical Sciences (IUMS), Hemat Highway, Tehran 185555656446, Iran</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>214</GBInterval_to>
+            <GBInterval_accession>KX870932.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Tha-35</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>plasma sample of thalassemic patients</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Iran</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Feb-2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: fap, fwd_seq: gcagaaagcgtctagccatgg, fwd_name: fip, fwd_seq: tctagccatggcgttagta, rev_name: zap, rev_seq: ctcgcaagcaccctatcaggc, rev_name: zip, rev_seq: cagtaccacaaggcctttc</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 1a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>214</GBInterval_to>
+            <GBInterval_accession>KX870932.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains a ribosome binding site (IRES) that starts the translation of a very long protein (poly protein of HCV)</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgcgagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcaagaccgctagccgagtagtgttgggtcgcgaaaggccttgtggtactg</GBSeq_sequence>
+  </GBSeq>

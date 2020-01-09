@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HCU51792</GBSeq_locus>
+    <GBSeq_length>200</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-SEP-1997</GBSeq_update-date>
+    <GBSeq_create-date>05-MAY-1996</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus envelope glycoprotein E2 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>U51792</GBSeq_primary-accession>
+    <GBSeq_accession-version>U51792.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U51792.1|HCU51792</GBSeqid>
+      <GBSeqid>gi|1297077</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..200</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Widell,A.</GBAuthor>
+          <GBAuthor>Zhang,Y.Y.</GBAuthor>
+          <GBAuthor>Andersson-Gare,B.</GBAuthor>
+          <GBAuthor>Hammarstrom,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>At least three hepatitis C virus strains implicated in Swedish and Danish patients with intravenous immunoglobulin-associated hepatitis C</GBReference_title>
+        <GBReference_journal>Transfusion 37 (3), 313-320 (1997)</GBReference_journal>
+        <GBReference_pubmed>9122906</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..200</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Widell,A.</GBAuthor>
+          <GBAuthor>Zhang,Y.-Y.</GBAuthor>
+          <GBAuthor>Andersson-Gare,B.</GBAuthor>
+          <GBAuthor>Hammarstrom,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (19-MAR-1996) Anders Widell, Medical Microbiology, Malmo University Hospital, Sodra Forstadsgatan, Malmo S 20502, Sweden</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..200</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>200</GBInterval_to>
+            <GBInterval_accession>U51792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>GamGrd pattern B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Gammagard associated Hepatitis C, sequence pattern B</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;200</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>200</GBInterval_to>
+            <GBInterval_accession>U51792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>hypervariable region 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein E2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB71436.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>FTGVDAGTYVSGGAAGYTTAGFAGLFSPGPKQNVHLINTNGSWHINSTALNCNASLGTGWIAGLFY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tttaccggtgtcgacgcgggaacctacgtcagcgggggagccgccggctacaccacggccgggtttgctggcctcttctcaccgggccccaagcaaaacgtccacctgatcaacaccaacggcagttggcacatcaatagcacggccttgaactgcaatgcaagccttggcaccggctggatcgcagggctcttctatta</GBSeq_sequence>
+  </GBSeq>

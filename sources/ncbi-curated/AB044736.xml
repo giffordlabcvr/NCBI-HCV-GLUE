@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB044736</GBSeq_locus>
+    <GBSeq_length>342</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-2000</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus gene for polyprotein (E2 region), partial cds, clone: 5-Spn03</GBSeq_definition>
+    <GBSeq_primary-accession>AB044736</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB044736.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB044736.1|</GBSeqid>
+      <GBSeqid>gi|9664075</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..342</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tomaru,U.</GBAuthor>
+          <GBAuthor>Sugiyama,K.</GBAuthor>
+          <GBAuthor>Matsuno,Y.</GBAuthor>
+          <GBAuthor>Kato,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Splenic Malignant Lymphoma with Hepatitis C Virus Infection</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..342</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sugiyama,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-JUN-2000) Contact:Kazuo Sugiyama National Cancer Center Research Institute, Virology Division; Tsukiji 5-1-1, Chuo-ku, Tokyo 104-0045, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..342</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>342</GBInterval_to>
+            <GBInterval_accession>AB044736.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>5-Spn03</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;342</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>342</GBInterval_to>
+            <GBInterval_accession>AB044736.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>E2 region;
+envelope 2 protein region;
+structure protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAB03683.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AKVLIVLLLFAGVDGNTKLMGGTTARTTQGLASFFAPGASQKIQLINTNGSWHINRTALNCNDSLNTGFLAALFYVHKFNSSGCPERMASRRPIDKFKQGWGPITYTEPDSLDQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctaaggttttgattgtgctgctactctttgccggcgttgatggaaataccaagttgatgggggggacgacggcccgtaccacccaagggctcgcgagcttcttcgcacctggggcatcccagaagattcagctcataaacaccaatggcagctggcatatcaacaggactgccctgaactgcaatgactccctcaacaccgggttccttgctgccctgttctacgtgcacaaattcaactcgtccggatgcccagagcgcatggccagccgccgtcctattgacaagtttaagcagggatggggccccattacctacaccgagcctgacagcctggaccaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPCC736UTR</GBSeq_locus>
+    <GBSeq_length>230</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-MAY-1995</GBSeq_update-date>
+    <GBSeq_create-date>02-MAY-1994</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus (CAM736) gene fragment, 5'UTR</GBSeq_definition>
+    <GBSeq_primary-accession>L29591</GBSeq_primary-accession>
+    <GBSeq_accession-version>L29591.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L29591.1|HPCC736UTR</GBSeqid>
+      <GBSeqid>gi|476667</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..230</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stuyver,L.</GBAuthor>
+          <GBAuthor>van Arnhem,W.</GBAuthor>
+          <GBAuthor>Wyseur,A.</GBAuthor>
+          <GBAuthor>Hernandez,F.</GBAuthor>
+          <GBAuthor>Delaporte,E.</GBAuthor>
+          <GBAuthor>Maertens,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Classification of hepatitis C viruses based on phylogenetic analysis of the envelope 1 and nonstructural 5B regions and identification of five additional subtypes</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 91 (21), 10134-10138 (1994)</GBReference_journal>
+        <GBReference_pubmed>7524083</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Hepatitis C virus (individual_isolate CAM736) cDNA to genomic RNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..230</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>230</GBInterval_to>
+            <GBInterval_accession>L29591.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CAM736</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..230</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>230</GBInterval_to>
+            <GBInterval_accession>L29591.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttagtatgagtgttgtacagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaatcgccgagatgaccgggtcctttcttggatcaacccgctcaatgctcggaaatttgggcgtgcccccgcaagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccggg</GBSeq_sequence>
+  </GBSeq>

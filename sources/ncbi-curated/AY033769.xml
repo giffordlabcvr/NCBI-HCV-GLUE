@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY033769</GBSeq_locus>
+    <GBSeq_length>301</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JUL-2002</GBSeq_update-date>
+    <GBSeq_create-date>23-MAY-2001</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus genotype 5 isolate c2943 5' UTR, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AY033769</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY033769.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY033769.1|</GBSeqid>
+      <GBSeqid>gi|14192797</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..301</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Levi,J.E.</GBAuthor>
+          <GBAuthor>Takaoka,D.T.</GBAuthor>
+          <GBAuthor>Garrini,R.H.</GBAuthor>
+          <GBAuthor>Fachini,R.M.</GBAuthor>
+          <GBAuthor>Focaccia,R.</GBAuthor>
+          <GBAuthor>De Bortholi Santos,E.</GBAuthor>
+          <GBAuthor>Mitre,H.P.</GBAuthor>
+          <GBAuthor>De Mendonca,J.S.</GBAuthor>
+          <GBAuthor>De Paula Cavalheiro,N.</GBAuthor>
+          <GBAuthor>Barone,A.A.</GBAuthor>
+          <GBAuthor>Wendel,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Three cases of infection with hepatitis C virus genotype 5 among Brazilian hepatitis patients</GBReference_title>
+        <GBReference_journal>J. Clin. Microbiol. 40 (7), 2645-2647 (2002)</GBReference_journal>
+        <GBReference_pubmed>12089297</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..301</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Levi,J.E.</GBAuthor>
+          <GBAuthor>Wendel,S.</GBAuthor>
+          <GBAuthor>Takaoka,D.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-APR-2001) Molecular Biology, Centro de Imunologia e Imunogenetica, Rua Peixoto Gomide 515, 120 Andar, Sao Paulo, SP 01409-001, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..301</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>301</GBInterval_to>
+            <GBInterval_accession>AY033769.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>c2943</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 5</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..301</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>301</GBInterval_to>
+            <GBInterval_accession>AY033769.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgaacagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccgggatgaccgggtcctttcttggataaaacccgctcaatgcccggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtanaccgtgcac</GBSeq_sequence>
+  </GBSeq>

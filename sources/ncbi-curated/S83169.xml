@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>S83169</GBSeq_locus>
+    <GBSeq_length>489</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>10-FEB-1997</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus core protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>S83169</GBSeq_primary-accession>
+    <GBSeq_accession-version>S83169.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>bbm|391141</GBSeqid>
+      <GBSeqid>bbs|179639</GBSeqid>
+      <GBSeqid>gb|S83169.1|</GBSeqid>
+      <GBSeqid>gi|1836136</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..489</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hitomi,Y.</GBAuthor>
+          <GBAuthor>McDonnell,W.M.</GBAuthor>
+          <GBAuthor>Baker,J.R. Jr.</GBAuthor>
+          <GBAuthor>Askari,F.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>High efficiency prokaryotic expression and purification of a portion of the hepatitis C core protein and analysis of the immune response to recombinant protein in BALB/c mice</GBReference_title>
+        <GBReference_journal>Viral Immunol. 8 (2), 109-119 (1995)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/vim.1995.8.109</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>8825296</GBReference_pubmed>
+        <GBReference_remark>GenBank staff at the National Library of Medicine created this entry [NCBI gibbsq 179639] from the original journal article.</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..489</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>489</GBInterval_to>
+            <GBInterval_accession>S83169.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from a liver transplant patient; vaccine candidate clone;
+genotype: 1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;489</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>489</GBInterval_to>
+            <GBInterval_accession>S83169.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>core protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB46894.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTNPKLQRKTKRNTNRRPPDVKFPGGGQIVGGVYLLPRRGPRLGVRAPRKTSERSQPRGRRQPIPKARRPEGRAWAQPGFPWPLYGNEGMGWAGWLLSPRGSRPSWGPTDPRRRSRNLGKVIDTLTCGFADLMGYIPLVGAPLGGAARALAHGVRVLEDGVN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagcacgaatcctaaacttcaaagaaaaaccaaacgtaacaccaaccgccgcccaccggacgtcaagttcccgggcggtggtcagatcgttggtggagtttacctgttgccgcgcaggggccccaggttgggtgtgcgcgcgcccaggaagacttccgagcggtcacaacctcgtggaaggcgacaacctatccccaaggctcgccggcccgagggtagggcctgggctcagcccgggttcccttggcccctctacggcaatgagggcatggggtgggcaggatggctcctatcaccccgcggctctcggcctagctggggccccacagacccccggcgtaggtcgcgtaatttgggtaaggtcatcgataccctcacatgcggcttcgccgacctcatggggtacatcccgctcgtcggcgcccccttagggggcgctgccagggccctggcgcatggcgtccgagttctggaagacggcgtgaac</GBSeq_sequence>
+  </GBSeq>

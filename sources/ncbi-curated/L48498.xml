@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPCNS5BAH</GBSeq_locus>
+    <GBSeq_length>461</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-MAR-1997</GBSeq_update-date>
+    <GBSeq_create-date>29-MAR-1996</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus non-structural protein 5B mRNA fragment</GBSeq_definition>
+    <GBSeq_primary-accession>L48498</GBSeq_primary-accession>
+    <GBSeq_accession-version>L48498.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L48498.1|HPCNS5BAH</GBSeqid>
+      <GBSeqid>gi|1237398</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..461</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Giannini,C.</GBAuthor>
+          <GBAuthor>Thiers,V.</GBAuthor>
+          <GBAuthor>Nousbaum,J.B.</GBAuthor>
+          <GBAuthor>Stuyver,L.</GBAuthor>
+          <GBAuthor>Maertens,G.</GBAuthor>
+          <GBAuthor>Brechot,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Comparative analysis of two assays for genotyping hepatitis C virus based on genotype-specific primers or probes</GBReference_title>
+        <GBReference_journal>J. Hepatol. 23 (3), 246-253 (1995)</GBReference_journal>
+        <GBReference_pubmed>8550987</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..461</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stuyver,L.</GBAuthor>
+          <GBAuthor>Wyseur,A.</GBAuthor>
+          <GBAuthor>van Arnhem,W.</GBAuthor>
+          <GBAuthor>Hernandez,F.</GBAuthor>
+          <GBAuthor>Maertens,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Second-generation line probe assay for hepatitis C virus genotyping</GBReference_title>
+        <GBReference_journal>J. Clin. Microbiol. 34 (9), 2259-2266 (1996)</GBReference_journal>
+        <GBReference_pubmed>8862595</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..461</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>461</GBInterval_to>
+            <GBInterval_accession>L48498.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>19</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgtacagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccgggaagactgggtcctttcttggattaacccactctatgcccggagatttgggcgtgcccccgcaagactgctagccgagtagcgttgggttgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcaccatgagcacgaatcctaaacctcaaagacaaaccaaaagaaacaccaaccgccgcccacaggacgttaagttcccgggcggtggccagatcgttggcggggtgtacttgttgccgcgcaggggccccagagtgggtgtgcgcgcgacgagaaagacctcggagcggtcccagccgcgtgggaggcgccaacctatccccaaggttaggcgcaccaccggccgtt</GBSeq_sequence>
+  </GBSeq>

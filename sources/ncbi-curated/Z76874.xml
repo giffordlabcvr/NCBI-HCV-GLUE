@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Z76874</GBSeq_locus>
+    <GBSeq_length>212</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-FEB-1997</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-1996</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus type 1b RNA, p7(E2)-NS2 region (negative sense); (clone NS2-L2D1)</GBSeq_definition>
+    <GBSeq_primary-accession>Z76874</GBSeq_primary-accession>
+    <GBSeq_accession-version>Z76874.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Z76874.1|</GBSeqid>
+      <GBSeqid>gi|1438216</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>E2</GBKeyword>
+      <GBKeyword>NS2</GBKeyword>
+      <GBKeyword>P7</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepatitis C virus subtype 1b</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus subtype 1b</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..212</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cabot,B.</GBAuthor>
+          <GBAuthor>Esteban,J.I.</GBAuthor>
+          <GBAuthor>Martell,M.</GBAuthor>
+          <GBAuthor>Genesca,J.</GBAuthor>
+          <GBAuthor>Vargas,V.</GBAuthor>
+          <GBAuthor>Esteban,R.</GBAuthor>
+          <GBAuthor>Guardia,J.</GBAuthor>
+          <GBAuthor>Gomez,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Structure of replicating hepatitis C virus (HCV) quasispecies in the liver may not be reflected by analysis of circulating HCV virions</GBReference_title>
+        <GBReference_journal>J. Virol. 71 (2), 1732-1734 (1997)</GBReference_journal>
+        <GBReference_pubmed>8995709</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..212</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cabot,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JUL-1996) Cabot B., Departament Medicina Interna, Hospital General Vall D'Hebron, Paseo Vall D'Hebron 119-129, 08035 Barcelona, SPAIN</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..212</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>212</GBInterval_to>
+            <GBInterval_accession>Z76874.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus subtype 1b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>patient AGP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:31647</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>map</GBQualifier_name>
+            <GBQualifier_value>p7(E2)-NS2 junction</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>NS2-L2D1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>hepatocyte</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>liver</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtgctgcctggtacatcaagggcaggctggtccctggggcggcgtacgctttctacggcgtatggccgctgctcctgctcctgttggcgttgccaccacgtgcatacgccatggaccgggagatggctgcatcgtgcggaggcgcggtccttgtgggtctgatactcttgaccttgtcaccacactataaagtgttcctcgctaagctcata</GBSeq_sequence>
+  </GBSeq>

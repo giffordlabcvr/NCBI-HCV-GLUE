@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>S83317</GBSeq_locus>
+    <GBSeq_length>271</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>12-MAR-1997</GBSeq_create-date>
+    <GBSeq_definition>E2/NS1=E2/NS1 {hypervariable region 1} [Hepatitis C virus, HCV, type A, patient 2 serum isolate, Genomic RNA, 271 nt]</GBSeq_definition>
+    <GBSeq_primary-accession>S83317</GBSeq_primary-accession>
+    <GBSeq_accession-version>S83317.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>bbm|391725</GBSeqid>
+      <GBSeqid>bbs|179901</GBSeqid>
+      <GBSeqid>gb|S83317.1|</GBSeqid>
+      <GBSeqid>gi|1881774</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..271</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ito,T.</GBAuthor>
+          <GBAuthor>Mukaigawa,J.</GBAuthor>
+          <GBAuthor>Zuo,J.</GBAuthor>
+          <GBAuthor>Hirabayashi,Y.</GBAuthor>
+          <GBAuthor>Mitamura,K.</GBAuthor>
+          <GBAuthor>Yasui,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Cultivation of hepatitis C virus in primary hepatocyte culture from patients with chronic hepatitis C results in release of high titre infectious virus</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 77 (PT 5), 1043-1054 (1996)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/0022-1317-77-5-1043</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>8609470</GBReference_pubmed>
+        <GBReference_remark>GenBank staff at the National Library of Medicine created this entry [NCBI gibbsq 179901] from the original journal article.</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..271</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>271</GBInterval_to>
+            <GBInterval_accession>S83317.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>type: A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..270</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>270</GBInterval_to>
+            <GBInterval_accession>S83317.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>E2/NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>E2/NS1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..270</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>270</GBInterval_to>
+            <GBInterval_accession>S83317.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>E2/NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>E2/NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB49493.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>STHVSGAASARGAHGLASIFTPGARQNIQLINTNGSWHINRTALNCNDSLQTGFIAALFYAHKFNSSGCPERMARCRSIDKFEQGWGPIT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tccacccacgtgtcgggggcggcgagcgcccgaggtgctcacgggctcgcctccatttttacacctggggcgagacagaacatccagctcataaacaccaatggtagctggcatatcaacaggactgccctgaactgcaatgactccctccagaccgggtttattgctgcgttgttctacgcacacaaattcaactcgtctggatgcccagagcgcatggcccgctgccgctccatcgacaagtttgagcagggatggggtcccatcactt</GBSeq_sequence>
+  </GBSeq>

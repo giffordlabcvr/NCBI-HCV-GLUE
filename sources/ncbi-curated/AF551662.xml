@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF551662</GBSeq_locus>
+    <GBSeq_length>346</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>31-DEC-2003</GBSeq_update-date>
+    <GBSeq_create-date>31-DEC-2003</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate 89-5 polyprotein gene, E1-E2 region, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF551662</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF551662.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF551662.1|</GBSeqid>
+      <GBSeqid>gi|33337134</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..346</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lu,L.</GBAuthor>
+          <GBAuthor>Robertson,B.H.</GBAuthor>
+          <GBAuthor>Nakano,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Overtime changes in hypervariable region 1 of hepatitis C virus in 12 yearly samples from a chronically infected chimpanzee</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..346</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lu,L.</GBAuthor>
+          <GBAuthor>Robertson,B.H.</GBAuthor>
+          <GBAuthor>Nakano,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-OCT-2002) Laboratory Branch, Division of Viral Hepatitis, Centers for Disease Control and Prevention, 1600 Clifton Road, MS A-33, Atlanta, GA 30333, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..346</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>346</GBInterval_to>
+            <GBInterval_accession>AF551662.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>89-5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;346</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>346</GBInterval_to>
+            <GBInterval_accession>AF551662.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>E1-E2 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAQ13235.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IYPGHITGHRMAWDMMMNWSPTTALVVAQLLRIPQAILDMIAGAHWGVLAGIAYFSMVGNWAKVLVVLLLFAGVDAETHVTGGSAGRTVSGLAGLFTPGAKQNIQLINTNGSWHI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atctatcccggccatataacgggtcaccgcatggcatgggatatgatgatgaactggtcccctacgacggcgttggtagtggctcagctgctccggatcccacaggccatcttggacatgatcgctggtgcccactggggagtcctggcgggcatagcgtatttctccatggtggggaactgggcgaaggtcctggtagtgctgctgctatttgccggcgtcgacgcggaaacccacgtcaccgggggaagtgccggccgcactgtgtctggacttgctggcctcttcacaccaggcgccaagcagaacatccagctgatcaacaccaacggcagttggcacatca</GBSeq_sequence>
+  </GBSeq>

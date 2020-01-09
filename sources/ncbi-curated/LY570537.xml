@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LY570537</GBSeq_locus>
+    <GBSeq_length>980</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>20-SEP-2019</GBSeq_update-date>
+    <GBSeq_create-date>20-SEP-2019</GBSeq_create-date>
+    <GBSeq_definition>KR 1020180116567-A/1: DIAGNOSIS KIT FOR HEPATITIS C COMPRISING HCV NS3 ANTIGEN</GBSeq_definition>
+    <GBSeq_primary-accession>LY570537</GBSeq_primary-accession>
+    <GBSeq_accession-version>LY570537.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LY570537.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020180116567|1</GBSeqid>
+      <GBSeqid>gi|1746446693</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020180116567-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..980</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kim,I.S.</GBAuthor>
+          <GBAuthor>Kang,Y.S.</GBAuthor>
+          <GBAuthor>Kim,A.Y.</GBAuthor>
+          <GBAuthor>Kim,Y.J.</GBAuthor>
+          <GBAuthor>Kim,H.J.</GBAuthor>
+          <GBAuthor>Lee,K.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>DIAGNOSIS KIT FOR HEPATITIS C COMPRISING HCV NS3 ANTIGEN</GBReference_title>
+        <GBReference_journal>KR1020180116567-A 1 25-OCT-2018 EUDIPIA CO., LTD</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020170049005-A/1~AN KR 1020170049005~AD 2017-04-17~PN KR 1020180116567~PD 2018-10-25~AT DIAGNOSIS KIT FOR HEPATITIS C COMPRISING HCV NS3 ANTIGEN~AI Kim, In Soo|Kang, Yoon Sung|Kim, A Youn|Kim, Yoo Jin|Kim, Hyo~AI Jung|Lee, Kil Su~AA EUDIPIA CO., LTD.~PR~OS Hepatitis C virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..980</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>980</GBInterval_to>
+            <GBInterval_accession>LY570537.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggcacctattacagcatacgctcaacaaacgcgggggctgctcgggtgcataattacaagtctgactgggcgggataaaaatcaggtggaaggcgaagtgcagatagtaagtaccgctactcaaacttttctcgccacatgtataaacggcgtgtgctggacggtttaccacggagcaggaaccaggactattgcttcaccaaaaggtcctgttattcaaatgtacacaaatgtcgatcaggatctcgtaggttggcccgcacctcaagggagcaggtcactgaccccgtgtacctgcgggagttccgatctctaccttgtgacacgacacgctgatgtaattcccgtccgcaggcggggggatagcagagggagtctgctgtctccaaggccgatctcttatttgaagggctcttccggcggcccactgctgtgcccagcaggccatgcggtaggtctgtttcgagccgccgtgtgtaccaggggcgtagcgaaagctgtcgacttcatacctgtggagaatctcgagacgactatgcgctcaccagttttcaccgataacagcagcccgccagccgtgccgcagtccttccaagtggctcacctgcacgcccccaccggatccggcaagtccaccaaagtccccgctgcttacgcagcccaaggctacaaggtcttggtactgaatccttcagtggctgccactctcggctttggcgcctacatgtctaaggcacacggagttgatcctaatattcgaaccggtgtacgcaccatcaccactggctcccctatcacttatagtacatacggaaaatttctggccgacggcggatgttccgggggcgcctatgatatcataatatgcgacgagtgccacagtactgatgctaccagtattctcggtatcggcacagtcctggatcaggcggaaacagcgggtgccagactggtcgttctggccacggctaccccacc</GBSeq_sequence>
+  </GBSeq>

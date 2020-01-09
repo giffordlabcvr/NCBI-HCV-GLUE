@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB027666</GBSeq_locus>
+    <GBSeq_length>300</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-JUN-1999</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus gene for polyprotein, partial cds, clone:D-07</GBSeq_definition>
+    <GBSeq_primary-accession>AB027666</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB027666.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB027666.1|</GBSeqid>
+      <GBSeqid>gi|4972444</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..300</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Saito,T.</GBAuthor>
+          <GBAuthor>Watanabe,H.</GBAuthor>
+          <GBAuthor>Shao,L.</GBAuthor>
+          <GBAuthor>Okumoto,K.</GBAuthor>
+          <GBAuthor>Hattori,E.</GBAuthor>
+          <GBAuthor>Sanjo,M.</GBAuthor>
+          <GBAuthor>Misawa,K.</GBAuthor>
+          <GBAuthor>Suzuki,A.</GBAuthor>
+          <GBAuthor>Takeda,T.</GBAuthor>
+          <GBAuthor>Sugahara,K.</GBAuthor>
+          <GBAuthor>Ito,J.I.</GBAuthor>
+          <GBAuthor>Saito,K.</GBAuthor>
+          <GBAuthor>Togashi,H.</GBAuthor>
+          <GBAuthor>Kawata,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Transmission of hepatitis C virus quasispecies between human adults</GBReference_title>
+        <GBReference_journal>Hepatol. Res. 30 (2), 57-62 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.hepres.2004.07.007</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15519268</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..300</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Saito,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-MAY-1999) Takafuni Saito, Yamagata University School of Medicine, Division of Gastroenterology, Department of Internal Medicine and Molecular Therapeutics; Iida-nishi 2-2-2, Yamagata 990-9585, Japan (E-mail:tasaitoh@med.id.yamagata-u.ac.jp, Tel:81-23-628-5309)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..300</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>300</GBInterval_to>
+            <GBInterval_accession>AB027666.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>D-07</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;300</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>300</GBInterval_to>
+            <GBInterval_accession>AB027666.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAA78183.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PTAALVVSQLLRIPQAVVDMVAGAHWGVLAGLAYYSMVGNWAKVLIVMLLFAGVDGHTSVTGGSAAQKTLKFANLFTTGPSQKIQLVNTNGSWHINRTAL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctacagcagccctagtggtatcgcagttactccggatcccacaagccgtcgtggacatggtggcgggggcccactggggggtcctggcgggccttgcctactattccatggtggggaactgggctaaggttttgattgtgatgctactctttgccggcgttgacgggcataccagcgtgacaggggggagcgcagcccaaaaaaccctgaagtttgcgaacctctttacaacagggccgtctcagaaaatccagcttgttaacaccaacggtagctggcatatcaacaggactgcccta</GBSeq_sequence>
+  </GBSeq>

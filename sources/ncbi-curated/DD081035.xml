@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DD081035</GBSeq_locus>
+    <GBSeq_length>386</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>04-NOV-2005</GBSeq_create-date>
+    <GBSeq_definition>Double stranded oligonucleotides capable of inhibiting Hepatitis C viral protein synthesis and/or replication</GBSeq_definition>
+    <GBSeq_primary-accession>DD081035</GBSeq_primary-accession>
+    <GBSeq_accession-version>DD081035.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DD081035.1|</GBSeqid>
+      <GBSeqid>pat|JP|2004305140|13</GBSeqid>
+      <GBSeqid>gi|92833624</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2004305140-A/13</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..386</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Miyagishi,M.</GBAuthor>
+          <GBAuthor>Yokota,T.</GBAuthor>
+          <GBAuthor>Sakamoto,N.</GBAuthor>
+          <GBAuthor>Taira,K.</GBAuthor>
+          <GBAuthor>Enomoto,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Double stranded oligonucleotides capable of inhibiting Hepatitis C viral protein synthesis and/or replication</GBReference_title>
+        <GBReference_journal>JP2004305140-A 13 04-NOV-2004 National Institute of Advanced Industrial Science and Technology</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 2004305140-A/13~PD 04-NOV-2004~PF 09-APR-2003 JP 2003104940~PI makoto miyagishi,takanori yokota,naoya sakamoto,kazunari PI taira,~PI nobuyuki enomoto~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..386</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>386</GBInterval_to>
+            <GBInterval_accession>DD081035.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gccagcccccgattgggggcgacactccaccatagatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcaccatgagcacgaatcctaaacctcaaagaaaaaccaaagggcgcgcc</GBSeq_sequence>
+  </GBSeq>

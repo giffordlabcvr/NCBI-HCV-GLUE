@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>E03820</GBSeq_locus>
+    <GBSeq_length>240</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>06-JUN-1997</GBSeq_create-date>
+    <GBSeq_definition>cDNA encoding a part of Hepatitis C virus genome</GBSeq_definition>
+    <GBSeq_primary-accession>E03820</GBSeq_primary-accession>
+    <GBSeq_accession-version>E03820.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|E03820.1|</GBSeqid>
+      <GBSeqid>pat|JP|1992200400|5</GBSeqid>
+      <GBSeqid>gi|2172034</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 1992200400-A/5</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..240</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sawai,K.</GBAuthor>
+          <GBAuthor>Kurono,M.</GBAuthor>
+          <GBAuthor>Mitani,T.</GBAuthor>
+          <GBAuthor>Shiromori,T.</GBAuthor>
+          <GBAuthor>Takahashi,H.</GBAuthor>
+          <GBAuthor>Hayashi,Y.</GBAuthor>
+          <GBAuthor>Suzuki,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>EXTRACTION OF VIRUS GENOM SPECIMEN ORIGINATED HUMAN BODY AND DETECTION OF THE VIRUS GENOM</GBReference_title>
+        <GBReference_journal>JP1992200400-A 5 21-JUL-1992 SANWA KAGAKU KENKYUSHO CO LTD</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 1992200400-A/5~PD 21-JUL-1992~PF 30-NOV-1990 JP 1990329653~PI SAWAI KIICHI, KURONO MASATSUNE, MITANI TAKAHIKO, PI SHIROMORI TAKAHITO,~PI TAKAHASHI HARUO, HAYASHI YUJI, SUZUKI EIJI~PC C12Q1/70,C12Q1/68//C12N15/10;~CC strandedness: Double;~CC topology: Linear;~CC hypothetical: No;~CC anti-sense: No;~FH Key Location/Qualifiers~FH~FT misc_feature 1..240~FT /note='cDNA encoding a part of Hepatits C FT virus genome'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..240</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>240</GBInterval_to>
+            <GBInterval_accession>E03820.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>caggagtttgatgagatggaggagtgcgcctcacaccttccttacatcgaacaaggaatgcagctcgccgagcaattcaagcagaaggcgctcgggctgctgcaaacagcctccaagcaagcggaggctgctgctcccgtggtagagtccaagtggcaagcccttgaggccttctgggcgaagcacatgtggaacttcatcagcgggatacagtatctagcaggcttgtccaccctgcct</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DQ249786</GBSeq_locus>
+    <GBSeq_length>237</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-DEC-2005</GBSeq_update-date>
+    <GBSeq_create-date>25-DEC-2005</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus clone DO56-5'UTR-LD-45 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>DQ249786</GBSeq_primary-accession>
+    <GBSeq_accession-version>DQ249786.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|DQ249786.1|</GBSeqid>
+      <GBSeqid>gi|82469515</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..237</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nainan,O.V.</GBAuthor>
+          <GBAuthor>Lu,L.</GBAuthor>
+          <GBAuthor>Gao,F.X.</GBAuthor>
+          <GBAuthor>Meeks,E.</GBAuthor>
+          <GBAuthor>Robertson,B.H.</GBAuthor>
+          <GBAuthor>Margolis,H.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Selective transmission of hepatitis C virus genotypes and quasispecies in humans and experimentally infected chimpanzees</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 87 (PT 1), 83-91 (2006)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.81268-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>16361420</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..237</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nainan,O.V.</GBAuthor>
+          <GBAuthor>Lu,L.</GBAuthor>
+          <GBAuthor>Gao,F.</GBAuthor>
+          <GBAuthor>Meeks,E.</GBAuthor>
+          <GBAuthor>Robertson,B.H.</GBAuthor>
+          <GBAuthor>Margolis,H.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-OCT-2005) Division of Viral Hepatitis, Centers for Disease Control and Prevention, 1600 Clifton Rd, Atlanta, GA 30333, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..237</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>237</GBInterval_to>
+            <GBInterval_accession>DQ249786.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>limited dilution PCR from a batch of factor VIII concentrate (DO56)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>DO56-5'UTR-LD-45</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 2a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;237</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>237</GBInterval_to>
+            <GBInterval_accession>DQ249786.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaaagcgtctagccatggcgttagtatgagtgtcgtacagcctccaggcccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccgggaagactgggtcctttcttggataaacccactctatgcccggccatttgggcgtgcccccgcaagactgctagccgagtagcgttgggttgcgaaaggccttgtggtactgcctgatagggtgcttg</GBSeq_sequence>
+  </GBSeq>

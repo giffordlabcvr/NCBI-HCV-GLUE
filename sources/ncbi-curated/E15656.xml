@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>E15656</GBSeq_locus>
+    <GBSeq_length>450</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>05-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>28-JUL-1999</GBSeq_create-date>
+    <GBSeq_definition>DNA encoding hepatitis C virus core protein</GBSeq_definition>
+    <GBSeq_primary-accession>E15656</GBSeq_primary-accession>
+    <GBSeq_accession-version>E15656.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|E15656.1|</GBSeqid>
+      <GBSeqid>pat|JP|1998081698|3</GBSeqid>
+      <GBSeqid>gi|5710339</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 1998081698-A/3</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..450</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Takemura,F.</GBAuthor>
+          <GBAuthor>Ueno,H.</GBAuthor>
+          <GBAuthor>Ito,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>NUCLEIC ACID-BONDING POLYPEPTIDE, ITS PRODUCTION AND USE</GBReference_title>
+        <GBReference_journal>JP1998081698-A 3 31-MAR-1998 FUJIREBIO INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 1998081698-A/3~PD 31-MAR-1998~PF 24-APR-1997 JP 1997121803~PR 01-MAY-1996 JP 96P 134444~PI TAKEMURA FUMINORI, UENO HIDEKAZU, ITO SATORU~PC C07K1/113,C07K1/14,C12N15/09,C12P21/02,G01N33/531,(C12P21/02, PC C12R1:19);~CC strandedness: Double;~CC topology: Linear;~FH Key Location/Qualifiers~FH~FT source 1..450~FT /organism='Hepatitis C virus'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..450</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>450</GBInterval_to>
+            <GBInterval_accession>E15656.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagcacaaatcctaaacctcaaagaaaaaccaaacgtaacaccaaccgccgcccacgggacgttaaattcccgggcggtggtcagatcgttggtggagtttacctgttgccgcgcaggggccccaggttgggtgtgcgcgcgactaggaagacttccgagcggtcgcaacctcgtggaaggcgacaacctatccccaaggctcgccggcccgagggtaggacctgggctcagcccgggtacccttggcccctctatggcaacgagggtatggggtgggcaggatggctcctgtcaccccgtggctcccggcctagttggggccccacggacccccggcgtaggtcacgcaatttgggtaaggtcatcgataccctcacatgcggcttcgccgacctcatggggtacattccgcttgtcggcgcccccctagggggcgctgccagggcc</GBSeq_sequence>
+  </GBSeq>

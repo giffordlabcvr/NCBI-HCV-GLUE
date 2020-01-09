@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY600663</GBSeq_locus>
+    <GBSeq_length>373</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>07-SEP-2004</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate B-L-CAPS-4 core protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY600663</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY600663.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY600663.1|</GBSeqid>
+      <GBSeqid>gi|51861484</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..373</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Deforges,S.</GBAuthor>
+          <GBAuthor>Evlashev,A.</GBAuthor>
+          <GBAuthor>Perret,M.</GBAuthor>
+          <GBAuthor>Sodoyer,M.</GBAuthor>
+          <GBAuthor>Pouzol,S.</GBAuthor>
+          <GBAuthor>Scoazec,J.Y.</GBAuthor>
+          <GBAuthor>Bonnaud,B.</GBAuthor>
+          <GBAuthor>Diaz,O.</GBAuthor>
+          <GBAuthor>Paranhos-Baccala,G.</GBAuthor>
+          <GBAuthor>Lotteau,V.</GBAuthor>
+          <GBAuthor>Andre,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Expression of hepatitis C virus proteins in epithelial intestinal cells in vivo</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 85 (PT 9), 2515-2523 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.80071-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15302945</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..373</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Paranhos-Baccala,G.</GBAuthor>
+          <GBAuthor>Perret,M.</GBAuthor>
+          <GBAuthor>Sodoyer,M.</GBAuthor>
+          <GBAuthor>Pouzol,S.</GBAuthor>
+          <GBAuthor>Bonnaud,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-APR-2004) UMR 2714 CNRS-bioMerieux, IFR128 Biosciences Lyon Gerland, 21 avenue Tony Garnier, Lyon cedex 07 69365, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..373</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>373</GBInterval_to>
+            <GBInterval_accession>AY600663.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>B-L-CAPS-4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>lipo-viral-particles</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>France</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;373</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>373</GBInterval_to>
+            <GBInterval_accession>AY600663.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>core protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAU11622.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>CTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRLGVRATRKTSERSQPRGRRQPIPKARRPEGRTWAQPGYPWPLYGNEGCGWAGWLLSPRGSRPSWGPTDPRRRSRNLGKVIDT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcacgaatcctaaacctcaaagaaaaaccaaacgtaacactaaccgtcgcccacaggacgttaagttcccgggtggcggccagatcgttggtggagtttacttgttgccgcgcaggggccctagattgggtgtgcgcgcgacgaggaagacttccgagcggtcgcaacctcgaggtagacgtcagcctatccccaaggcgcgtcgacccgagggtaggacctgggctcagcccgggtacccctggcccctctatggcaatgagggctgcgggtgggcgggatggctcctgtccccccgtggttctcggcctagctggggccccacagacccccggcgtaggtcgcgcaacttgggtaaggtcatcgatacc</GBSeq_sequence>
+  </GBSeq>

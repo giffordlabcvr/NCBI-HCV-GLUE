@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH477386</GBSeq_locus>
+    <GBSeq_length>329</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>31-MAY-2019</GBSeq_update-date>
+    <GBSeq_create-date>31-MAY-2019</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus C isolate N1033 nonstructural protein 5b gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH477386</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH477386.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH477386.1|</GBSeqid>
+      <GBSeqid>gi|1435204010</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..329</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rodgers,M.A.</GBAuthor>
+          <GBAuthor>Holzmayer,V.</GBAuthor>
+          <GBAuthor>Vallari,A.</GBAuthor>
+          <GBAuthor>Olivo,A.</GBAuthor>
+          <GBAuthor>Forberg,K.</GBAuthor>
+          <GBAuthor>Fuhrman,J.</GBAuthor>
+          <GBAuthor>Coller,K.E.</GBAuthor>
+          <GBAuthor>Awazi,B.</GBAuthor>
+          <GBAuthor>Kenmenge Sidje,J.B.</GBAuthor>
+          <GBAuthor>Frankel,M.B.</GBAuthor>
+          <GBAuthor>Berg,M.G.</GBAuthor>
+          <GBAuthor>Mbanya,D.</GBAuthor>
+          <GBAuthor>Ndembi,N.</GBAuthor>
+          <GBAuthor>Cloherty,G.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Hepatitis c virus and Human pegivirus 2 surveillance in a large cameroonian cohort</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..329</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rodgers,M.A.</GBAuthor>
+          <GBAuthor>Holzmayer,V.</GBAuthor>
+          <GBAuthor>Vallari,A.</GBAuthor>
+          <GBAuthor>Olivo,A.</GBAuthor>
+          <GBAuthor>Forberg,K.</GBAuthor>
+          <GBAuthor>Fuhrman,J.</GBAuthor>
+          <GBAuthor>Coller,K.E.</GBAuthor>
+          <GBAuthor>Awazi,B.</GBAuthor>
+          <GBAuthor>Kenmenge Sidje,J.B.</GBAuthor>
+          <GBAuthor>Frankel,M.B.</GBAuthor>
+          <GBAuthor>Berg,M.G.</GBAuthor>
+          <GBAuthor>Mbanya,D.</GBAuthor>
+          <GBAuthor>Ndembi,N.</GBAuthor>
+          <GBAuthor>Cloherty,G.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-JUN-2018) Infectious Disease Research, Abbott Laboratories, 100 Abbott Park Rd, Abbott Park, IL 60064, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Sequencher v. 5.4.1 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..329</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>329</GBInterval_to>
+            <GBInterval_accession>MH477386.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>N1033</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cameroon</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2014</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 4f</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;329</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>329</GBInterval_to>
+            <GBInterval_accession>MH477386.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NS5b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein 5b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXG65444.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>VTERDIRVEEEVYQCCDLEPATRKVISALTERLYVGGPLYNSRGDLCGYRRCRASGVYTTSFGNTLTCFLKATAAAKAAGLKDCTMLVNGDDLVVIAESDGVDEDRRAL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agtgactgaaagagacatcagggtcgaggaagaggtctatcagtgttgtgacctggagcccgcaacccgcaaggtgatatccgccctcactgagaggctctacgtgggcggtcctytgtataacagcagaggagacctgtgcgggtaccgtagatgccgcgcgagcggcgtgtacaccacaagcttcgggaacacactgacgtgcttcctcaaggccacagcggctgccaaagccgctggcctaaaggattgcactatgttggtgaacggtgacgacttagtcgttatcgccgaaagcgatggtgtcgacgaggaccgccgagccctcg</GBSeq_sequence>
+  </GBSeq>

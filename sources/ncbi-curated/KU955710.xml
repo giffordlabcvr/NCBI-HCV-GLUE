@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KU955710</GBSeq_locus>
+    <GBSeq_length>340</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>22-FEB-2017</GBSeq_update-date>
+    <GBSeq_create-date>22-FEB-2017</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate PAtp1 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>KU955710</GBSeq_primary-accession>
+    <GBSeq_accession-version>KU955710.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KU955710.1|</GBSeqid>
+      <GBSeqid>gi|1036243485</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..340</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Siravenha,L.G.</GBAuthor>
+          <GBAuthor>Siravenha,L.Q.</GBAuthor>
+          <GBAuthor>Madeira,L.D.</GBAuthor>
+          <GBAuthor>Oliveira-Filho,A.B.</GBAuthor>
+          <GBAuthor>Machado,L.F.</GBAuthor>
+          <GBAuthor>Martins Feitosa,R.N.</GBAuthor>
+          <GBAuthor>Vallinoto,A.C.</GBAuthor>
+          <GBAuthor>Ishak,M.O.</GBAuthor>
+          <GBAuthor>Ishak,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Detection of HCV Persistent Infections in the Dental Pulp: A Novel Approach for the Detection of Past and Ancient Infections</GBReference_title>
+        <GBReference_journal>PLoS ONE 11 (10), E0165272 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1371/journal.pone.0165272</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>27783693</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..340</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Siravenha,L.G.</GBAuthor>
+          <GBAuthor>Siravenha,L.</GBAuthor>
+          <GBAuthor>Madeira,L.D.P.</GBAuthor>
+          <GBAuthor>Machado,L.F.A.</GBAuthor>
+          <GBAuthor>Vallinoto,A.C.R.</GBAuthor>
+          <GBAuthor>Ishak,M.O.G.</GBAuthor>
+          <GBAuthor>Ishak,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-MAR-2016) Institute for Biological Sciences - Laboratory of Virology, Federal University of Para (UFPA), Cidade Universitaria Prof. Jose da Silveira Netto. Av. Augusto Correa, 01. Guama., Belem, PA 66075-110, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..340</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KU955710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PAtp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Sep-2009</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;340</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KU955710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccagccccctgatgggggcgacactccaccatagatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcaagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcacc</GBSeq_sequence>
+  </GBSeq>

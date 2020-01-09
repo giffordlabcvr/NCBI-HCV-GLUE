@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FN398082</GBSeq_locus>
+    <GBSeq_length>243</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-JUN-2009</GBSeq_update-date>
+    <GBSeq_create-date>10-JUN-2009</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus partial 5'UTR region, isolated from Aedes sp., genomic RNA</GBSeq_definition>
+    <GBSeq_primary-accession>FN398082</GBSeq_primary-accession>
+    <GBSeq_accession-version>FN398082.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|FN398082.1|</GBSeqid>
+      <GBSeqid>gi|239787772</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..243</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rechoum,Y.</GBAuthor>
+          <GBAuthor>Fouque,F.</GBAuthor>
+          <GBAuthor>Morand,P.</GBAuthor>
+          <GBAuthor>Manuguerra,J.C.</GBAuthor>
+          <GBAuthor>Drouet,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>First evidence of Hepatitis C virus amplification in the mosquitoes Aedes caspius and Aedes vexans (Diptera: Culicidae)</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..243</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rechoum,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-JUN-2009) 6, rue Jules Horowitz, CIBB, Office 013, 38000, Grenoble, FRANCE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..243</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>243</GBInterval_to>
+            <GBInterval_accession>FN398082.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>HCV infected host 15 days post-infection</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Aedes sp.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: 2CH, fwd_seq: aactactgtcttcacgcagaa, rev_name: 1TS, rev_seq: gcgacccaacactactcggct</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;243</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>243</GBInterval_to>
+            <GBInterval_accession>FN398082.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgcgacccaacactactcggctaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggataaacccgctcaatgcctggagatttgggcgtgcccccgcaagactgctagccgagtagtgttgggtcgca</GBSeq_sequence>
+  </GBSeq>

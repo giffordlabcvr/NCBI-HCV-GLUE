@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>E12828</GBSeq_locus>
+    <GBSeq_length>328</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>05-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>27-APR-1998</GBSeq_create-date>
+    <GBSeq_definition>5'UTR around of 1b type human HCV (hepatitis C virus)</GBSeq_definition>
+    <GBSeq_primary-accession>E12828</GBSeq_primary-accession>
+    <GBSeq_accession-version>E12828.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|E12828.1|</GBSeqid>
+      <GBSeqid>pat|JP|1997075100|5</GBSeqid>
+      <GBSeqid>gi|3251660</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 1997075100-A/5</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..328</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mizogami,M.</GBAuthor>
+          <GBAuthor>Mitani,T.</GBAuthor>
+          <GBAuthor>Shiromori,T.</GBAuthor>
+          <GBAuthor>Hayashi,Y.</GBAuthor>
+          <GBAuthor>Obara,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>SIMPLE JUDGMENT OF TYPE OF HEPATITIS C VIRUS</GBReference_title>
+        <GBReference_journal>JP1997075100-A 5 25-MAR-1997 SANWA KAGAKU KENKYUSHO CO LTD</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 1997075100-A/5~PD 25-MAR-1997~PF 18-SEP-1995 JP 1995238254~PI MIZOGAMI MASAFUMI, MITANI TAKAHIKO, SHIROMORI TAKAHITO, PI HAYASHI YUJI,~PI OBARA YUKARI~PC C12Q1/70,C07H21/04,C12N15/09,C12Q1/68;~CC strandedness: Double;~CC topology: Linear;~CC hypothetical: No;~CC anti-sense: No;~FH Key Location/Qualifiers~FH~FT source 1..328~FT /organism='Hepatitis C virus' FT misc_feature 1..318~FT /note='5'UTR of 1b type human HCV (hepatitis C FT virus)'~FT CDS 319..328~FT /product='1b type of human HCV (hepatitis C FT virus)'~FT /partial.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..328</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>328</GBInterval_to>
+            <GBInterval_accession>E12828.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>actccaccatagatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgttgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcgcaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcatcatgagcacaa</GBSeq_sequence>
+  </GBSeq>

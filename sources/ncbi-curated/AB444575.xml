@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB444575</GBSeq_locus>
+    <GBSeq_length>214</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>05-JUN-2009</GBSeq_update-date>
+    <GBSeq_create-date>20-MAR-2009</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus subtype 3a gene, 5'UTR, partial sequence, isolate: C38</GBSeq_definition>
+    <GBSeq_primary-accession>AB444575</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB444575.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB444575.1|</GBSeqid>
+      <GBSeqid>gi|225380221</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepatitis C virus subtype 3a</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus subtype 3a</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Khan,A.</GBAuthor>
+          <GBAuthor>Tanaka,Y.</GBAuthor>
+          <GBAuthor>Azam,Z.</GBAuthor>
+          <GBAuthor>Abbas,Z.</GBAuthor>
+          <GBAuthor>Kurbanov,F.</GBAuthor>
+          <GBAuthor>Saleem,U.</GBAuthor>
+          <GBAuthor>Hamid,S.</GBAuthor>
+          <GBAuthor>Jafri,W.</GBAuthor>
+          <GBAuthor>Mizokami,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Epidemic spread of hepatitis C virus genotype 3a and relation to high incidence of hepatocellular carcinoma in Pakistan</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 81 (7), 1189-1197 (2009)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/jmv.21466</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19475617</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Khan,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-JUL-2008) Contact:Anis Khan Graduate School of Medical Sciences, Nagoya City University, Clinical Molecular Informative Medicine; Kawasumi-1, Mizuho-Ku, Nagoya, Aichi 467-8601, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>214</GBInterval_to>
+            <GBInterval_accession>AB444575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus subtype 3a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>C38</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:356426</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Pakistan</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>214</GBInterval_to>
+            <GBInterval_accession>AB444575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaggagcggaacctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaatcgctggggtgaccgggtcctttcttggatcaacccgctcaatacccagaaatttgggcgtgcccccgcaagatcactagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtg</GBSeq_sequence>
+  </GBSeq>

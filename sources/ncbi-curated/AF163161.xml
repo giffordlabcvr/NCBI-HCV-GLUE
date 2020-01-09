@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF163161</GBSeq_locus>
+    <GBSeq_length>241</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>20-JUL-1999</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate L-B12 polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF163161</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF163161.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF163161.1|</GBSeqid>
+      <GBSeqid>gi|5533101</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..241</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Afonso,A.M.</GBAuthor>
+          <GBAuthor>Jiang,J.</GBAuthor>
+          <GBAuthor>Penin,F.</GBAuthor>
+          <GBAuthor>Tareau,C.</GBAuthor>
+          <GBAuthor>Samuel,D.</GBAuthor>
+          <GBAuthor>Petit,M.A.</GBAuthor>
+          <GBAuthor>Bismuth,H.</GBAuthor>
+          <GBAuthor>Dussaix,E.</GBAuthor>
+          <GBAuthor>Feray,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nonrandom distribution of hepatitis C virus quasispecies in plasma and peripheral blood mononuclear cell subsets</GBReference_title>
+        <GBReference_journal>J. Virol. 73 (11), 9213-9221 (1999)</GBReference_journal>
+        <GBReference_pubmed>10516029</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..241</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Roque Afonso,A.M.</GBAuthor>
+          <GBAuthor>Feray,C.</GBAuthor>
+          <GBAuthor>Dussaix,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-JUN-1999) Virology, hopital Paul Brousse, 12 avenue Paul Vaillant Couturier, Villejuif 94804, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..241</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>241</GBInterval_to>
+            <GBInterval_accession>AF163161.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>L-B12</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>10</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;241</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>241</GBInterval_to>
+            <GBInterval_accession>AF163161.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>E1/E2 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAD45024.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PQAIVDVVAGAHWGILAGLAYYSMVGNWAKVLIVLLLFAGVDGVTHTTGGMVARTTQGLASFFSPGPSQKIQLINTNGRW</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccacaagctatcgtggacgtggtggcaggcgcccactggggaatcctggcgggccttgcctactattccatggtagggaactgggctaaggttttgattgtgttgctactctttgccggcgttgacggggttacccacacgacgggggggatggtggccaggaccactcaggggctcgcatccttcttctcacctgggccgtctcagaagatccagcttataaacaccaatggcaggtggc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CS579867</GBSeq_locus>
+    <GBSeq_length>393</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>25-MAY-2007</GBSeq_update-date>
+    <GBSeq_create-date>25-MAY-2007</GBSeq_create-date>
+    <GBSeq_definition>Sequence 11 from Patent WO2007032794</GBSeq_definition>
+    <GBSeq_primary-accession>CS579867</GBSeq_primary-accession>
+    <GBSeq_accession-version>CS579867.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|CS579867.1|</GBSeqid>
+      <GBSeqid>pat|WO|2007032794|11</GBSeqid>
+      <GBSeqid>gi|148352491</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..393</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kaspar,R.L.</GBAuthor>
+          <GBAuthor>Ilves,H.</GBAuthor>
+          <GBAuthor>Seyhan,A.A.</GBAuthor>
+          <GBAuthor>Vlassov,A.V.</GBAuthor>
+          <GBAuthor>Johnston,B.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Inhibition of viral gene expression using small interfering rna</GBReference_title>
+        <GBReference_journal>WO2007032794-A2 11 22-MAR-2007 Somagenics, Inc. (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..393</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>393</GBInterval_to>
+            <GBInterval_accession>CS579867.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gccagcccccgattgggggcgacactccaccatagatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcaccatgagcacgaatcctaaacctcaaagaaaaaccaaacgtaacaccaaccgcc</GBSeq_sequence>
+  </GBSeq>

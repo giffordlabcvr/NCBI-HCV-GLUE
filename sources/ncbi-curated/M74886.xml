@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HPCPRC4A</GBSeq_locus>
+    <GBSeq_length>299</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-SEP-1992</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus (PRC4) variable region RNA</GBSeq_definition>
+    <GBSeq_primary-accession>M74886</GBSeq_primary-accession>
+    <GBSeq_accession-version>M74886.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M74886.1|HPCPRC4A</GBSeqid>
+      <GBSeqid>gi|329883</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>V-region</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..299</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Liu,K.</GBAuthor>
+          <GBAuthor>Hu,Z.</GBAuthor>
+          <GBAuthor>Li,H.</GBAuthor>
+          <GBAuthor>Prince,A.M.</GBAuthor>
+          <GBAuthor>Inchauspe,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genomic typing of hepatitis C viruses present in China</GBReference_title>
+        <GBReference_journal>Gene 114 (2), 245-250 (1992)</GBReference_journal>
+        <GBReference_pubmed>1318245</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Hepatitis C virus (strain PRC4) RNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..299</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>299</GBInterval_to>
+            <GBInterval_accession>M74886.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>PRC4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggttttgattgtgatgctactcttcgccggcgttgatggggatacctacgcgtcggggggggcggcaggccgcgccacctacggaatcacgtccctctttgcacctggggcctctcagaacatccagcttataaataccaatggtagctggcatatcaacaggactgccctgaactgcaatgacaccctcaggactgggtttattgccgcgctgttctatacacgcaagttcaacgcgtccggatgcccagagcgcatggccagctgctgccccattgatacgttcgatcagggctggg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EU166109</GBSeq_locus>
+    <GBSeq_length>372</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>21-OCT-2007</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate 20024B4-14 E1 glycoprptein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EU166109</GBSeq_primary-accession>
+    <GBSeq_accession-version>EU166109.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EU166109.1|</GBSeqid>
+      <GBSeqid>gi|158322965</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..372</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fishman,S.L.</GBAuthor>
+          <GBAuthor>Murray,J.M.</GBAuthor>
+          <GBAuthor>Eng,F.J.</GBAuthor>
+          <GBAuthor>Walewski,J.L.</GBAuthor>
+          <GBAuthor>Morgello,S.</GBAuthor>
+          <GBAuthor>Branch,A.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular and bioinformatic evidence of hepatitis C virus evolution in brain</GBReference_title>
+        <GBReference_journal>J. Infect. Dis. 197 (4), 597-607 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1086/526519</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18275278</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..372</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Fishman,S.L.</GBAuthor>
+          <GBAuthor>Murray,J.</GBAuthor>
+          <GBAuthor>Eng,F.</GBAuthor>
+          <GBAuthor>Walewski,J.L.</GBAuthor>
+          <GBAuthor>Morgello,S.</GBAuthor>
+          <GBAuthor>Branch,A.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-SEP-2007) Division of Liver Diseases, Mount Sinai School of Medicine, One Gustave L Levy Plaza, New York, NY 10029, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..372</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>372</GBInterval_to>
+            <GBInterval_accession>EU166109.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>20024B4-14</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolate represents patient number, tissue, extraction, clone; B=frontal cortex, M=medulla, C=cerebellum, L=liver, P=plasma</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;372</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>372</GBInterval_to>
+            <GBInterval_accession>EU166109.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>E1 glycoprptein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABW34043.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LPGCSFSIFLLALLSCLTIPASAYEVRNVSGVYHVTNDCSNASIVYEAADMIMHTPGCVPCVREDNSSRCWVALTPTLAARNASIPTTAIRRHIDLLVGAAAFCSAMYVGDLCGSVFLVSQLF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accttcctggttgctctttctctatcttccttttggctttgctgtcctgtttgaccatcccagcttccgcgtatgaagtgcgcaacgtgtccggggtgtaccatgtcacgaacgactgctccaacgcaagcattgtgtatgaggcagcggacatgatcatgcatacccctgggtgcgtgccctgcgttcgggaggataactcctcccgctgctgggtagcgctcacacccacgctcgcggccaggaacgccagcatccctaccacggcaataagacgtcatattgatttgctcgttggggcggctgctttctgctccgctatgtacgtgggggacttatgcggatctgttttcctcgtttcccagctgttca</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY224952</GBSeq_locus>
+    <GBSeq_length>224</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>13-SEP-2004</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate IN370 RNA-dependent RNA polymerase (NS5B) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY224952</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY224952.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY224952.1|</GBSeqid>
+      <GBSeqid>gi|37961176</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..224</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nakano,T.</GBAuthor>
+          <GBAuthor>Lu,L.</GBAuthor>
+          <GBAuthor>Liu,P.</GBAuthor>
+          <GBAuthor>Pybus,O.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Viral gene sequences reveal the variable history of hepatitis C virus infection among countries</GBReference_title>
+        <GBReference_journal>J. Infect. Dis. 190 (6), 1098-1108 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1086/422606</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15319860</GBReference_pubmed>
+        <GBReference_remark>Erratum:[J Infect Dis. 2005 Feb 1;191(3):487]</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..224</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nakano,T.</GBAuthor>
+          <GBAuthor>Pybus,O.G.</GBAuthor>
+          <GBAuthor>Liu,P.</GBAuthor>
+          <GBAuthor>Robertson,B.H.</GBAuthor>
+          <GBAuthor>Fields,H.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (23-JAN-2003) Division of Viral Hepatitis, Centers for Disease Control and Prevention, 1600 Clifton Rd NE, Atlanta, GA 30333, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..224</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>224</GBInterval_to>
+            <GBInterval_accession>AY224952.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>IN370</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;224</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>224</GBInterval_to>
+            <GBInterval_accession>AY224952.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS5B</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;224</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>224</GBInterval_to>
+            <GBInterval_accession>AY224952.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS5B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>RNA-dependent RNA polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAP50438.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>TERLYIGGPLTNSKGQNCGYRRCRASGVLTTSCGNTLTCYLKASAACRAAKLQDCTMLVCGDDLVVICESAGTQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcacagagcggctttatatcgggggccccctgaccaattcaaaagggcaaaactgcggttatcgccggtgccgcgcaagcggcgtgctgacgaccagctgcggtaataccctcacatgctacctgaaggcctctgcggcctgtcgagctgcgaagctccaggactgcacaatgcttgtgtgcggagacgaccttgtcgtnatctgtgaaagcgcgggaacccaa</GBSeq_sequence>
+  </GBSeq>

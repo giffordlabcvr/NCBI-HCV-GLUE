@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EU623024</GBSeq_locus>
+    <GBSeq_length>291</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>29-APR-2008</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus subtype 1b clone GMW4-C24 polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EU623024</GBSeq_primary-accession>
+    <GBSeq_accession-version>EU623024.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EU623024.1|</GBSeqid>
+      <GBSeqid>gi|186469788</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepatitis C virus subtype 1b</GBSeq_source>
+    <GBSeq_organism>Hepatitis C virus subtype 1b</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..291</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ross,S.</GBAuthor>
+          <GBAuthor>Viazov,S.</GBAuthor>
+          <GBAuthor>Khudyakov,Y.E.</GBAuthor>
+          <GBAuthor>Xia,G.</GBAuthor>
+          <GBAuthor>Lin,Y.</GBAuthor>
+          <GBAuthor>Holzmann,H.</GBAuthor>
+          <GBAuthor>Roggendorf,M.</GBAuthor>
+          <GBAuthor>Janata,O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nosocomial transmissions of the hepatitis C virus in an orthopedic hospital ward</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..291</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ross,S.</GBAuthor>
+          <GBAuthor>Viazov,S.</GBAuthor>
+          <GBAuthor>Khudyakov,Y.E.</GBAuthor>
+          <GBAuthor>Xia,G.</GBAuthor>
+          <GBAuthor>Lin,Y.</GBAuthor>
+          <GBAuthor>Holzmann,H.</GBAuthor>
+          <GBAuthor>Roggendorf,M.</GBAuthor>
+          <GBAuthor>Janata,O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-APR-2008) Division of Viral Hepatitis, Centers for Disease Control and Prevention, 1600 Clifton Road, N.E., MS-A33, Atlanta, GA 30333, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..291</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>291</GBInterval_to>
+            <GBInterval_accession>EU623024.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepatitis C virus subtype 1b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:31647</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>GMW4-C24</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Germany</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;291</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>291</GBInterval_to>
+            <GBInterval_accession>EU623024.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains E1-HVR1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACC85545.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>NWSPTTALIVSQLLRIPQAVVDMVAGAHWGVLAGLAYYSMAGNWAKVLIVLLLFAGVDGHTRVSGGTAAHSTYGIASLLAPGASQKLQLVNTNGSWA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aactggtcacctacaacagccctaatagtgtcgcagttactccggatcccacaagctgtcgtggacatggtggcgggggcccactggggagtcctggcgggcctcgcctactactccatggcggggaactgggctaaggttttaattgtgttgctactctttgctggcgttgacgggcacacccgcgtgtcaggggggacagccgcccatagcacctacgggatagcgtcccttcttgcacctggggcgtctcagaagctccaacttgtcaacaccaacggcagctgggca</GBSeq_sequence>
+  </GBSeq>

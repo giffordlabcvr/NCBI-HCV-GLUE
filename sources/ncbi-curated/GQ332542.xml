@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GQ332542</GBSeq_locus>
+    <GBSeq_length>417</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>14-OCT-2009</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate CYIDU013 core-E1 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>GQ332542</GBSeq_primary-accession>
+    <GBSeq_accession-version>GQ332542.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|GQ332542.1|</GBSeqid>
+      <GBSeqid>gi|261086717</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..417</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Demetriou,V.L.</GBAuthor>
+          <GBAuthor>van de Vijver,D.A.</GBAuthor>
+          <GBAuthor>Hezka,J.</GBAuthor>
+          <GBAuthor>Kostrikis,L.G.</GBAuthor>
+          <GBAuthor>Kostrikis,L.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_consortium>Cyprus IVDU Network</GBReference_consortium>
+        <GBReference_title>Hepatitis C infection among intravenous drug users attending therapy programs in Cyprus</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 82 (2), 263-270 (2010)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/jmv.21690</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>20029809</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..417</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Demetriou,V.L.</GBAuthor>
+          <GBAuthor>van de Vijver,D.A.M.C.</GBAuthor>
+          <GBAuthor>Hezka,J.</GBAuthor>
+          <GBAuthor>Kostrikis,L.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (26-JUN-2009) Department of Biological Sciences, University of Cyprus, 75 Kallipoleos Avenue, P. O. Box 20537, Nicosia 1678, Cyprus</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..417</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>417</GBInterval_to>
+            <GBInterval_accession>GQ332542.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CYIDU013</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>intravenous drug user</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cyprus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>24-Jul-2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 3a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;417</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>417</GBInterval_to>
+            <GBInterval_accession>GQ332542.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>core-E1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACX54603.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IFLLALFSCLINPAASLEWRNTSGLYILTNDCSNSSIVYEADDVILHLPGCVPCVQDGNTSTCWTSVTPTVAVKYVGATTASIRSHVDLLVGAATMCSALYVGDVCGAVFLVGQAFTFKPRRHQTVQTCNCSLYPGHVS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atctttcttctcgctctgttctcttgcttaattaatccagcagctagtttagagtggcggaatacgtctggcctctacatccttaccaacgactgttccaatagcagtattgtgtatgaggccgatgacgttattctacacctacccggctgcgtgccttgtgtccaggacggcaatacatccacgtgctggacctcagtgacacctacagtggcagtcaaatacgtcggagcaaccaccgcttcgatacgtagtcatgtggacctgttggtgggcgcggccacgatgtgctctgcgctctacgtgggcgacgtatgtggagccgtcttcctcgtgggacaagccttcacgttcaaacctcgtcgccatcaaacggtccaaacctgtaactgctcactgtacccaggccacgtttca</GBSeq_sequence>
+  </GBSeq>

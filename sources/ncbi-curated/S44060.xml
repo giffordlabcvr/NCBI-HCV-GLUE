@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>S44060</GBSeq_locus>
+    <GBSeq_length>407</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-NOV-1992</GBSeq_update-date>
+    <GBSeq_create-date>08-MAY-1993</GBSeq_create-date>
+    <GBSeq_definition>{nonstructural region NS3} [hepatitis C virus HCV, F1a isolate, Genomic RNA, 407 nt]</GBSeq_definition>
+    <GBSeq_primary-accession>S44060</GBSeq_primary-accession>
+    <GBSeq_accession-version>S44060.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>bbm|240547</GBSeqid>
+      <GBSeqid>bbs|113752</GBSeqid>
+      <GBSeqid>gb|S44060.1|</GBSeqid>
+      <GBSeqid>gi|252550</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..407</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,J.S.</GBAuthor>
+          <GBAuthor>Tong,S.P.</GBAuthor>
+          <GBAuthor>Vitvitski,L.</GBAuthor>
+          <GBAuthor>Lepot,D.</GBAuthor>
+          <GBAuthor>Trepo,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evidence of two major genotypes of hepatitis C virus in France and close relatedness of the predominant one with the prototype virus</GBReference_title>
+        <GBReference_journal>J. Hepatol. 13 (SUPPL 4), S33-S37 (1991)</GBReference_journal>
+        <GBReference_pubmed>1668330</GBReference_pubmed>
+        <GBReference_remark>GenBank staff at the National Library of Medicine created this entry [NCBI gibbsq 113752] from the original journal article.</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..407</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>407</GBInterval_to>
+            <GBInterval_accession>S44060.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctcggtgatagactgtaatacgtgtgtcacccagacagtcgacttcagccttgaccccgccttcaccatcgagacaaccacgcttccccaggatgccgtctcccgcactcaacgtcggggtaggactggcagagggaagccaggcatttacagatttgtggcaccgggggagcgcccttccggcatgttcgactcgtccgtcctctgtgagtgctatgacgcaggctgtgcttggtatgagctcacgcccgccgagactacagttaggctacgagcgtacatgaacaccccggggcttcccgtgtgccaggaccatcttgaattttgggagggcgtctttacaggcctcactcatatagatgcccactttctatcccagacaaagcagagtggggagaaccttcctt</GBSeq_sequence>
+  </GBSeq>

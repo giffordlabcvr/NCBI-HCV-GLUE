@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Z14099</GBSeq_locus>
+    <GBSeq_length>345</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-SEP-1992</GBSeq_update-date>
+    <GBSeq_create-date>22-JUL-1992</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus 5' nontranslated region</GBSeq_definition>
+    <GBSeq_primary-accession>Z14099</GBSeq_primary-accession>
+    <GBSeq_accession-version>Z14099.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Z14099.1|</GBSeqid>
+      <GBSeqid>gi|60314</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..345</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Brown,E.A.</GBAuthor>
+          <GBAuthor>Zhang,H.</GBAuthor>
+          <GBAuthor>Ping,L.H.</GBAuthor>
+          <GBAuthor>Lemon,S.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Secondary structure of the 5' nontranslated regions of hepatitis C virus and pestivirus genomic RNAs</GBReference_title>
+        <GBReference_journal>Nucleic Acids Res. 20 (19), 5041-5045 (1992)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/nar/20.19.5041</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>1329037</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..345</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Brown,E.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-JUL-1992) Brown E. A., University of North Carolina at Chapel Hill, Infectious Diseases, 547 Burnett-Womack, Chapel Hill, NC, 27599-7030</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..345</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>345</GBInterval_to>
+            <GBInterval_accession>Z14099.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>AG94</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..342</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>342</GBInterval_to>
+            <GBInterval_accession>Z14099.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gccagccccctgatgggggcgacactccaccatgaatcactcccctgtgaggaactactgtcttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggacccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggataaacccgctcaatgcctggagatttgggcgtgcccccgcaagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcatcatg</GBSeq_sequence>
+  </GBSeq>

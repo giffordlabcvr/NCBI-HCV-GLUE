@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JQ652944</GBSeq_locus>
+    <GBSeq_length>424</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-APR-2014</GBSeq_update-date>
+    <GBSeq_create-date>14-AUG-2012</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate 698-TUN-08 polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>JQ652944</GBSeq_primary-accession>
+    <GBSeq_accession-version>JQ652944.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JQ652944.1|</GBSeqid>
+      <GBSeqid>gi|399931888</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..424</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rajhi,M.</GBAuthor>
+          <GBAuthor>Mejri,S.</GBAuthor>
+          <GBAuthor>Djebbi,A.</GBAuthor>
+          <GBAuthor>Chouaieb,S.</GBAuthor>
+          <GBAuthor>Cheikh,I.</GBAuthor>
+          <GBAuthor>Ben Yahia,A.</GBAuthor>
+          <GBAuthor>Sadraoui,A.</GBAuthor>
+          <GBAuthor>Hammami,W.</GBAuthor>
+          <GBAuthor>Azouz,M.</GBAuthor>
+          <GBAuthor>Ben Mami,N.</GBAuthor>
+          <GBAuthor>Triki,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Subtyping genotype 2 hepatitis C viruses from Tunisia: identification of two putative new subtypes</GBReference_title>
+        <GBReference_journal>Virus Genes 48 (2), 209-217 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s11262-013-1010-3</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24272697</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..424</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rajhi,M.</GBAuthor>
+          <GBAuthor>Triki,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-FEB-2012) Laboratoire de Virologie Clinique, Institut Pasteur de Tunis, 13 Place Pasteur le Belvedere, Tunis 1002, Tunisia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..424</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>424</GBInterval_to>
+            <GBInterval_accession>JQ652944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>698-TUN-08</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Tunisia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: dm111, fwd_seq: gcaacagggaayytdccyggttgctc, fwd_name: dm109, fwd_seq: aayytdcccggttgctctttytctat, rev_name: dm110, rev_seq: gtrggngaccarttcatcatca, rev_name: dm108, rev_seq: ttcatcatcatrtcccangccat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;424</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>424</GBInterval_to>
+            <GBInterval_accession>JQ652944.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>core/E1 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFP57480.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>FLLALLSCITVPVSAVEVRNTSNSYMATNDCSNSSIIWQLEGAVLHTPGCIPCERIDNASRCWVPATPNIAVNQPGALTKGLRAHIDAIVMSATLCSALYVGDVCGAAMLAAQVVIVSPQHHTFVQDCNCSIYPGHITGHR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctttcttctagccctcttgtcttgcatcaccgtgccagtttccgccgtggaggtcaggaacaccagcaactcctacatggcgaccaatgattgctccaactccagcatcatttggcagcttgaaggcgcagtgctccatacccctggatgcatcccgtgcgagcggattgataacgcgtcccgatgctgggtgccggctacccccaacatagctgtaaatcaacctggcgctctcactaagggcttgcgggcgcacatcgatgccatcgtgatgtctgctacgctctgttcagccctctatgtgggggacgtgtgtggcgcggcgatgttggccgctcaggtcgtcatcgtatcaccacaacaccacacctttgtccaggactgcaattgctccatatacccgggccatatcacggggcaccgc</GBSeq_sequence>
+  </GBSeq>

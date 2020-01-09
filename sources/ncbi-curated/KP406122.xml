@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KP406122</GBSeq_locus>
+    <GBSeq_length>203</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>18-MAY-2015</GBSeq_update-date>
+    <GBSeq_create-date>18-MAY-2015</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate HHOI_182 5' UTR</GBSeq_definition>
+    <GBSeq_primary-accession>KP406122</GBSeq_primary-accession>
+    <GBSeq_accession-version>KP406122.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KP406122.1|</GBSeqid>
+      <GBSeqid>gi|821039619</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..203</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Acharya,A.</GBAuthor>
+          <GBAuthor>Vaniawala,S.N.</GBAuthor>
+          <GBAuthor>Parekh,H.</GBAuthor>
+          <GBAuthor>Misra,R.N.</GBAuthor>
+          <GBAuthor>Wani,M.</GBAuthor>
+          <GBAuthor>Mukhopadhyaya,P.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Prevalence of different Hepatitis C virus genotypes among HIV-1/HCV co-infected patients in India</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..203</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Acharya,A.</GBAuthor>
+          <GBAuthor>Vaniawala,S.N.</GBAuthor>
+          <GBAuthor>Parekh,H.</GBAuthor>
+          <GBAuthor>Misra,R.N.</GBAuthor>
+          <GBAuthor>Wani,M.</GBAuthor>
+          <GBAuthor>Mukhopadhyaya,P.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-JAN-2015) Molecular Biology, Dr. D. Y. Patil Biotechnology &amp; Bioinfomatics Institute, Mumbai-Bangalore Highway, Tathawade, Pune, Maharashtra 411033, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..203</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>203</GBInterval_to>
+            <GBInterval_accession>KP406122.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>HHOI_182</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>22-Jun-2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;203</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>203</GBInterval_to>
+            <GBInterval_accession>KP406122.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gagtgttgtacagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaatcgccgggatgaccgggtcctttcttggatcaacccgctcaatgcccggaaatttgggcgtgcccccgcaagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgcctgatagg</GBSeq_sequence>
+  </GBSeq>

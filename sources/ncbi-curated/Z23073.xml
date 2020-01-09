@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Z23073</GBSeq_locus>
+    <GBSeq_length>230</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUN-1995</GBSeq_update-date>
+    <GBSeq_create-date>22-JUN-1993</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C Virus (clone pHC66) 5' NC-region RNA</GBSeq_definition>
+    <GBSeq_primary-accession>Z23073</GBSeq_primary-accession>
+    <GBSeq_accession-version>Z23073.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Z23073.1|</GBSeqid>
+      <GBSeqid>gi|559439</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>non-coding region</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..230</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Da Silva Cardoso,M.</GBAuthor>
+          <GBAuthor>Epple,S.</GBAuthor>
+          <GBAuthor>Koerner,K.</GBAuthor>
+          <GBAuthor>Kubanek,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Analysing the sequence diversity of the 5' NC-region of HCV-isolates found in southern Germany</GBReference_title>
+        <GBReference_journal>Eur. J. Epidemiol. 10 (5), 637-640 (1994)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/BF01719585</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>7859867</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..230</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Da Silva Cardoso,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-JUN-1993) Da Silva Cardoso M., University of Ulm, Department of Transfusion Medicine, Helmholtzstrasse 10, Ulm, Baden-Wurttemberg, Germany, 89081</GBReference_journal>
+        <GBReference_remark>revised by [3]   MAT</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..230</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Da Silva Cardoso,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-OCT-1994) Da Silva Cardoso M., University of Ulm, Department of Transfusion Medicine, Helmholtzstrasse 10, Ulm, Baden-Wurttemberg, Germany, 89081</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Oct 24, 1994 this sequence version replaced gi:312226.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..230</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>230</GBInterval_to>
+            <GBInterval_accession>Z23073.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>pHC66</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttcacgcagaaagcgtctagccatggcgttagtatgagtgtcgtgcagcctccaggaccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccaggacgaccgggtcctttcttggatcaacccgctcaatgcctggagatttgggcgtgcccccgcgagactgctagccgagtagtgttgggtcgcgaaaggccttgtggtactgc</GBSeq_sequence>
+  </GBSeq>

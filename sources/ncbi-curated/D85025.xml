@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>D85025</GBSeq_locus>
+    <GBSeq_length>212</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-FEB-1999</GBSeq_update-date>
+    <GBSeq_create-date>09-OCT-1996</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus genomic RNA for 3'UTR</GBSeq_definition>
+    <GBSeq_primary-accession>D85025</GBSeq_primary-accession>
+    <GBSeq_accession-version>D85025.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|D85025.1|</GBSeqid>
+      <GBSeqid>gi|1616930</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>3'UTR</GBKeyword>
+      <GBKeyword>3' untranslated region</GBKeyword>
+      <GBKeyword>Hepatitis C virus</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..212</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yamada,N.</GBAuthor>
+          <GBAuthor>Tanihara,K.</GBAuthor>
+          <GBAuthor>Takada,A.</GBAuthor>
+          <GBAuthor>Yorihuzi,T.</GBAuthor>
+          <GBAuthor>Tsutsumi,M.</GBAuthor>
+          <GBAuthor>Shimomura,H.</GBAuthor>
+          <GBAuthor>Tsuji,T.</GBAuthor>
+          <GBAuthor>Date,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic organization and diversity of the 3' noncoding region of the hepatitis C virus genome</GBReference_title>
+        <GBReference_journal>Virology 223 (1), 255-261 (1996)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1006/viro.1996.0476</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>8806561</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..212</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Date,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..212</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Date,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-MAY-1996) Takayasu Date, Kanazawa Medical University, Biochemistry; Daigaku, Uchinada, Ishikawa 920-02, Japan (E-mail:date@kanazawa-med.ac.jp, Tel:0762-86-2211(ex.3701), Fax:0762-86-4693)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..212</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>212</GBInterval_to>
+            <GBInterval_accession>D85025.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>type 3a (3' untranslated region)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>EM22</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>3'UTR</GBFeature_key>
+        <GBFeature_location>1..212</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>212</GBInterval_to>
+            <GBInterval_accession>D85025.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Novel 3' untranslated region of hepatitis C virus type 3a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgagtggtaagctaacactccaattctgtttttttttttttttttttttttttttttttttttttttttttttttctctttcctaactttcctattatcttatatccttcttaaggtggctccatcttagccctagtcacggctagctgtgaaaggtccgtgagccgcatgactgcagagagtgctgatactggcctctctgcagatcatgt</GBSeq_sequence>
+  </GBSeq>

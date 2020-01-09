@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>S72725</GBSeq_locus>
+    <GBSeq_length>441</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>05-JAN-1995</GBSeq_create-date>
+    <GBSeq_definition>E2/NS1=envelope glycoprotein [hepatitis C virus HCV, agammaglobulinemic patient isolate, Genomic RNA, 441 nt]</GBSeq_definition>
+    <GBSeq_primary-accession>S72725</GBSeq_primary-accession>
+    <GBSeq_accession-version>S72725.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>bbm|347878</GBSeqid>
+      <GBSeqid>bbs|154116</GBSeqid>
+      <GBSeqid>gb|S72725.1|</GBSeqid>
+      <GBSeqid>gi|619405</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..441</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kumar,U.</GBAuthor>
+          <GBAuthor>Monjardino,J.</GBAuthor>
+          <GBAuthor>Thomas,H.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Hypervariable region of hepatitis C virus envelope glycoprotein (E2/NS1) in an agammaglobulinemic patient</GBReference_title>
+        <GBReference_journal>Gastroenterology 106 (4), 1072-1075 (1994)</GBReference_journal>
+        <GBReference_pubmed>8143975</GBReference_pubmed>
+        <GBReference_remark>GenBank staff at the National Library of Medicine created this entry [NCBI gibbsq 154116] from the original journal article.</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..441</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>441</GBInterval_to>
+            <GBInterval_accession>S72725.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..441</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>441</GBInterval_to>
+            <GBInterval_accession>S72725.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>E2/NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..441</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>441</GBInterval_to>
+            <GBInterval_accession>S72725.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>E2/NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB30367.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MVGNWAKVLVVLLLFAGVDAETYTTGGSVARATSRLTNLFSQGAKQDVQLVNTNGSWHINRTALNCNASLDTGWVAGLFYYNKFNSSGCPERMASCRPLADFDQGWGPISYANGSGSEHRPYCWHYPPKPCGIVPAQNVCGPVYCFT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggtggggaactgggcgaaggtcctggtggtgctgttgctgtttgcaggcgtcgatgcggaaacctacaccaccggggggagtgtcgctagggccacgtcccgactcaccaatctcttcagccagggcgctaagcaggatgtccagctggtcaacaccaacggcagttggcacatcaatcgcacggccctgaactgcaatgcgagcctcgacactggctgggtggcggggctcttctattacaacaagttcaactcttcaggttgccccgagaggatggccagctgtagaccccttgccgatttcgaccagggctggggccccatcagctatgccaacggaagcggctccgaacaccgcccctactgctggcactaccccccaaagccttgtggcatcgtgccagcacagaacgtatgtggcccggtatattgcttcact</GBSeq_sequence>
+  </GBSeq>

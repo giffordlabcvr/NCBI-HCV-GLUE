@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY190375</GBSeq_locus>
+    <GBSeq_length>363</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>07-NOV-2003</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate W14 core protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY190375</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY190375.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY190375.1|</GBSeqid>
+      <GBSeqid>gi|37779406</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..363</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lole,K.S.</GBAuthor>
+          <GBAuthor>Jha,J.A.</GBAuthor>
+          <GBAuthor>Shrotri,S.P.</GBAuthor>
+          <GBAuthor>Tandon,B.N.</GBAuthor>
+          <GBAuthor>Prasad,V.G.</GBAuthor>
+          <GBAuthor>Arankalle,V.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Comparison of hepatitis C virus genotyping by 5' noncoding region- and core-based reverse transcriptase PCR assay with sequencing and use of the assay for determining subtype distribution in India</GBReference_title>
+        <GBReference_journal>J. Clin. Microbiol. 41 (11), 5240-5244 (2003)</GBReference_journal>
+        <GBReference_pubmed>14605173</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..363</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lole,K.S.</GBAuthor>
+          <GBAuthor>Jha,J.A.</GBAuthor>
+          <GBAuthor>Shrotri,S.P.</GBAuthor>
+          <GBAuthor>Tandon,B.N.</GBAuthor>
+          <GBAuthor>Mohan Prasad,V.G.</GBAuthor>
+          <GBAuthor>Arankalle,V.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-DEC-2002) Hepatitis Division, National Institute of Virology, 20-A, Dr. Ambedkar Road, Pune, Maharashtra 411 001, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..363</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>363</GBInterval_to>
+            <GBInterval_accession>AY190375.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>W14</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;363</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>363</GBInterval_to>
+            <GBInterval_accession>AY190375.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>core protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAO86570.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTLPKPQRQTKRNTPRRPQNVKFPGGGQIVGGVYVLPRRGPRLGVRAVRKTSERSQPRGRRQPIPKARQSEGRSWAQPGYPWPLYGNEGCGWAGWLLSPRGSRPSWGPNDPRRRSRNLGK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagcacacttcctaaacctcaaagacaaaccaaaagaaacacaccccgtcgcccacagaacgttaagttcccgggtggcgggcagatcgttggtggagtatacgtattgccgcgcaggggcccacggttgggtgtgcgcgcagtgcgtaagacttccgagcggtcgcaacctcgcggacggcggcagcctatccccaaggcgcgccagagcgagggccggtcctgggctcagcctgggtacccttggcccctctatgggaacgagggctgcgggtgggcaggatggctgctgtccccccgtggttcccgccctagttggggccccaatgacccccggcgtagatcgcgcaatttgggtaag</GBSeq_sequence>
+  </GBSeq>

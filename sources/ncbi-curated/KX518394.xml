@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX518394</GBSeq_locus>
+    <GBSeq_length>510</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-MAY-2017</GBSeq_update-date>
+    <GBSeq_create-date>17-MAY-2017</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate 2001_1 E2 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KX518394</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX518394.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX518394.1|</GBSeqid>
+      <GBSeqid>gi|1191449649</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..510</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Di Lello,F.</GBAuthor>
+          <GBAuthor>Bare,P.</GBAuthor>
+          <GBAuthor>Perez,P.</GBAuthor>
+          <GBAuthor>Culasso,A.</GBAuthor>
+          <GBAuthor>Campos,R.</GBAuthor>
+          <GBAuthor>Garcia,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evolution of Hepatitis C and HIV viruses: A case report of an immunological responder/virological non responder patient on HAART</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..510</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Di Lello,F.</GBAuthor>
+          <GBAuthor>Bare,P.</GBAuthor>
+          <GBAuthor>Perez,P.</GBAuthor>
+          <GBAuthor>Culasso,A.</GBAuthor>
+          <GBAuthor>Campos,R.</GBAuthor>
+          <GBAuthor>Garcia,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-JUL-2016) Catedra de Virologia, Facultad de Farmacia y Bioquimica, Junin 956 4to Piso, Ciudad Autonoma de Buenos Aires, Buenos Aires 1113, Argentina</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..510</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>510</GBInterval_to>
+            <GBInterval_accession>KX518394.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>2001_1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Argentina</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>07-Dec-2001</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: subtype 1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;510</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>510</GBInterval_to>
+            <GBInterval_accession>KX518394.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>structural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>E2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ARQ83513.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>DTRVMGGAQARDTRGFVGLFSAGSSQKIQLINTNGSWHINRTALNCNDSLHTGFLAALFYVNKFNSSGCPERMASCRPIDQFAQGWGPITYAEPHGLDQRPYCWHYAPQPCGIVPAAQVCGPVYCFAPSPVVVGTTDRFGAPTYSWGENETDVLLLNNTRPPQGNWFGCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gatactcgtgtgatggggggagcgcaggcccgtgacacccgggggttcgtgggcctcttctcagccgggtcgtcccagaaaatccagcttataaataccaacggcagctggcacatcaacaggactgccctgaactgcaatgactccctccacactgggttccttgctgcgctgttctacgtgaataagttcaactcgtcgggatgcccagagcgcatggccagctgccgccccatcgaccaattcgctcaggggtggggtcccatcacctacgctgagccacacggcttggaccagaggccttattgttggcactacgcacctcaaccgtgcggtatcgtacccgcggcgcaggtgtgcggtccagtgtattgcttcgccccaagccctgtcgtggtggggacgaccgatcgtttcggcgcccctacgtacagttggggggagaatgagacggacgtgctgcttctcaacaacacgcggccgccgcaaggcaactggttcggctgtaca</GBSeq_sequence>
+  </GBSeq>

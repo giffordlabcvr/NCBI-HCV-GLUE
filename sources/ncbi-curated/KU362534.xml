@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KU362534</GBSeq_locus>
+    <GBSeq_length>933</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-JAN-2017</GBSeq_update-date>
+    <GBSeq_create-date>11-JAN-2017</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus isolate 3536 RNA-dependent RNA polymerase gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KU362534</GBSeq_primary-accession>
+    <GBSeq_accession-version>KU362534.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KU362534.1|</GBSeqid>
+      <GBSeqid>gi|1128613130</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..933</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Peres-da-Silva,A.</GBAuthor>
+          <GBAuthor>de Almeida,A.J.</GBAuthor>
+          <GBAuthor>Lampe,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Prevalence of pretreatment sofosbuvir resistance-associated variants in Brazilian patients infected with genotype 1 hepatitis C virus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..933</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Peres-da-Silva,A.</GBAuthor>
+          <GBAuthor>de Almeida,A.J.</GBAuthor>
+          <GBAuthor>Lampe,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (29-DEC-2015) Laboratorio de Hepatites Virais, Instituto Oswaldo Cruz, Avenida Brasil, 4365, Rio de Janeiro, Rio de Janeiro 21040-900, Brasil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: mega v. 5.03 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..933</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>933</GBInterval_to>
+            <GBInterval_accession>KU362534.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>3536</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;933</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>933</GBInterval_to>
+            <GBInterval_accession>KU362534.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NS5B; RdRp</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>RNA-dependent RNA polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>APT40563.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AAEEASLPINALSNSLLRHHNMVYATTSRSASQRQKKVTFDRLQVLDDHYRDVLKEMKAKASTVKAKLLSIEEACKLTPPHSAKSKFGYGAKDVRNLSSKAVNHIHSVWKDLLEDTDTPIDTTIMAKNEVFCVQPEKGGRKPARFIVFPDLGVRVCEKMALYDVVSTLPQAVMGSSYGFQYSPGQRVEFLVNAWKSKKNPMGFSYDTRCFDSTVTENDIRVEESIYQCCDLAPEARQAIKSLTERLYIGGPLTNSKGQNCGYRRCRASGVLTTSCGNTLTCYLKASAACRAAKLQNCTMLVNGDDLVVICE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctgcggaggaagcaagcttgcccatcaatgcgctaagcaactctttgctacgccatcataacatggtctatgccaccacgtcccgcagcgcaagccagaggcagaagaaggtcacttttgacagactgcaagtcctggatgaccactaccgggacgtgctcaaggagatgaaggcgaaggcgtccacagttaaggctaaacttctatctatagaggaagcctgcaagctgacgcccccacactcggccaaatccaaatttggctatggggcaaaggacgtccggaacctatccagcaaggccgttaaccacatccactccgtgtggaaggacttgctggaagacactgacacaccaattgacaccaccatcatggcaaaaaatgaggttttctgcgtccagccagagaaagggggccgcaagccagctcgctttatcgtgttcccagacttgggggttcgcgtgtgcgagaagatggccctctacgacgtggtctccactcttcctcaggccgtgatgggctcctcatacgggtttcagtactctcctggacagcgggtcgagttccttgtgaatgcatggaaatcaaagaagaaccctatgggcttctcgtatgacacccgctgyttygactcaacggtcactgagaacgacatccgtgttgaggagtcaatttaccaatgttgtgacttggcccccgaagccagrcaggccataaagtcgctcacagagcggctctatatcgggggtcccctgaccaattcaaaagggcagaactgcggctatcgccggtgccgcgcgagcggcgtgctgacgaccagctgcggtaataccctcacatgctacttgaaagccagtgcggcctgtcgagctgcaaagctccagaactgcacgatgctcgtgaacggagacgaccttgtcgttatctgtgag</GBSeq_sequence>
+  </GBSeq>

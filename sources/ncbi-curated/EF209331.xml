@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF209331</GBSeq_locus>
+    <GBSeq_length>234</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>31-JAN-2008</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus strain A72T0 clone 15 polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF209331</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF209331.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF209331.1|</GBSeqid>
+      <GBSeqid>gi|146170752</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..234</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Scotta,C.</GBAuthor>
+          <GBAuthor>Garbuglia,A.R.</GBAuthor>
+          <GBAuthor>Ruggeri,L.</GBAuthor>
+          <GBAuthor>Spada,E.</GBAuthor>
+          <GBAuthor>Laurenti,L.</GBAuthor>
+          <GBAuthor>Perrone,M.P.</GBAuthor>
+          <GBAuthor>Girelli,G.</GBAuthor>
+          <GBAuthor>Mele,A.</GBAuthor>
+          <GBAuthor>Capobianchi,M.R.</GBAuthor>
+          <GBAuthor>Folgori,A.</GBAuthor>
+          <GBAuthor>Nicosia,A.</GBAuthor>
+          <GBAuthor>Del Porto,P.</GBAuthor>
+          <GBAuthor>Piccolella,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_consortium>Acute Hepatitis C Italian Study Group</GBReference_consortium>
+        <GBReference_title>Influence of specific CD4+ T cells and antibodies on evolution of hypervariable region 1 during acute HCV infection</GBReference_title>
+        <GBReference_journal>J. Hepatol. 48 (2), 216-228 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.jhep.2007.09.011</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18180071</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..234</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Garbuglia,A.R.</GBAuthor>
+          <GBAuthor>Scotta,C.</GBAuthor>
+          <GBAuthor>Piccolella,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2007) Department of Cellular and Developmental Biology, La Sapienza University of Rome, Via dei Sardi 70, Rome, RM 00185, Italy</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..234</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>234</GBInterval_to>
+            <GBInterval_accession>EF209331.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>A72T0</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>15</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;234</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>234</GBInterval_to>
+            <GBInterval_accession>EF209331.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>E1/E2 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABQ09214.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AVVDMVAGAHWGILAGLAYYSMVGNWAKVLVVMLLFAGVDGETHLAAGAPAKNAQRLAALFTPGASQKIELINTNGRW</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctgtcgtggacatggtggcaggggcccactggggaatcctggcgggcctcgcctactattccatggtggggaactgggctaaggttttggttgttatgttgctttttgccggcgttgacggggagacccatctggcagcgggggcgccagccaagaacgctcagaggctggcggccctcttcacacccggggcgtcccagaaaatcgagctcataaacaccaatggcaggtgg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ000890</GBSeq_locus>
+    <GBSeq_length>309</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-FEB-1998</GBSeq_update-date>
+    <GBSeq_create-date>03-FEB-1998</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus S53/6 mRNA for Ig V region light chain</GBSeq_definition>
+    <GBSeq_primary-accession>AJ000890</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ000890.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ000890.1|</GBSeqid>
+      <GBSeqid>gi|2832721</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>HVR1</GBKeyword>
+      <GBKeyword>immunoglobulin V region</GBKeyword>
+      <GBKeyword>light chain</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..309</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhai,W.</GBAuthor>
+          <GBAuthor>Davies,J.</GBAuthor>
+          <GBAuthor>Shang,D.</GBAuthor>
+          <GBAuthor>Chen,S.W.</GBAuthor>
+          <GBAuthor>Allain,J.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Human recombinant scFvs specific for the hypervariable region 1 (HVR1) of Hepatitis C virus from immune phage display libraries</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..309</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhai,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JAN-1998) Zhai W., Department of Haematology, University of Cambridge, MRC Centre, Hills Road, Cambridge CB2 2QH, UK</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..309</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>309</GBInterval_to>
+            <GBInterval_accession>AJ000890.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>S53/6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_line</GBQualifier_name>
+            <GBQualifier_value>Human B cell</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>V_region</GBFeature_key>
+        <GBFeature_location>1..309</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>309</GBInterval_to>
+            <GBInterval_accession>AJ000890.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Immunoglobulin V region light chain</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gacatccagatgacccagtctccatcctccctgtctgcatctgtaggagacagagtcaccatcacttgccaggcgagtctggacattagccactatttaaattggtatcagcagaaaccagggaaagcccctaagctcctgatctacgatgcatccaatttggaaacaggggtcccatcaaggttcagtggaagtggatctgggacagattttactttcaccatcagcagcctgcagcctgaagatattgcaacatattactgtcaacagtatgaaaatctccccctcactttcggcggagggaccaaa</GBSeq_sequence>
+  </GBSeq>

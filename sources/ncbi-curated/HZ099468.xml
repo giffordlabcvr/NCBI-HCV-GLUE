@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HZ099468</GBSeq_locus>
+    <GBSeq_length>401</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>23-OCT-2015</GBSeq_update-date>
+    <GBSeq_create-date>23-OCT-2015</GBSeq_create-date>
+    <GBSeq_definition>JP 2015514402-A/12: Modified oligonucleotides comprising thiol functions and the use of same for the detection of nucleic acids</GBSeq_definition>
+    <GBSeq_primary-accession>HZ099468</GBSeq_primary-accession>
+    <GBSeq_accession-version>HZ099468.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HZ099468.1|</GBSeqid>
+      <GBSeqid>pat|JP|2015514402|12</GBSeqid>
+      <GBSeqid>gi|941397257</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2015514402-A/12</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..401</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vasseur,J.</GBAuthor>
+          <GBAuthor>Farre,C.</GBAuthor>
+          <GBAuthor>Meyer,A.</GBAuthor>
+          <GBAuthor>Cantaloube,J.</GBAuthor>
+          <GBAuthor>Chaix,C.</GBAuthor>
+          <GBAuthor>Morvan,F.</GBAuthor>
+          <GBAuthor>Mayen,J.</GBAuthor>
+          <GBAuthor>Lereau,M.</GBAuthor>
+          <GBAuthor>Fournier-wirth,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Modified oligonucleotides comprising thiol functions and the use of same for the detection of nucleic acids</GBReference_title>
+        <GBReference_journal>JP2015514402-A 12 21-MAY-2015 Etablissement Francais du Sang (EFS), Centre National de la Recherche Scientifique (CNRS), Universite de Montpellier 1,Universite Claude Bernard Lyon 1</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 2015514402-A/12~PD 21-MAY-2015~PF 04-APR-2013 JP 2015503888~PR 04-APR-2012 FR 1253122~PA Etablissement Francais du Sang (EFS),~PA Centre National de la Recherche Scientifique (CNRS),~PA Universite de Montpellier 1,Universite Claude Bernard Lyon 1~PI jean-jacques vasseur,carole farre,albert meyer,jean-francois~PI cantaloube,~PI carole chaix,francois morvan,julie mayen,myriam lereau,~PI chantal fournier-wirth~PT 'Modified oligonucleotides comprising thiol functions and the~PT use of same~PT for the detection of nucleic acids'~PS N12~CC This description about &lt;220&gt; can't be interpreted~CC &lt;220&gt;~CC &lt;221&gt; source~CC &lt;222&gt; 1..401~CC &lt;223&gt; /mol_type='DNA'~CC /note='Long HCV amplicon 401nt 1a/1b #PTR6719'~CC /organism='Hepatitis C virus'~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..401</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>401</GBInterval_to>
+            <GBInterval_accession>HZ099468.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tggggatcccgtatgatacccgctgctttgactcaacggtcactgagaatgacatccgtgttgaggagtcaatttaccaatgttgtgacctagcccccgaagccagacaggccataaggtcgctcacagagcggctttacatcgggggtcccctgactaattcaaaagggcagaactgcggctatcgccggtgccgcgcgagcggtgtgctgacgaccagctgcggtaataccctcacatgttacttgaaggcctctgcggcctgtcgagctgcaaagctccaggactgcacaatgctcgtgtgcggagacgaccttgtcgttatctgtgaaagcgcgggaacccargaggatgcggcgagcctacgagtcttcacggaggctatgaccaggaattccgcc</GBSeq_sequence>
+  </GBSeq>

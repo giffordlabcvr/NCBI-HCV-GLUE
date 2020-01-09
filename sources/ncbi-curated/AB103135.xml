@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB103135</GBSeq_locus>
+    <GBSeq_length>329</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>01-JUN-2004</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus NS5b gene, partial cds, isolate: MYAN-100-1</GBSeq_definition>
+    <GBSeq_primary-accession>AB103135</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB103135.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB103135.1|</GBSeqid>
+      <GBSeqid>gi|47826476</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..329</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Shinji,T.</GBAuthor>
+          <GBAuthor>Kyaw,Y.Y.</GBAuthor>
+          <GBAuthor>Gokan,K.</GBAuthor>
+          <GBAuthor>Tanaka,Y.</GBAuthor>
+          <GBAuthor>Ochi,K.</GBAuthor>
+          <GBAuthor>Kusano,N.</GBAuthor>
+          <GBAuthor>Mizushima,T.</GBAuthor>
+          <GBAuthor>Fujioka,S.</GBAuthor>
+          <GBAuthor>Shiraha,H.</GBAuthor>
+          <GBAuthor>Lwin,A.A.</GBAuthor>
+          <GBAuthor>Shiratori,Y.</GBAuthor>
+          <GBAuthor>Mizokami,M.</GBAuthor>
+          <GBAuthor>Khin,M.</GBAuthor>
+          <GBAuthor>Miyahara,M.</GBAuthor>
+          <GBAuthor>Okada,S.</GBAuthor>
+          <GBAuthor>Koide,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Analysis of HCV genotypes from blood donors shows three new HCV type 6 subgroups exist in Myanmar</GBReference_title>
+        <GBReference_journal>Acta Med. Okayama 58 (3), 135-142 (2004)</GBReference_journal>
+        <GBReference_pubmed>15471435</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..329</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Shinji,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-FEB-2003) Toshiyuki Shinji, Okayama University Graduate School of Medicine and Dentistry, Department of Laboratory Medicine; 2-5-1 Shikata-cho, Okayama, Okayama 700-8558, Japan (E-mail:toshinji@md.okayama-u.ac.jp, Tel:81-86-235-7342, Fax:81-86-235-7345)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..329</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>329</GBInterval_to>
+            <GBInterval_accession>AB103135.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MYAN-100-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Myanmar: Yangon</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype 6 variant</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;329</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>329</GBInterval_to>
+            <GBInterval_accession>AB103135.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS5b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;329</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>329</GBInterval_to>
+            <GBInterval_accession>AB103135.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS5b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonstructural 5B region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAD20789.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>VTERDIRNEHDIYQCCQLDPEARKAITSLTERLYLGGPMFNSRGQLCGIRRCRASGVLPTSMGNTLTCYLKAQAACRAAGLTNSDMLVCGDDLVVITESAGIPEDAAKL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggtcaccgagcgcgacatacgcaatgagcatgacatctatcaatgttgtcagctggacccagaggccaggaaagccataacatctttaacagagaggctttaccttggtggtcccatgtttaactcgcgaggccagctctgcgggatacgcagatgccgggccagcggggttcttccaaccagcatgggcaataccctcacatgttacttgaaagcacaggcagcctgccgtgcagcaggcctcaccaattctgacatgttggtctgcggagatgatttggtggtcattactgaaagtgctggaatccccgaggacgcggctaagctgc</GBSeq_sequence>
+  </GBSeq>

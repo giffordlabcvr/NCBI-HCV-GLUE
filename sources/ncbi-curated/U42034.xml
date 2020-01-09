@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HCU42034</GBSeq_locus>
+    <GBSeq_length>230</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-MAR-1997</GBSeq_update-date>
+    <GBSeq_create-date>28-DEC-1995</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis C virus subtype 1b E1 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>U42034</GBSeq_primary-accession>
+    <GBSeq_accession-version>U42034.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U42034.1|HCU42034</GBSeqid>
+      <GBSeqid>gi|1136604</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..230</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>de Lamballerie,X.</GBAuthor>
+          <GBAuthor>Olmer,M.</GBAuthor>
+          <GBAuthor>Bouchouareb,D.</GBAuthor>
+          <GBAuthor>Zandotti,C.</GBAuthor>
+          <GBAuthor>De Micco,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nosocomial transmission of hepatitis C virus in haemodialysis patients</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 49 (4), 296-302 (1996)</GBReference_journal>
+        <GBReference_pubmed>8877762</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..230</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>de Lamballerie,X.</GBAuthor>
+          <GBAuthor>Almani,K.</GBAuthor>
+          <GBAuthor>Charrel,R.N.</GBAuthor>
+          <GBAuthor>De Micco,Ph.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-DEC-1995) Virology, Faculte de Medecine de Marseille, Bd J Moulin, Marseille, 13385 cedex 5, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..230</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>230</GBInterval_to>
+            <GBInterval_accession>U42034.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>HCV1bMARD</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>map</GBQualifier_name>
+            <GBQualifier_value>nucleotides 1331-1560</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;230</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>230</GBInterval_to>
+            <GBInterval_accession>U42034.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>E1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB49607.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>ALVVSQLLRIPQAVVDMVAGAHWGVLAGLAYYSMVANWAKVLIVLLLFAGVDGTTVVTGGAASYTTRGLTSPFSPG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggccctagtggtatcgcagttactccggatcccgcaggctgtcgtggacatggtggcaggggcccactggggcgtcctggcgggccttgcctactattccatggtggcgaactgggctaaggttttgattgtgctgctacttttcgctggcgtcgacggcacaaccgtcgtgacagggggggcggcgagctataccacccgcggccttacgtcccctttttcgcctgggg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AX786479</GBSeq_locus>
+    <GBSeq_length>403</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>17-JUL-2003</GBSeq_update-date>
+    <GBSeq_create-date>17-JUL-2003</GBSeq_create-date>
+    <GBSeq_definition>Sequence 11 from Patent WO03020928</GBSeq_definition>
+    <GBSeq_primary-accession>AX786479</GBSeq_primary-accession>
+    <GBSeq_accession-version>AX786479.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AX786479.1|</GBSeqid>
+      <GBSeqid>pat|WO|03020928|11</GBSeqid>
+      <GBSeqid>gi|32953900</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..403</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Atabekov,J.</GBAuthor>
+          <GBAuthor>Dorokhov,Y.</GBAuthor>
+          <GBAuthor>Skulachev,M.L.</GBAuthor>
+          <GBAuthor>Ivanov,P.</GBAuthor>
+          <GBAuthor>Gleba,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of eukaryotic internal ribosome entry site (ires) elements</GBReference_title>
+        <GBReference_journal>WO03020928-A2 11 13-MAR-2003 Icon Genetics, Inc. (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..403</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>403</GBInterval_to>
+            <GBInterval_accession>AX786479.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggtcatcttggtagccactataggtgggtcttaagggttggtcaaggtccctctggcgcttgtggcgagaaagcgcacggtccacaggtgttggccctaccggtgtgaataagggcccgacgtcaggctcgtcgttaaaccgagcccattacccacctgggcaaacaacgcccacgtacggtccacgtcgccctacaatgtctctcttgaccaataggctttgccggcgagttgacaaggaccagtgggggctgggcggcgggggaaggacctccgtcgctgcccttcccggtggggtgggaaatgcatggggccacccagctccgcggcggcctgcagccggggtagcccaaaaaccttcgggtgagggcgggtggcatttttctttcctataccgatcatg</GBSeq_sequence>
+  </GBSeq>
