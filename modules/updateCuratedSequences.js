@@ -38,8 +38,10 @@ function placeCuratedAll() {
 // generates placements for incoming sequences.
 function placeCuratedIncremental() {
 	glue.logInfo("Setting ncbi_incoming to true for all ncbi-curated");
-	glue.command(["multi-set", "field", "sequence", "-w", "source.name = 'ncbi-curated'", "ncbi_incoming", "true"]);
+	glue.command(["multi-set", "field", "sequence", "-w", "source.name = 'ncbi-curated'", "ncbi_incoming", "true", "-b", "2500"]);
+	glue.command(["new-context"]);
 	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
+	var processed = 0;
 	_.each(placementPathFiles, function(placementPathFile) {
 		if(placementPathFile.fileName.indexOf("xml") >= 0) {
 			var queries;
@@ -47,11 +49,19 @@ function placeCuratedIncremental() {
 				queries = glue.getTableColumn(glue.command(["list", "query", "-i", placement.path+"/"+placementPathFile.fileName]), "queryName");
 			});
 			glue.logInfo("Setting ncbi_incoming to false for "+queries.length+" sequences from placement file "+placement.path+"/"+placementPathFile.fileName);
-			_.each(queries, function(query) {
-				glue.inMode("sequence/"+query, function() {
-					glue.command(["set", "field", "ncbi_incoming", "false"]);
-				});
-			});
+			var inExpr = "(";
+			for(var i = 0; i < queries.length; i++) {
+				if(i > 0) {
+					inExpr += ",";
+				}
+				inExpr += "'"+queries[i].split("/")[1]+"'";
+			}
+			inExpr += ")";
+			glue.command(["multi-set", "field", "sequence", "-w", "source.name = 'ncbi-curated' and sequenceID in "+inExpr, "ncbi_incoming", "false"]);
+			processed += queries.length;
+			if(processed % 10000 == 0) {
+				glue.command(["new-context"]);
+			}
 		}
 	});
 	glue.logInfo("Generating placement files for any ncbi-curated sequences where ncbi_incoming is true");
