@@ -102,17 +102,37 @@ function placeCurated(whereClause, fileSuffix) {
 	var offset = 0;
 	while(offset < numSequences) {
 		glue.log("INFO", "Placing sequences starting at offset "+offset);
-		glue.inMode("module/"+modules.placer, function() {
-			fileSuffixString = pad(fileSuffix, 6);
-			var outputFile = placement.path + "/" + placement.prefix + fileSuffixString + ".xml";
-			glue.command(["place", "sequence", 
-                           "--whereClause", whereClause,
-                           "--pageSize", batchSize, "--fetchLimit", batchSize, "--fetchOffset", offset, 
-                           "--outputFile", outputFile]);
-		});
-		offset += batchSize;
-		fileSuffix++;
+		try {
+			placeBatch(whereClause, offset, batchSize, fileSuffix);
+			offset += batchSize;
+			fileSuffix++;
+		} catch(err) {
+			if(err.name == "GlueError" && 
+					err.exClassSimpleName == "RaxmlEpaException" && 
+					err.code == "RAXML_EPA_EXIT_138_ASSERTION_ERROR") {
+				// rare RaxmlEPA bug. Work around by splitting the batch in two
+				// if it still fails then don't catch the exxception.
+				var halfBatchSize = batchSize / 2;
+				placeBatch(whereClause, offset, halfBatchSize, fileSuffix);
+				offset += halfBatchSize;
+				fileSuffix++;
+				placeBatch(whereClause, offset, halfBatchSize, fileSuffix);
+				offset += halfBatchSize;
+				fileSuffix++;
+			}
+		}
 	}
+}
+
+function placeBatch(whereClause, offset, batchSize, fileSuffix) {
+	glue.inMode("module/"+modules.placer, function() {
+		var fileSuffixString = pad(fileSuffix, 6);
+		var outputFile = placement.path + "/" + placement.prefix + fileSuffixString + ".xml";
+		glue.command(["place", "sequence", 
+			"--whereClause", whereClause,
+			"--pageSize", batchSize, "--fetchLimit", batchSize, "--fetchOffset", offset, 
+			"--outputFile", outputFile]);
+	});
 }
 
 
