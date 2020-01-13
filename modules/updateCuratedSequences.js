@@ -33,6 +33,33 @@ function placeCuratedAll() {
 	placeCurated(whereClause, fileSuffix);
 }
 
+// sets ncbi-incoming to true for all ncbi-curated sequences.
+// sets ncbi-incoming to false for all ncbi-curated sequences mentioned in current placement files.
+// generates placements for incoming sequences.
+function placeCuratedIncremental() {
+	glue.logInfo("Setting ncbi_incoming to true for all ncbi-curated");
+	glue.command(["multi-set", "field", "sequence", "-w", "source.name = 'ncbi-curated'", "ncbi_incoming", "true"]);
+	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
+	_.each(placementPathFiles, function(placementPathFile) {
+		if(placementPathFile.fileName.indexOf("xml") >= 0) {
+			var queries;
+			glue.inMode("module/hcvMaxLikelihoodPlacer", function() {
+				queries = glue.getTableColumn(glue.command(["list", "query", "-i", placement.path+"/"+placementPathFile.fileName]), "queryName");
+			});
+			glue.logInfo("Setting ncbi_incoming to false for "+queries.length+" sequences from placement file "+placement.path+"/"+placementPathFile.fileName);
+			_.each(queries, function(query) {
+				glue.inMode("sequence/"+query, function() {
+					glue.command(["set", "field", "ncbi_incoming", "false"]);
+				});
+			});
+		}
+	});
+	glue.logInfo("Generating placement files for any ncbi-curated sequences where ncbi_incoming is true");
+	placeCuratedIncoming();
+}
+
+
+
 function pad(num, size) {
     var s = num+"";
     while (s.length < size) {
@@ -42,7 +69,7 @@ function pad(num, size) {
 }
 
 function placeCuratedIncoming() {
-	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
+	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
 	var placementFileNames = _.map(placementPathFiles, function(placementPathFile) {return placementPathFile.fileName;});
 	var fileSuffix = 1;
 	while(true) {
