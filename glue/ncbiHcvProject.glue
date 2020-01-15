@@ -5,11 +5,10 @@ project hcv
   # curated sequences
   run file glue/hcvCuratedSequences.glue
  
-  # add the curated sequences into the alignment tree according to their genotype/subtype
-  run file glue/ncbiHcvAlignmentTree.glue
-
-  # add segments to the curated alignments. 
-  run file glue/computeCuratedAlignments.glue
+  # set curated genotypes / subtypes based on placement files and add to alignment tree 
+  module updateCuratedSequences
+  	invoke-function genotypeCurated
+  	exit
 
   # generate the frequencies of all resistance associated variations
   run file glue/hcvGenerateVariationFrequencies.glue
