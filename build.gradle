@@ -1,6 +1,6 @@
 apply plugin: 'pl.allegro.tech.build.axion-release'
 
-project.ext.set("glueVersion", "1.1.70")
+project.ext.set("glueVersion", "1.1.71")
 
 project.version = scmVersion.version
 
