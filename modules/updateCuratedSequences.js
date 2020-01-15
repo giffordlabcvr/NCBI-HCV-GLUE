@@ -135,9 +135,11 @@ function placeBatch(whereClause, offset, batchSize, fileSuffix) {
 	});
 }
 
-
+// genotype and add to alignment tree.
 function genotypeCurated() {
+	glue.command(["multi-delete", "alignment_member", "-w", "sequence.source.name = 'ncbi-curated'"]);
 	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
+	var alignmentsToRecompute = {};
 	_.each(placementPathFiles, function(placementPathFile) {
 		if(placementPathFile.fileName.indexOf("xml") >= 0) {
 			glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
@@ -153,36 +155,65 @@ function genotypeCurated() {
 			var batchSize = 500;
 			var numUpdates = 0;
 			_.each(batchGenotyperResults, function(genotyperResult) {
+				var speciesAlmt;
+				var genotypeAlmt;
+				var subtypeAlmt;
 				glue.inMode("sequence/"+genotyperResult.queryName, function() {
-					var epaGenotype = genotyperResult.genotypeFinalClade;
-					if(epaGenotype) {
-						glue.command(["set", "field", "--noCommit", "epa_genotype_final_clade", epaGenotype]);
+					speciesAlmt = genotyperResult.speciesFinalClade;
+					genotypeAlmt = genotyperResult.genotypeFinalClade;
+					if(genotypeAlmt) {
 						var gtRegex = /AL_([0-9]+)/;
-						var gtMatch = gtRegex.exec(epaGenotype);
+						var gtMatch = gtRegex.exec(genotypeAlmt);
 						if(gtMatch) {
-							glue.command(["set", "field", "--noCommit", "epa_genotype", gtMatch[1]]);
+							glue.command(["set", "field", "--noCommit", "genotype", gtMatch[1]]);
 						}
 					}
-					var epaSubtype = genotyperResult.subtypeFinalClade;
-					if(epaSubtype) {
-						glue.command(["set", "field", "--noCommit", "epa_subtype_final_clade", epaSubtype]);
-						var stRegex = /AL_([0-9]+)([a-z]+)/;
-						var stMatch = stRegex.exec(epaSubtype);
+					subtypeAlmt = genotyperResult.subtypeFinalClade;
+					if(subtypeAlmt) {
+						var stRegex = /AL_(.*)/;
+						var stMatch = stRegex.exec(subtypeAlmt);
 						if(stMatch) {
-							glue.command(["set", "field", "--noCommit", "epa_subtype", stMatch[2]]);
+							glue.command(["set", "field", "--noCommit", "subtype", stMatch[1]]);
 						}
 					}
 				});
+				var almtTarget;
+				if(subtypeAlmt) {
+					almtTarget = subtypeAlmt;
+				} else if(genotypeAlmt) {
+					almtTarget = genotypeAlmt;
+				} else if(speciesAlmt) {
+					almtTarget = speciesAlmt;
+				}
+				var bits = genotyperResult.queryName.split("/");
+				var sourceName = bits[0];
+				var sequenceID = bits[1];
+				if(almtTarget != null) {
+					glue.inMode("alignment/"+almtTarget, function() {
+						var whereClause = "source.name = '"+sourceName+"' and sequenceID = '"+sequenceID+"' and "+
+					      "( gb_host = 'Homo sapiens' or gb_host = null ) and "+
+					      "( gb_lab_construct = false ) and "+
+					      "( gb_recombinant = false )";
+						glue.logInfo("whereClause", whereClause);
+						glue.command(["add", "member", "-w", whereClause]);
+					});
+					alignmentsToRecompute[almtTarget] = "yes";
+				}
+				
 				if(numUpdates % batchSize == 0) {
 					glue.command("commit");
 					glue.command("new-context");
-					glue.log("FINE", "Metadata assigned for "+numUpdates+" sequences.");
+					glue.log("FINE", "Metadata assigned / member added for "+numUpdates+" sequences.");
 				}
 				numUpdates++;
 			});
 			glue.command("commit");
 			glue.command("new-context");
-			glue.log("FINE", "Metadata assigned for "+numUpdates+" sequences.");
+			glue.log("FINE", "Metadata assigned / member added for "+numUpdates+" sequences.");
+			_.each(_.keys(alignmentsToRecompute), function(almtName) {
+				glue.log("FINE", "Adding homology for alignment "+almtName);
+				glue.command(["compute", "alignment", almtName, "hcvCompoundAligner", "-w", "sequence.source.name = 'ncbi-curated'"]);
+			});
 		}
 	});
 	
