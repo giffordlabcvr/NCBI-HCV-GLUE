@@ -25,3 +25,6 @@ module lanlMetadataImporter populate -w "source.name = 'ncbi-curated'" --fileNam
 module lanlMetadataImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/lanl_metadata/2014.tbl
 module lanlMetadataImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/lanl_metadata/2015.tbl
 module lanlMetadataImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/lanl_metadata/2016.tbl
+module lanlMetadataImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/lanl_metadata/2017.tbl
+module lanlMetadataImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/lanl_metadata/2018.tbl
+module lanlMetadataImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/lanl_metadata/2019.tbl
