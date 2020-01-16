@@ -189,15 +189,18 @@ function genotypeCurated() {
 				var sourceName = bits[0];
 				var sequenceID = bits[1];
 				if(almtTarget != null) {
+					var okResult;
 					glue.inMode("alignment/"+almtTarget, function() {
 						var whereClause = "source.name = '"+sourceName+"' and sequenceID = '"+sequenceID+"' and "+
 					      "( gb_host = 'Homo sapiens' or gb_host = null ) and "+
 					      "( gb_lab_construct = false ) and "+
 					      "( gb_recombinant = false )";
 						glue.logInfo("whereClause", whereClause);
-						glue.command(["add", "member", "-w", whereClause]);
+						okResult = glue.command(["add", "member", "-w", whereClause]);
 					});
-					alignmentsToRecompute[almtTarget] = "yes";
+					if(okResult.number == 1) {
+						alignmentsToRecompute[almtTarget] = "yes";
+					}
 				}
 				
 				if(numUpdates % batchSize == 0) {
