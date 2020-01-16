@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    <textFileColumn>
+        <identifier>true</identifier>
+        <property>sequenceID</property>
+        <header>sequenceID</header>
+    </textFileColumn>
+    <isoCountryTextFileColumn codeStyle="ALPHA_3">
+        <property>who_country</property>
+        <header>who_country.display_name</header>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+		<nullRegex>[ -]*</nullRegex>
+    </isoCountryTextFileColumn>
+    <skipMissing>false</skipMissing>
+</textFilePopulator>

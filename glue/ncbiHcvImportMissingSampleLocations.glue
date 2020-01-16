@@ -1,1 +1,3 @@
 module ncbiHcvMissingLocationImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/missing_data/countries_locations.tsv
+
+module ncbiHcvRajivShahSsaImporter populate -w "source.name = 'ncbi-curated'" --fileName tabular/rajiv_shah_sub_saharan_africa/possibleSsaSeqs.txt
