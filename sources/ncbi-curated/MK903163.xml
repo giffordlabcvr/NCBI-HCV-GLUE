@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK903163</GBSeq_locus>
+    <GBSeq_length>1770</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>31-DEC-2019</GBSeq_update-date>
+    <GBSeq_create-date>31-DEC-2019</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus C isolate JB35 polyprotein, NS5B RNA-dependent RNA polymerase region, (POLY) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK903163</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK903163.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK903163.1|</GBSeqid>
+      <GBSeqid>gi|1682027155</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1770</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Blackard,J.T.</GBAuthor>
+          <GBAuthor>Ngwaga,T.</GBAuthor>
+          <GBAuthor>Kong,L.</GBAuthor>
+          <GBAuthor>Taylor,L.E.</GBAuthor>
+          <GBAuthor>Mayer,K.H.</GBAuthor>
+          <GBAuthor>Klein,R.S.</GBAuthor>
+          <GBAuthor>Celentano,D.D.</GBAuthor>
+          <GBAuthor>Sobel,J.D.</GBAuthor>
+          <GBAuthor>Jamieson,D.J.</GBAuthor>
+          <GBAuthor>King,C.C.</GBAuthor>
+          <GBAuthor>Tavis,J.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Diversity of the hepatitis C virus NS5B gene during HIV co-infection</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1770</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Blackard,J.T.</GBAuthor>
+          <GBAuthor>Ngwaga,T.</GBAuthor>
+          <GBAuthor>Kong,L.</GBAuthor>
+          <GBAuthor>Taylor,L.E.</GBAuthor>
+          <GBAuthor>Mayer,K.H.</GBAuthor>
+          <GBAuthor>Klein,R.S.</GBAuthor>
+          <GBAuthor>Celentano,D.D.</GBAuthor>
+          <GBAuthor>Sobel,J.D.</GBAuthor>
+          <GBAuthor>Jamieson,D.J.</GBAuthor>
+          <GBAuthor>King,C.C.</GBAuthor>
+          <GBAuthor>Tavis,J.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-MAY-2019) Internal Medicine; Division of Digestive Diseases, University of Cincinnati College of Medicine, ML 0595, 231 Albert Sabin Way, Cincinnati, OH 45267-0595, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: UGENE v. 1.32.0 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1770</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1770</GBInterval_to>
+            <GBInterval_accession>MK903163.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>JB35</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1770</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1770</GBInterval_to>
+            <GBInterval_accession>MK903163.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1770</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1770</GBInterval_to>
+            <GBInterval_accession>MK903163.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QDA69827.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSYSWTGALITPCAAEEQKLPINALSNSLLRHHNLVYSTTSRSACQRQKKVTFDRLQVLDSHYQDVLKEVKAAASKVKANLLSVEEACSLTPPHSARSKFGYGAKDVRCHARKAVTHINSVWKDLLEDSVTPIQTTIMAKNEVFCVEPERGGRKPARLIVFPDLGVRVCEKMALYDVVSKLPQAVMGSSYGFQYSPGQRVEFLVQAWKSKRTPMGFSYDTRCFDSTVTESDIRTEEAIYQCCDLDPQARVAIKSLTERLYVGGPLTNSRGENCGYRRCRASGVLTTSCGNTLTCYIKARAACRAAGLQDCTMLVCGDDLVVICESAGVQEDAASLRAFTEAMTRYSAPPGDPPQPEYDLELITSCSSNVSVAHDDAGKRVYYLTRNPTTPLARAAWETARHTPVNSWLGNIIMFAPTLWARMILMTHFFSVLIARDQLEQALDCEIYGACYSIEPLDLPPIIQRLHGLSAFSLHSYSPGEINRVATCLRKLGVPPLRAWRHRARNVRARLLSRGGRAAICGKYLFNWAVRTKLKLTPIAAAGQLDLSGWFTAGYSGGDIYHSVSRARPRWFWFCLLLLTAGVGIYLLPNR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1..1770</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1770</GBInterval_to>
+            <GBInterval_accession>MK903163.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS5B RNA-dependent RNA polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>MSYSWTGALITPCAAEEQKLPINALSNSLLRHHNLVYSTTSRSACQRQKKVTFDRLQVLDSHYQDVLKEVKAAASKVKANLLSVEEACSLTPPHSARSKFGYGAKDVRCHARKAVTHINSVWKDLLEDSVTPIQTTIMAKNEVFCVEPERGGRKPARLIVFPDLGVRVCEKMALYDVVSKLPQAVMGSSYGFQYSPGQRVEFLVQAWKSKRTPMGFSYDTRCFDSTVTESDIRTEEAIYQCCDLDPQARVAIKSLTERLYVGGPLTNSRGENCGYRRCRASGVLTTSCGNTLTCYIKARAACRAAGLQDCTMLVCGDDLVVICESAGVQEDAASLRAFTEAMTRYSAPPGDPPQPEYDLELITSCSSNVSVAHDDAGKRVYYLTRNPTTPLARAAWETARHTPVNSWLGNIIMFAPTLWARMILMTHFFSVLIARDQLEQALDCEIYGACYSIEPLDLPPIIQRLHGLSAFSLHSYSPGEINRVATCLRKLGVPPLRAWRHRARNVRARLLSRGGRAAICGKYLFNWAVRTKLKLTPIAAAGQLDLSGWFTAGYSGGDIYHSVSRARPRWFWFCLLLLTAGVGIYLLPNR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgtcttattcttggacaggcgcactcatcaccccgtgcgccgcggaggaacaaaaactgcccatcaacgcactgagcaactcgttgctacgccaccacaatctggtgtattccaccacctcacgcagtgcttgccaaaggcagaagaaagtcacatttgacagactgcaagttctggacagccactaccaggacgtgctcaaggaggttaaagcagcggcgtcaaaagtgaaggctaacttgctatccgtagaggaagcttgcagcctgacgcccccgcactcagccagatccaagtttggctatggggcaaaagacgtccgttgccatgccagaaaggccgtaacccacatcaactccgtgtggaaagaccttctggaagacagtgtaacaccaatacagaccaccatcatggctaagaacgaggttttctgcgttgagcctgagaggggaggtcgtaagccagctcgtctcatcgtgttccccgacctgggtgtgcgcgtgtgcgagaagatggccctgtacgacgtggttagcaagctcccccaggccgtgatgggaagctcctacggattccaatactcaccaggacagcgggttgaattcctcgtgcaagcgtggaagtccaagagaaccccaatggggttctcgtatgatacccgctgctttgactccacggtcactgagagcgacatccgtacggaggaggcaatctaccaatgttgtgacctggacccccaagcccgcgtggccatcaagtccctcactgagaggctttatgttgggggccctcttaccaattcaagaggggagaactgcggctaccgcaggtgccgcgcgagcggcgtactgacaaccagctgtggcaacaccctcacttgctatatcaaggctcgggcagcctgtagagccgcagggctccaggattgcaccatgctcgtgtgtggcgacgacttagtcgttatctgtgaaagtgcgggggtccaggaagacgcggcgagcctgagagccttcacggaggctatgaccaggtactccgcccctcccggagaccccccacaaccagaatacgacctggagcttataacatcatgctcctccaacgtgtcagtcgcccacgacgacgctgggaagagggtctactacctcacccgtaaccctacaacccccctcgcgagagccgcatgggagacagcaagacacactccagtcaattcctggctaggcaatataatcatgtttgcccccacattgtgggcgaggatgatactgatgacccatttctttagcgtcctcatagccagggatcagcttgaacaggccctcgattgcgagatctacggtgcctgctactccatagaaccactggatctacctccaatcattcaaagactccatggcctcagcgcattttcactccacagttactctccaggtgaaatcaatagggtggccacatgcctcaggaaacttggggttccgcccttgcgagcttggagacaccgggcccggaatgtccgcgctaggcttctgtccagaggaggcagggctgccatatgtggcaagtacctcttcaactgggcagtgaggacaaagctcaaactcactccaatagcggccgctggccagctggacttgtccggctggttcacggctggctacagcgggggagacatttatcacagcgtgtctcgcgcccggccccgctggttctggttttgcctactcctgcttactgcaggagtaggcatctacctcctccccaaccga</GBSeq_sequence>
+  </GBSeq>
