@@ -9,21 +9,21 @@
     <textFileColumn>
         <property>who_country</property>
         <header>Country</header>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+        <overwriteExistingNonNull>true</overwriteExistingNonNull>
     </textFileColumn>
     <textFileColumn>
         <property>gb_place_sampled</property>
         <header>Region</header>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+        <overwriteExistingNonNull>true</overwriteExistingNonNull>
     </textFileColumn>
     <textFileColumn>
         <property>gb_lab_construct</property>
         <header>gb_lab_construct</header>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+        <overwriteExistingNonNull>true</overwriteExistingNonNull>
     </textFileColumn>
     <textFileColumn>
         <property>gb_pubmed_id</property>
         <header>PMID</header>
     </textFileColumn>
-    <skipMissing>false</skipMissing>
+    <skipMissing>true</skipMissing>
 </textFilePopulator>

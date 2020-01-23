@@ -9,8 +9,8 @@
     <isoCountryTextFileColumn codeStyle="ALPHA_3">
         <property>who_country</property>
         <header>who_country.display_name</header>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
-		<nullRegex>[ -]*</nullRegex>
+        <overwriteExistingNonNull>true</overwriteExistingNonNull>
+        <nullRegex>[ -]*</nullRegex>
     </isoCountryTextFileColumn>
-    <skipMissing>false</skipMissing>
+    <skipMissing>true</skipMissing>
 </textFilePopulator>
