@@ -198,17 +198,16 @@ function genotypeCurated() {
 						glue.logInfo("whereClause", whereClause);
 						okResult = glue.command(["add", "member", "-w", whereClause]);
 					});
-					if(okResult.number == 1) {
+					if(okResult.okResult.number == 1) {
 						alignmentsToRecompute[almtTarget] = "yes";
 					}
 				}
-				
+				numUpdates++;
 				if(numUpdates % batchSize == 0) {
 					glue.command("commit");
 					glue.command("new-context");
 					glue.log("FINE", "Metadata assigned / member added for "+numUpdates+" sequences.");
 				}
-				numUpdates++;
 			});
 			glue.command("commit");
 			glue.command("new-context");
