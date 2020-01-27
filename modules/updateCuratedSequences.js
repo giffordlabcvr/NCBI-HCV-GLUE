@@ -197,7 +197,7 @@ function genotypeCurated() {
 						okResult = glue.command(["add", "member", "-w", whereClause]);
 					});
 					if(okResult.okResult.number == 1) {
-					    glue.command(["compute", "alignment", almtName, "hcvCompoundAligner", 
+					    glue.command(["compute", "alignment", almtTarget, "hcvCompoundAligner", 
 							  "-w", "sequence.source.name = 'ncbi-curated' and sequence.sequenceID = '"+sequenceID+"'"]);
 					}
 				}
