@@ -139,17 +139,15 @@ function placeBatch(whereClause, offset, batchSize, fileSuffix) {
 function genotypeCurated() {
 	glue.command(["multi-delete", "alignment_member", "-w", "sequence.source.name = 'ncbi-curated'"]);
 	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
-	var alignmentsToRecompute = {};
 	_.each(placementPathFiles, function(placementPathFile) {
 		if(placementPathFile.fileName.indexOf("xml") >= 0) {
 			glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
 			var batchGenotyperResults;
 			glue.inMode("module/"+modules.genotyper, function() {
-				batchGenotyperResults = glue.command(
+				batchGenotyperResults = glue.tableToObjects(glue.command(
 						["genotype", "placer-result", 
 						 "--fileName", placement.path+"/"+placementPathFile.fileName, 
-						 "--detailLevel", "HIGH"], 
-						{convertTableToObjects:true});
+						 "--detailLevel", "HIGH"]));
 			});
 			glue.log("INFO", "Assigning genotype metadata for "+batchGenotyperResults.length+" genotyping results from placement file "+placementPathFile.fileName);
 			var batchSize = 500;
@@ -199,7 +197,8 @@ function genotypeCurated() {
 						okResult = glue.command(["add", "member", "-w", whereClause]);
 					});
 					if(okResult.okResult.number == 1) {
-						alignmentsToRecompute[almtTarget] = "yes";
+					    glue.command(["compute", "alignment", almtName, "hcvCompoundAligner", 
+							  "-w", "sequence.source.name = 'ncbi-curated' and sequence.sequenceID = '"+sequenceID+"'"]);
 					}
 				}
 				numUpdates++;
@@ -212,10 +211,6 @@ function genotypeCurated() {
 			glue.command("commit");
 			glue.command("new-context");
 			glue.log("FINE", "Metadata assigned / member added for "+numUpdates+" sequences.");
-			_.each(_.keys(alignmentsToRecompute), function(almtName) {
-				glue.log("FINE", "Adding homology for alignment "+almtName);
-				glue.command(["compute", "alignment", almtName, "hcvCompoundAligner", "-w", "sequence.source.name = 'ncbi-curated'"]);
-			});
 		}
 	});
 	
