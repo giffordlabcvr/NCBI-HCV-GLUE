@@ -122,6 +122,14 @@ function placeCurated(whereClause, fileSuffix) {
 			}
 		}
 	}
+	// to avoid dependency on HCV-GLUE files we could just query the alignment tree 
+	var cladeStructure = loadJsonCladeStructure("../HCV-GLUE/json/hcv_clade_structure_and_refs.json");
+	visitStructureAlignmentsPost(cladeStructure, function(alignment) {
+		var alignmentName = alignment.alignmentName;
+	    glue.command(["compute", "alignment", alignmentName, "hcvCompoundAligner", 
+			  "-w", "sequence.source.name = 'ncbi-curated'"]);
+		
+	});
 }
 
 function placeBatch(whereClause, offset, batchSize, fileSuffix) {
@@ -187,19 +195,13 @@ function genotypeCurated() {
 				var sourceName = bits[0];
 				var sequenceID = bits[1];
 				if(almtTarget != null) {
-					var okResult;
 					glue.inMode("alignment/"+almtTarget, function() {
 						var whereClause = "source.name = '"+sourceName+"' and sequenceID = '"+sequenceID+"' and "+
 					      "( gb_host = 'Homo sapiens' or gb_host = null ) and "+
 					      "( gb_lab_construct = false ) and "+
 					      "( gb_recombinant = false )";
 						glue.logInfo("whereClause", whereClause);
-						okResult = glue.command(["add", "member", "-w", whereClause]);
 					});
-					if(okResult.okResult.number == 1) {
-					    glue.command(["compute", "alignment", almtTarget, "hcvCompoundAligner", 
-							  "-w", "sequence.source.name = 'ncbi-curated' and sequence.sequenceID = '"+sequenceID+"'"]);
-					}
 				}
 				numUpdates++;
 				if(numUpdates % batchSize == 0) {
@@ -215,3 +217,22 @@ function genotypeCurated() {
 	});
 	
 }
+
+
+
+function loadJsonCladeStructure(jsonStructureFile) {
+	var loadedString = 
+		glue.command(["file-util", "load-string", jsonStructureFile]).fileUtilLoadStringResult.loadedString;
+	return JSON.parse(loadedString);
+}
+
+//visit all alignment objects in post-order fashion
+function visitStructureAlignmentsPost(structureNode, alignmentCallback) {
+	if(structureNode.childAlignments != null) {
+		_.each(structureNode.childAlignments, function(childAlignment) {
+			visitStructureAlignmentsPost(childAlignment, alignmentCallback);
+		});
+	}
+	alignmentCallback(structureNode);
+}
+
