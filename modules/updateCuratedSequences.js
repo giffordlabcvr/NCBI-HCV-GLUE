@@ -122,14 +122,6 @@ function placeCurated(whereClause, fileSuffix) {
 			}
 		}
 	}
-	// to avoid dependency on HCV-GLUE files we could just query the alignment tree 
-	var cladeStructure = loadJsonCladeStructure("../HCV-GLUE/json/hcv_clade_structure_and_refs.json");
-	visitStructureAlignmentsPost(cladeStructure, function(alignment) {
-		var alignmentName = alignment.alignmentName;
-	    glue.command(["compute", "alignment", alignmentName, "hcvCompoundAligner", 
-			  "-w", "sequence.source.name = 'ncbi-curated'"]);
-		
-	});
 }
 
 function placeBatch(whereClause, offset, batchSize, fileSuffix) {
@@ -200,7 +192,7 @@ function genotypeCurated() {
 					      "( gb_host = 'Homo sapiens' or gb_host = null ) and "+
 					      "( gb_lab_construct = false ) and "+
 					      "( gb_recombinant = false )";
-						glue.logInfo("whereClause", whereClause);
+						glue.command(["add", "member", "-w", whereClause]);
 					});
 				}
 				numUpdates++;
@@ -216,6 +208,15 @@ function genotypeCurated() {
 		}
 	});
 	
+	// to avoid dependency on HCV-GLUE files we could just query the alignment tree 
+	var cladeStructure = loadJsonCladeStructure("../HCV-GLUE/json/hcv_clade_structure_and_refs.json");
+	visitStructureAlignmentsPost(cladeStructure, function(alignment) {
+		var alignmentName = alignment.alignmentName;
+	    glue.command(["compute", "alignment", alignmentName, "hcvCompoundAligner", 
+			  "-w", "sequence.source.name = 'ncbi-curated'"]);
+		
+	});
+
 }
 
 
