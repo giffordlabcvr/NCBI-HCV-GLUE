@@ -29,6 +29,7 @@
   </configDocument>
   <configDocument name="placement">
     <prefix>ncbi_curated_</prefix>
-    <path>placement</path>
+    <!-- <path>placement</path>  -->
+    <path>placement.small</path>
   </configDocument>
 </ecmaFunctionInvoker>
