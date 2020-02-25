@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC513766</GBSeq_locus>
+    <GBSeq_length>513</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>21-FEB-2020</GBSeq_update-date>
+    <GBSeq_create-date>21-FEB-2020</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus C 18350-BUR gene for polyprotein, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>LC513766</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC513766.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC513766.1|</GBSeqid>
+      <GBSeqid>gi|1811249388</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus C</GBSeq_source>
+    <GBSeq_organism>Hepacivirus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..513</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lingani,M.</GBAuthor>
+          <GBAuthor>Akita,T.</GBAuthor>
+          <GBAuthor>Ouoba,S.</GBAuthor>
+          <GBAuthor>Nagashima,S.</GBAuthor>
+          <GBAuthor>Boua,P.R.</GBAuthor>
+          <GBAuthor>Takahashi,K.</GBAuthor>
+          <GBAuthor>Kam,B.</GBAuthor>
+          <GBAuthor>Sugiyama,A.</GBAuthor>
+          <GBAuthor>Nikiema,T.</GBAuthor>
+          <GBAuthor>Yamamoto,C.</GBAuthor>
+          <GBAuthor>Some,A.</GBAuthor>
+          <GBAuthor>Derra,K.</GBAuthor>
+          <GBAuthor>Ko,K.</GBAuthor>
+          <GBAuthor>Sorgho,H.</GBAuthor>
+          <GBAuthor>Tarnagda,Z.</GBAuthor>
+          <GBAuthor>Tinto,H.</GBAuthor>
+          <GBAuthor>Tanaka,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The changing epidemiology of hepatitis B and C infections in Nanoro, rural Burkina Faso: a random sampling survey</GBReference_title>
+        <GBReference_journal>BMC Infect. Dis. 20 (1), 46 (2020)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1186/s12879-019-4731-7</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>31941454</GBReference_pubmed>
+        <GBReference_remark>DOI:10.1186/s12879-019-4731-7; Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..513</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tanaka,J.</GBAuthor>
+          <GBAuthor>Matsuo,J.</GBAuthor>
+          <GBAuthor>Katayama,K.</GBAuthor>
+          <GBAuthor>Takahashi,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-DEC-2019) Contact:Junko Tanaka Institute of Biomedical and Health Sciences, Hiroshima University, Department of Epidemiology, Infectious Disease Control and Prevention; 1-2-3 Kasumi, Minami-ku, Hiroshima, Hiroshima 7348551, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..513</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>513</GBInterval_to>
+            <GBInterval_accession>LC513766.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>18350-BUR</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>human serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11103</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Burkina Faso</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>94..&gt;513</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>94</GBInterval_from>
+            <GBInterval_to>513</GBInterval_to>
+            <GBInterval_accession>LC513766.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BBQ04263.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRLGVRATRKTSERSQPRGRRQPIPKDRRSTGKSWGKPGYPWPLYGNEGLGWAGWLLSPRGSRPQWGPTDPRHKSRNLGKVIDTLTCGFADLMGYMPVV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctagccgagtagtgttgggttgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcatcatgagcacaaatcctaaacctcaaagaaaaaccaaaagaaacacaaaccgtcgcccacaggacgtcaagttcccgggcggcggccagatcgttggcggagtatacttgttgccgcgcaggggccctagattgggtgtgcgcgcgacgaggaagacttccgaacggtcccagccgcgtggacggcgccagcccatcccgaaagatcggcgctccaccggtaagtcctggggaaaaccaggatacccctggcccctgtatgggaatgagggcctggggtgggcaggatggcttctgtccccccggggttctcgccctcaatggggccccactgacccccggcataaatcccgtaacttgggtaaggtcatcgacaccctgacgtgcggttttgccgacctcatggggtacatgcccgtcgta</GBSeq_sequence>
+  </GBSeq>
