@@ -37,7 +37,7 @@ task copyGluetoolsJar(type: Copy) {
     rename('gluetools-core-'+project.glueVersion+'.jar', 'gluetools-core.jar')
 }
 
-def glueConfigFile = System.getProperty("user.name").equals('joshsinger') ? 'local-gluetools-config.xml' : 'remote-gluetools-config.xml'
+def glueConfigFile = 'remote-gluetools-config.xml'
 
 task ncbiHcvUpdate(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
@@ -54,7 +54,7 @@ task ncbiHcvProjectBuild(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 }
 
 
-def scmCustomKey = System.getProperty("user.name").equals('joshsinger') ? '/Users/joshsinger/.ssh/github_id_rsa' : '/opt/bitnami/apps/jenkins/jenkins_home/.ssh/github_id_rsa'
+def scmCustomKey = '/Users/evdoxiataka/.ssh/github_id_rsa_old_format'
 
 scmVersion {
 	hooks {
