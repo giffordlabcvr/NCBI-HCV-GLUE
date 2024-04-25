@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OR947669</GBSeq_locus>
+    <GBSeq_length>608</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-DEC-2023</GBSeq_update-date>
+    <GBSeq_create-date>20-DEC-2023</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus hominis isolate 4016_HCV_RUS_Yakutia_2022 polyprotein, core protein region, (POLY) gene, partial cds; and protein F (POLY) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>OR947669</GBSeq_primary-accession>
+    <GBSeq_accession-version>OR947669.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OR947669.1|</GBSeqid>
+      <GBSeqid>gi|2635490549</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..608</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kichatova,V.S.</GBAuthor>
+          <GBAuthor>Karlsen,A.A.</GBAuthor>
+          <GBAuthor>Asadi Mobarkhan,F.A.</GBAuthor>
+          <GBAuthor>Semenov,S.I.</GBAuthor>
+          <GBAuthor>Kyuregyan,K.K.</GBAuthor>
+          <GBAuthor>Mikhailov,M.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-DEC-2023) Federal Service for Surveillance on Consumer Rights Protection and Human Wellbeing, FBIS Central Research Institute of Epidemiology of Rospotrebnadzor, st. Novogireevskaya, 3a, Moscow 111123, Russia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: bwa v. 0.7.17 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..608</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>608</GBInterval_to>
+            <GBInterval_accession>OR947669.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>4016_HCV_RUS_Yakutia_2022</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Russia: Yakutia (Sakha) Republic</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2022</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>20..&gt;608</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>608</GBInterval_to>
+            <GBInterval_accession>OR947669.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>20..&gt;608</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>608</GBInterval_to>
+            <GBInterval_accession>OR947669.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WQA41460.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTTPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRLGVRTTRKTSERSQPRGRRQPIPKDRRSTGRSWGKPGYPWPLYGNEGLGWAGWLLSPRGSRPSWGPNDPRHRSRNVGKVIDTLTCGFADLMGYIPVVGAPLGGVARALAHGVRVLEDGVNFATGNLPGCSFSIFLLALLSCLTIPASAYEVRN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>20..592</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>592</GBInterval_to>
+            <GBInterval_accession>OR947669.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>core protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>MSTTPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRLGVRTTRKTSERSQPRGRRQPIPKDRRSTGRSWGKPGYPWPLYGNEGLGWAGWLLSPRGSRPSWGPNDPRHRSRNVGKVIDTLTCGFADLMGYIPVVGAPLGGVARALAHGVRVLEDGVNFATGNLPGCSFSIFLLALLSCLTIPASA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(20..47,49..398)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>47</GBInterval_to>
+            <GBInterval_accession>OR947669.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>49</GBInterval_from>
+            <GBInterval_to>398</GBInterval_to>
+            <GBInterval_accession>OR947669.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>ribosomal_slippage</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>protein F</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WQA41459.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTTPKPQRKPKETLTVAHKTLSFRAAARSLAEYTCCRAGAPGWVCARQGKLRSGPSHVGGASPSLKIGAPLAGPGENQDTLGPSMGTRGSAGQDGSCPPEVPVPLGAPMTPGIGRATWVRSSIP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtctcgtagaccgtgcaccatgagcacaactcctaaacctcaaagaaaaaccaaaagaaacactaaccgtcgcccacaagacgttaagtttccgggcggcggccagatcgttggcggagtatacttgttgccgcgcaggggcccccggttgggtgtgcgcacgacaaggaaaacttcggagcggtcccagccacgtgggaggcgccagcccatccctaaagatcggcgctccactggcaggtcctggggaaaaccaggatacccttggcccctctatgggaacgaggggctcggctgggcaggatggctcctgtccccccgaggttcccgtccctcttggggccccaatgacccccggcataggtcgcgcaacgtgggtaaggtcatcgataccctgacgtgcggctttgccgacctcatggggtacatccccgtcgtaggcgccccgctcggtggtgtcgccagagctctcgcgcatggcgtgagagtcctggaggacggggttaattttgcaacagggaacctgcccggttgctctttctctatcttccttttagctttgctgtcctgtttgaccatcccagcttccgcttatgaagtgcgcaacg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH733155</GBSeq_locus>
+    <GBSeq_length>570</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>27-NOV-2021</GBSeq_update-date>
+    <GBSeq_create-date>27-NOV-2021</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus hominis isolate 87 polyprotein, nonstructural protein NS5A region, (POLY) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH733155</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH733155.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH733155.1|</GBSeqid>
+      <GBSeqid>gi|2154076367</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..570</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Esposito,I.</GBAuthor>
+          <GBAuthor>Marciano,S.</GBAuthor>
+          <GBAuthor>Haddad,L.</GBAuthor>
+          <GBAuthor>Galdame,O.</GBAuthor>
+          <GBAuthor>Franco,A.</GBAuthor>
+          <GBAuthor>Gadano,A.</GBAuthor>
+          <GBAuthor>Flichman,D.</GBAuthor>
+          <GBAuthor>Trinks,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Prevalence and Factors Related to Natural Resistance-Associated Substitutions to Direct-Acting Antivirals in Patients with Genotype 1 Hepatitis C Virus Infection</GBReference_title>
+        <GBReference_journal>Viruses 11 (1), 3 (2019)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3390/v11010003</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>30577623</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..570</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Esposito,I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-JUL-2018) Molecular Epidemiology Unit, Instituto de Ciencias Basicas y Medicina Experimental (ICBME), Potosi 4240, Buenos Aires Capital Federal, Buenos Aires C1199ACL, Argentina</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..570</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>570</GBInterval_to>
+            <GBInterval_accession>MH733155.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>87</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Argentina</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 1a; genotype: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;570</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>570</GBInterval_to>
+            <GBInterval_accession>MH733155.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;570</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>570</GBInterval_to>
+            <GBInterval_accession>MH733155.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>UFI07478.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SGSWLRDIWDWICEVLSDFKTWLKAKLMPQLPGIPLVSCQRGYKGVWRGDGIMHTRCHCGAEITGHVKNGTMRIVGPRTCRNMWSGTFPINAYTTGPCTPLPAPNYKFALWRVSAEEYVEIRQVGDFHYVTGMTTDNLKCPCQVPSPEFFTELDGVRLHRFAPPCKPLLREEVSFRVGLHEYPVGSQLPC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>1..&gt;570</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>570</GBInterval_to>
+            <GBInterval_accession>MH733155.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein NS5A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SGSWLRDIWDWICEVLSDFKTWLKAKLMPQLPGIPLVSCQRGYKGVWRGDGIMHTRCHCGAEITGHVKNGTMRIVGPRTCRNMWSGTFPINAYTTGPCTPLPAPNYKFALWRVSAEEYVEIRQVGDFHYVTGMTTDNLKCPCQVPSPEFFTELDGVRLHRFAPPCKPLLREEVSFRVGLHEYPVGSQLPC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tccggttcctggctgagggacatctgggactggatatgcgaggtgctgagcgactttaagacctggctaaaagccaagctcatgccacaactgcctgggattccccttgtgtcctgccagcgcgggtataagggggtctggcgaggggatggcatcatgcacactcgctgccactgtggagctgagatcactggacatgtcaagaacgggacgatgaggatcgtaggtcccaggacctgcaggaacatgtggagtgggactttccccattaacgcctacaccacaggcccctgcaccccccttcctgcgccgaactataagttcgcgctgtggagggtgtctgcagaggaatacgtggagataaggcaggtgggggacttccactatgtgacgggtatgactactgacaatcttaaatgcccgtgccaggtcccatcgcccgaatttttcacagaattggacggggtgcgcctacataggtttgcgcccccttgcaagcccttgctgcgggaggaagtatcattcagagtaggactccacgagtacccggtggggtcgcaattaccttgc</GBSeq_sequence>
+  </GBSeq>

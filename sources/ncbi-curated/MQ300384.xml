@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MQ300384</GBSeq_locus>
+    <GBSeq_length>1776</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>30-NOV-2021</GBSeq_update-date>
+    <GBSeq_create-date>30-NOV-2021</GBSeq_create-date>
+    <GBSeq_definition>Sequence 2 from Patent WO2021231891</GBSeq_definition>
+    <GBSeq_primary-accession>MQ300384</GBSeq_primary-accession>
+    <GBSeq_accession-version>MQ300384.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|MQ300384.1|</GBSeqid>
+      <GBSeqid>pat|WO|2021231891|2</GBSeqid>
+      <GBSeqid>gi|2156861652</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1776</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>BELENKY,A.S.</GBAuthor>
+          <GBAuthor>KEHLE,J.</GBAuthor>
+          <GBAuthor>SUN,J.J.</GBAuthor>
+          <GBAuthor>OTT,T.</GBAuthor>
+          <GBAuthor>ARMENDAREZ,V.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>METHOD FOR DIRECT AMPLIFICATION AND DETECTION OF RNA</GBReference_title>
+        <GBReference_journal>WO2021231891-A1 2 18-NOV-2021 QUIDEL CORP [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1776</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1776</GBInterval_to>
+            <GBInterval_accession>MQ300384.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcaatgtcctacacatggacaggcgccttgatcacgccatgcgctgcggaggaaagcaagctgcccatcaacgcgttgagcaactctttgctgcgccaccataacatggtttatgccacaacatctcgcagcgcaggcctgcggcagaagaaggtcacctttgacagactgcaagtcctggacgaccactaccgggacgtgctcaaggagatgaaggcgaaggcgtccacagttaaggctaaactcctatccgtagaggaagcctgcaagctgacgcccccacattcggccaaatccaagtttggctatggggcaaaggacgtccggaacctatccagcaaggccgttaaccacatccactccgtgtggaaggacttgctggaagacactgtgacaccaattgacaccaccatcatggcaaaaaatgaggttttctgtgtccaaccagagaaaggaggccgtaagccagcccgccttatcgtattcccagatctgggagtccgtgtatgcgagaagatggccctctatgatgtggtctccacccttcctcaggtcgtgatgggctcctcatacggattccagtactctcctgggcagcgagtcgagttcctggtgaatacctggaaatcaaagaaaaaccccatgggcttttcatatgacactcgctgtttcgactcaacggtcaccgagaacgacatccgtgttgaggagtcaatttaccaatgttgtgacttggcccccgaagccagacaggccataaaatcgctcacagagcggctttatatcgggggtcctctgactaattcaaaagggcagaactgcggttatcgccggtgccgcgcgagcggcgtgctgacgactagctgcggtaacaccctcacatgttacttgaaggcctctgcagcctgtcgagctgcgaagctccaggactgcacgatgctcgtgaacggagacgacctcgtcgttatctgtgaaagcgcgggaacccaagaggacgcggcgagcctacgagtcttcacggaggctatgactaggtactccgccccccccggggacccgccccaaccagaatacgacttggagctgataacatcatgttcctccaatgtgtcggtcgcccacgatgcatcaggcaaaagggtgtactacctcacccgtgatcccaccacccccctagcacgggctgcgtgggagacagctagacacactccagttaactcctggctaggcaacattattatgtatgcgcccactttgtgggcaaggatgattctgatgactcacttcttctccatccttctagcgcaggagcaacttgaaaaagccctggactgccagatctacggggcctgttactccattgagccacttgacctacctcagatcattgaacgactccatggccttagcgcattttcactccatagttactctccaggtgagatcaatagggtggcttcatgcctcaggaaacttggggtaccacccttgcgagtctggagacatcgggccaggagcgtccgcgctaggctactgtcccagggagggagggccgccacttgtggcaaatacctcttcaactgggcagtaaaaaccaaacttaaactcactccaatcccggctgcgtcccggctggacttgtccggctggttcgttgctggttacagcgggggagacatatatcacagcctgtctcgtgcccgaccccgttggttcatgctgtgcctactcctactttctgtaggggtaggcatctacctgctccccaaccgatga</GBSeq_sequence>
+  </GBSeq>

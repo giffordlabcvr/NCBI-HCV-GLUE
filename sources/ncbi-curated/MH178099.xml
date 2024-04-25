@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH178099</GBSeq_locus>
+    <GBSeq_length>653</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>31-DEC-2022</GBSeq_update-date>
+    <GBSeq_create-date>31-DEC-2022</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus C strain MPWA envelope protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH178099</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH178099.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH178099.1|</GBSeqid>
+      <GBSeqid>gi|1471158273</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..653</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cheng,V.C.</GBAuthor>
+          <GBAuthor>Wong,S.C.</GBAuthor>
+          <GBAuthor>Wong,S.C.</GBAuthor>
+          <GBAuthor>Sridhar,S.</GBAuthor>
+          <GBAuthor>Yip,C.C.</GBAuthor>
+          <GBAuthor>Chen,J.H.</GBAuthor>
+          <GBAuthor>Fung,J.</GBAuthor>
+          <GBAuthor>Chiu,K.H.</GBAuthor>
+          <GBAuthor>Ho,P.L.</GBAuthor>
+          <GBAuthor>Chen,S.</GBAuthor>
+          <GBAuthor>Cheng,B.W.</GBAuthor>
+          <GBAuthor>Ho,C.L.</GBAuthor>
+          <GBAuthor>Lo,C.M.</GBAuthor>
+          <GBAuthor>Yuen,K.Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nosocomial transmission of hepatitis C virus in a liver transplant center in Hong Kong: implication of reusable blood collection tube holder as the vehicle for transmission</GBReference_title>
+        <GBReference_journal>Infect Control Hosp Epidemiol, 1-8 (2018) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1017/ice.2018.175</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>30156177</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..653</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cheng,V.C.C.</GBAuthor>
+          <GBAuthor>Wong,S.-C.</GBAuthor>
+          <GBAuthor>Wong,S.C.Y.</GBAuthor>
+          <GBAuthor>Sridhar,S.</GBAuthor>
+          <GBAuthor>Yip,C.C.Y.</GBAuthor>
+          <GBAuthor>Chen,J.H.K.</GBAuthor>
+          <GBAuthor>Yuen,K.-Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-APR-2018) Department of Microbiology, The University of Hong Kong, Pokfulam Road, Hong Kong, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: BioEdit v. 7.2.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..653</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>653</GBInterval_to>
+            <GBInterval_accession>MH178099.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>MPWA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>index case</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Hong Kong</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2017</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;653</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>653</GBInterval_to>
+            <GBInterval_accession>MH178099.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>E1-E2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXU40960.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LRVPEICASVIFGGHWGILLAIAYFGMAGNWLKVLAVLFLFAGVESATITGYAVGGNTLGLTQVFSPGAKQNLQLINTNGSWHINRTALNCNDSLQTGFLASLFYARKFNSSGCPERMAACKSLADFRQGWGQITYKVNISGPSDDRPYCWHYAPRACSVVPARSVCGPVYCFTPSPVVVGTTDRRGNPTYTWGENETDVFMLESLRPPKGGWFGCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttaagggtacctgagatctgtgcgagtgtgatatttggtggccattgggggatactactagccattgcctactttggcatggctggtaactggctgaaagttttggccgttctgttcttgtttgcaggggttgaatcggccaccatcactggctacgcagtgggcggcaatactctcggccttacccaggttttttcccccggtgccaagcagaacttgcaactcatcaacactaatggcagctggcacataaacaggactgctttgaactgcaatgactccctccaaacggggttcttagcgtcactcttttacgcccgaaaattcaactcctcgggctgcccagagcggatggctgcgtgtaagtccctcgcggacttccggcaggggtggggccaaataacctacaaagtcaacatctcgggcccctccgacgaccgtccctactgctggcattacgctcccagagcatgcagcgtggtgccggcccgcagcgtgtgtggccccgtttattgcttcacgcccagccccgtcgtagtaggaaccactgacaggcggggcaaccccacatacacctggggggaaaatgagacggacgtgttcatgctggagagcctccgcccccctaaaggaggatggtttgggtgcacgtg</GBSeq_sequence>
+  </GBSeq>

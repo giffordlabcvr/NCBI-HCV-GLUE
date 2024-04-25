@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MT254535</GBSeq_locus>
+    <GBSeq_length>3608</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-JUN-2020</GBSeq_update-date>
+    <GBSeq_create-date>11-JUN-2020</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus hominis strain BB19 polyprotein (POLY) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MT254535</GBSeq_primary-accession>
+    <GBSeq_accession-version>MT254535.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MT254535.1|</GBSeqid>
+      <GBSeqid>gi|1827296426</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3608</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ling,J.</GBAuthor>
+          <GBAuthor>Vinnersten,T.P.</GBAuthor>
+          <GBAuthor>Hesson,J.C.</GBAuthor>
+          <GBAuthor>Bohlin,J.</GBAuthor>
+          <GBAuthor>Roligheten,E.</GBAuthor>
+          <GBAuthor>Holmes,E.C.</GBAuthor>
+          <GBAuthor>Pettersson,J.H.O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of hepatitis C virus in the common bed bug - a potential, but uncommon route for HCV infection?</GBReference_title>
+        <GBReference_journal>Emerg Microbes Infect (2020) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3608</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ling,J.</GBAuthor>
+          <GBAuthor>Vinnersten,T.P.</GBAuthor>
+          <GBAuthor>Hesson,J.C.</GBAuthor>
+          <GBAuthor>Bohlin,J.</GBAuthor>
+          <GBAuthor>Roligheten,E.</GBAuthor>
+          <GBAuthor>Holmes,E.C.</GBAuthor>
+          <GBAuthor>Pettersson,J.H.O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-MAR-2020) Department of Medical Biochemistry and Microbiology, University of Uppsala, BMC, Husargatan 3, C8:3, entance C7, Uppsala 751 23, Sweden</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3608</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3608</GBInterval_to>
+            <GBInterval_accession>MT254535.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>BB19</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Cimex lectularius</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Sweden</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2017</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>49..&gt;3608</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>49</GBInterval_from>
+            <GBInterval_to>3608</GBInterval_to>
+            <GBInterval_accession>MT254535.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>49..&gt;3608</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>49</GBInterval_from>
+            <GBInterval_to>3608</GBInterval_to>
+            <GBInterval_accession>MT254535.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QIS68118.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTLPKPQRKTKRNTIRRPQDVKFPGGGQIVGGVYVLPRRGPRLGVRATRKTSERSQPRGRRQPIPKARRSDGRSWAQPGYPWPLYGNEGCGWAGWLLSPRGSRPSWGPNDPRRRSRNLGKVIDTLTCGFADLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYGVAHVLRLPQTLFDIIAGAHWGILAGLAYYSMQGNWAKVAIIMIMFSGVDAETHTIGGATARSASTLTKLFTRGPSQNLQLINTNGSWHINRTALNCNESINTGFLAGLFYYHKFNSTGCLQRLSSCKPITYFKQGWGSLTDANISGPSDDKPYCWHYPPGPCTTVPASTVCGPVYCFTPSPVVVGTTDSKGAPTYDWGGNESDVFLLDSQRPPSGRWFGCTWMNSTGFVQTCGAPPCNIYGGGGNLSNESDLFCPTDCFRKHPEATYSRCGAGPWLTPRCMVDYPYRLWHYPCTVNFTLFKVRMFVGGFEHRFSAACNWTRGERCDIEDRDRSEQHPLLHSTTELAILPCSFTPMPALSTGLIHLHQNIVDVQYLYGVGSGVVGWALKWEFVILVFLLLADARVCVAIWLMLMISQTEAALENLVTLNAIAAAGTHGIGWYLVVFCAAWHVRGKLVPLVTYGLTGLWSLALLVLLLPQRAYAWSGEDSATLGAGILALFGFFTLSPWYKHWIGRLMWWNQYTICRCEAALQVWVPPLLARGSRDGIILLTSLLYPPLVXDITKLLIAVLGPLYLIQAAITSAPYFVRAHALVRLCMLVRSVTGGKYFQMIILSVGRWFNTYLYDHLAPMQHWAAAGLKDLAVATEPVIFSPMEIKVITWGADTAACGDILCGLPVSARLGREVLLGPADDYREMGWRLLAPITAYAQQTRGLFGTIVTSLTGRDKNVVTGEVQVLSTATQTFLGTTVGGVMWTVYHGAGSRTLAGAKHPALQMYTNVDQDLVGWPAPPGAKSLEPCACGSADLYLVTRDADVIPARRRGDSTASLLSPRPLACLKGSSGGPVMCPSGHVAGIF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>447..1039</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>447</GBInterval_from>
+            <GBInterval_to>1039</GBInterval_to>
+            <GBInterval_accession>MT254535.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>593</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcaacatgagcacacttcctaaacctcaaagaaaaaccaaaagaaacaccatccgtcgcccacaggacgtcaagttcccgggtggcggacagatcgttggtggagtatacgtgttgccgcgtaggggcccacgattgggtgtgcgcgcgacgcgtaaaacttctgaacggtcacagccgcgcggacggcgacagcctatccccaaggcgcgtcggagcgacggccggtcctgggctcagcccgggtacccttggcccctctatggtaacgagggttgcgggtgggcaggatggctcctgtccccgcgcggctcccgtccatcttggggcccaaatgacccccggcgaaggtcccgtaacttgggaaaggtcatcgatacccttacatgcggattcgccgacctnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnggtatggtgtagcgcatgttctgcgtctgccccagaccctgttcgacataatagccggggcccattggggcatcttggcgggcctagcctattactctatgcagggtaactgggccaaggtcgctatcatcatgatcatgttttcaggggtcgatgccgaaacacataccatcggtggcgcaacggctcgtagtgccagcacgctcactaaacttttcacgcggggccccagccagaacctgcagctgatcaacaccaatggctcgtggcacatcaacaggactgccttgaactgcaatgagtccataaacacagggttcctagctgggttgttttactaccataagttcaactctactggatgtctccaaaggctcagcagctgtaagcccatcacctactttaagcagggatggggttccttgacagacgctaacatctccggcccctctgatgacaaaccatactgctggcactacccacctggtccttgtacaactgtcccggcatcaactgtctgcggccctgtgtactgtttcacaccatcgccagtggtagtaggcactactgattccaagggcgccccaacctacgactggggtggaaatgagtcagatgtgtttctgctggactcccagcggccccccagtggacggtggtttgggtgcacgtggatgaactctacggggtttgttcagacatgcggtgctcccccttgtaacatctatgggggtggggggaatcttagtaatgagtcagacctcttctgccccaccgactgcttcaggaaacatcctgaggccacatacagccggtgtggtgcagggccatggttaacacctcgatgcatggtcgactacccataccggctttggcattacccgtgtacagtcaattttacattgttcaaggtgaggatgtttgtgggtgggtttgagcatcggttctccgctgcttgcaactggaccagaggggagcgctgcgacatcgaggatcgcgaccgtagcgagcaacatccgctgctgcattcaacaactgagcttgctatactgccttgttccttcacgcctatgcctgcattgtcgacaggtctgatacacctccaccagaacattgtggacgtccaatacctttatggtgttggatctggcgtagtggggtgggcgttgaaatgggagttcgtcatcctcgttttcctcctcttggcagacgcacgcgtgtgcgttgccatctggctgatgctgatgatatcacaaacagaggcagccttggagaaccttgtcacgttgaacgctatcgctgctgccgggacacatggtatcggctggtacctagtagtcttttgcgcggcgtggcacgtgcggggtaaacttgtcccactggtgacctacggcctgacgggtctttggtccctagcattgctcgtcctcttgctcccccagcgggcgtatgcttggtcgggcgaagacagtgctactctcggcgccgggatcttggcccttttcggcttcttcaccttatcaccttggtataagcattggatcggccgcctcatgtggtggaaccagtacaccatatgtagatgcgaggccgcccttcaagtgtgggtcccccccctacttgcacgcgggagtagggacggtatcatcctgctaacaagcctgctttacccacctttagttnttgacatcactaaactgctgatagcagtattgggcccattgtatttaatacaggctgccatcacttcagccccctactttgtacgtgcacacgcactggtccgcctttgcatgctcgtacgctctgtgacggggggaaaatacttccagatgatcatactgagcgttggcagatggtttaacacctacctatatgaccacctagcgccaatgcaacattgggccgcagccggcctcaaagacctagcggtggccactgaacctgtgatatttagtcccatggaaatcaaggtcatcacctggggtgcggacacggcggcttgcggagatattctttgcgggctgcctgtctctgcgcgattaggccgtgaggtgttgttgggacctgctgatgactatcgggagatgggttggcgactgttggccccgatcacagcatatgcccagcaaactagaggcctttttgggactattgtgaccagcttgactggcagggataagaacgtggtgaccggtgaagtgcaggtgctttccacggctacccagaccttcctaggtacaacagtggggggggttatgtggactgtttaccatggtgcaggctcaaggactcttgcgggcgctaaacatcctgcgctccaaatgtacacaaatgtggatcaggacctcgttgggtggccagcccctccgggggctaagtctcttgaaccgtgcgcctgcgggtctgcagacttatacttggttacccgcgacgccgatgtcatccctgcccggcgtaggggggactccacagctagcttgctcagtcctaggcctctcgcctgtctcaaaggttcctctggaggtcctgttatgtgcccctcggggcatgttgcgggaatctttag</GBSeq_sequence>
+  </GBSeq>

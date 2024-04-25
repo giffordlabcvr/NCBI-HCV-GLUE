@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OM811422</GBSeq_locus>
+    <GBSeq_length>516</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>02-OCT-2022</GBSeq_update-date>
+    <GBSeq_create-date>02-OCT-2022</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus C isolate 003 polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>OM811422</GBSeq_primary-accession>
+    <GBSeq_accession-version>OM811422.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OM811422.1|</GBSeqid>
+      <GBSeqid>gi|2310114161</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..516</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Valutite,D.</GBAuthor>
+          <GBAuthor>Ostankova,Y.</GBAuthor>
+          <GBAuthor>Semenov,A.</GBAuthor>
+          <GBAuthor>Lyalina,L.</GBAuthor>
+          <GBAuthor>Totolian,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Distribution of Primary Resistance Mutations in Saint Petersburg in Patients with Chronic Hepatitis C</GBReference_title>
+        <GBReference_journal>Diagnostics (Basel) 12 (5), 1054 (2022)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3390/diagnostics12051054</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>35626210</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..516</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Valutite,D.E.</GBAuthor>
+          <GBAuthor>Ostankova,Y.V.</GBAuthor>
+          <GBAuthor>Semenov,A.V.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-FEB-2022) Immunology and Virology of HIV Infection, St.Petersburg Pasteur Institute, Mira str., 14, St.Petersburg, The North-West Region 197001, Russia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..516</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>516</GBInterval_to>
+            <GBInterval_accession>OM811422.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>003</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>plasma from therapeutically naive patients</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Russia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;516</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>516</GBInterval_to>
+            <GBInterval_accession>OM811422.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains nonstructural protein NS5A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>UXM20126.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SLTIIQLLKRHHQWINEDCSTPCSGSWLRDGWDWICTVLTDFKTWLQSKLLPRLPGVPFLSCQRGYRGVWRGDGIMHTTCPCGAQITGHVKNGSMRIVGPKTCSNTWHGTFPINAYTTGPCTPSPAPNYSRALWRVAAEEYVEVTRVGDFHYVTGMTADNVKCPCQVPAPEF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agccttaccatcattcagctgttgaagaggcaccaccagtggatcaatgaggactgctccacgccatgctctggctcgtggctaagggatggttgggactggatatgcacggtgttgaccgacttcaagacctggctccagtccaagctcctgccgcgactcccgggagtccctttcctctcatgccaacgggggtacaggggggtctggcggggagacggtatcatgcataccacctgcccctgcggagcacaaatcaccggacatgtaaaaaacggttccatgaggatcgttgggccaaaaacctgcagcaacacgtggcatggaacattccccatcaacgcgtacaccacgggcccctgcacaccctccccggcgccaaactattccagggcgctgtggcgggtagctgctgaggagtacgtggaggtcacgcgggtgggggatttccactacgtgacgggcatgaccgctgacaacgtaaagtgcccatgccaggttccggcccccgaattc</GBSeq_sequence>
+  </GBSeq>

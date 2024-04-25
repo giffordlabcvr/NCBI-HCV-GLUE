@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MT113074</GBSeq_locus>
+    <GBSeq_length>2257</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-MAR-2021</GBSeq_update-date>
+    <GBSeq_create-date>01-MAR-2021</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus hominis isolate EGHKS12R2 polyprotein (POLY) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MT113074</GBSeq_primary-accession>
+    <GBSeq_accession-version>MT113074.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MT113074.1|</GBSeqid>
+      <GBSeqid>gi|1847315252</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2257</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Soliman,H.K.</GBAuthor>
+          <GBAuthor>Ahmed,O.S.</GBAuthor>
+          <GBAuthor>Abouelhoda,M.</GBAuthor>
+          <GBAuthor>Bahnassy,A.</GBAuthor>
+          <GBAuthor>Zekri,A.R.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-FEB-2020) Cancer Biology Department, National Cancer Institute, Kasr Al Eini Street, Fom Elkhalig, Cairo 11796, Egypt</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: SPAdes v. 3.13.0 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2257</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2257</GBInterval_to>
+            <GBInterval_accession>MT113074.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>EGHKS12R2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>plasma from naive patient</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Egypt</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Apr-2018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 4</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;2257</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2257</GBInterval_to>
+            <GBInterval_accession>MT113074.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;2257</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2257</GBInterval_to>
+            <GBInterval_accession>MT113074.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QKF54512.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>RAIPLNLIKGGRHLIFCHSKKKCDELAKQLSSLGVNAVAFYRGLDVSVIPTSGDVVVCATDALMTGYTGDFDSVIDCNTSVIQTVDFSLDPTFSIETTTVPQDAVSRSQRRGRTGRGKLGTYRFVTPGERPSGIFDTSVLCECYDAGCAWYELTPAETTTRLRAYYNTPGLPVCQDHLEFWESVFTGLTNIDGHFLSQTKQSGENFPYLVAYQATVCARALAPPPSWDTMWKCLIRLKPTLRGPTPLLYRLGSVQNEVTLTHPITKYIMACMSADLEVVTSTWVLVGGVLAALAAYCLSVGSVVIVGRVVLSGQPAVIPNREALYQQFDEMEECSKHLPLVEQGLQLAGHFKEKALGILGVASKQAQEAAPVVKSNLEKLEQFWAKHMWNFISGIQYLAGLSTLPGNPAIASLMSFTAAVTSPLSTQQTLLFNILGGWVASQIATPTASTAFVVSGLAGAAVGSVGLGKILVDILAGYGAGVAGAVVTFKIMSGEMPSTEDIVNLLPAILSPGALVVGVVCAAILRRHVGPGEGAVQWMNRLIAFASRGNHVSPTHYVPESDAAARVTAILSSLTVTSLLRRLHKWINEDCSTPCDTSWLWEVWSWVCTVLSDFKTWLKAKLLPRMPGVPFLSCQRGYKGEWRGDGVMHTTCPCGAELAGHIKNGSMRITGPKTCSNTWHGTFPINAYTTGPGIPIPAPNYKVALWRVSAEEYVEVRRVGDFHYITGVTQDNIKCPCQVPSPEFFSEVDGVK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1..840</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>840</GBInterval_to>
+            <GBInterval_accession>MT113074.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS3 protease/helicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>RAIPLNLIKGGRHLIFCHSKKKCDELAKQLSSLGVNAVAFYRGLDVSVIPTSGDVVVCATDALMTGYTGDFDSVIDCNTSVIQTVDFSLDPTFSIETTTVPQDAVSRSQRRGRTGRGKLGTYRFVTPGERPSGIFDTSVLCECYDAGCAWYELTPAETTTRLRAYYNTPGLPVCQDHLEFWESVFTGLTNIDGHFLSQTKQSGENFPYLVAYQATVCARALAPPPSWDTMWKCLIRLKPTLRGPTPLLYRLGSVQNEVTLTHPITKYIMACMSADLEVVT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>841..1002</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>841</GBInterval_from>
+            <GBInterval_to>1002</GBInterval_to>
+            <GBInterval_accession>MT113074.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS4A protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>STWVLVGGVLAALAAYCLSVGSVVIVGRVVLSGQPAVIPNREALYQQFDEMEEC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>1003..1785</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1003</GBInterval_from>
+            <GBInterval_to>1785</GBInterval_to>
+            <GBInterval_accession>MT113074.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS4B protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SKHLPLVEQGLQLAGHFKEKALGILGVASKQAQEAAPVVKSNLEKLEQFWAKHMWNFISGIQYLAGLSTLPGNPAIASLMSFTAAVTSPLSTQQTLLFNILGGWVASQIATPTASTAFVVSGLAGAAVGSVGLGKILVDILAGYGAGVAGAVVTFKIMSGEMPSTEDIVNLLPAILSPGALVVGVVCAAILRRHVGPGEGAVQWMNRLIAFASRGNHVSPTHYVPESDAAARVTAILSSLTVTSLLRRLHKWINEDCSTPC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>1786..&gt;2257</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1786</GBInterval_from>
+            <GBInterval_to>2257</GBInterval_to>
+            <GBInterval_accession>MT113074.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>POLY</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS5A protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>DTSWLWEVWSWVCTVLSDFKTWLKAKLLPRMPGVPFLSCQRGYKGEWRGDGVMHTTCPCGAELAGHIKNGSMRITGPKTCSNTWHGTFPINAYTTGPGIPIPAPNYKVALWRVSAEEYVEVRRVGDFHYITGVTQDNIKCPCQVPSPEFFSEVDGVK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agagcaatccctctcaacctgattaaagggggcagacacctcatcttttgtcattcaaagaaaaagtgtgacgagttggccaagcagctgtcatctcttggcgtcaatgcggtggccttttataggggcttagacgtctcagtaataccaacctctggagacgttgtggtttgcgccacagacgccctcatgactggatacaccggtgacttcgactcggtcattgactgcaacacttctgttatccagactgttgacttcagcctcgaccccaccttctccatagagaccacaacagtcccccaggacgcggtgtcccgaagccagcggaggggccgcactgggaggggtaagctgggcacataccggtttgttaccccgggagaaaggccatccggcatatttgacacctcagtgctctgcgagtgctacgatgcaggatgtgcttggtacgagctgacaccggctgagacaacgacgaggttgagggcctactacaatacaccaggcctccccgtctgccaagaccaccttgagttctgggagagtgttttcactggcctgaccaacatagatggccatttcttatcccaaactaagcagtcgggtgagaacttcccctacttggtggcctaccaggcgacggtctgcgccagagcgctggctcctccgccaagctgggacaccatgtggaagtgcttaatccggcttaagcctacgttgcgcgggccgacccccctcctttataggttggggtccgtgcagaacgaggtgacacttacacatcccataaccaagtatatcatggcatgcatgtcggcggacctggaggtggtgactagcacgtgggtcctggtgggcggcgtcctggcggccctagctgcgtactgtctatcagtgggcagcgtagtgatcgtcgggagggtcgtcctatcgggccagcctgctgttatccccaaccgagaggcgctctatcagcagtttgacgagatggaggagtgctctaagcatctcccattagtcgaacaaggcctgcaacttgccggccatttcaaagagaaagccctcggtattctaggcgtcgctagcaaacaagcacaggaggctgcaccagtggtgaaatccaacctggagaagcttgagcagttctgggcgaagcacatgtggaatttcatcagtggtatccaataccttgctgggctgtccaccttgcccggtaaccctgctatcgcctccctcatgtcatttactgctgcagtcacaagccctctgtctacccaacaaaccctcctattcaacatcttagggggttgggttgcctcgcagattgcaacccctactgcctccacggcttttgtcgtgagcggccttgcaggggcagcggtcggtagcgtaggccttgggaagatcttggtcgacattctcgccggatacggagccggcgtggctggcgccgtagtcacctttaaaataatgagcggcgagatgccgtcaacagaggacatagtgaacttgctcccggccatactatcgccaggagccttagtagtgggggtggtgtgcgctgcaatcctgcggcgccacgtggggcccggtgaaggggctgtgcagtggatgaaccgtctcattgccttcgcatcgcgaggcaatcacgtgtctcccacgcactacgtccctgagtccgacgcagcagcccgcgtgacagcaatactatcatccctcactgtgacatctctgcttagacgtctccacaagtggatcaacgaggattgttccaccccatgcgacaccagttggttgtgggaagtctggagctgggtctgtaccgtactgagtgacttcaaaacctggcttaaagccaagcttttgccccgcatgccaggcgttcccttcctctcctgtcagagggggtacaagggagagtggcgaggggacggcgtgatgcacactacgtgcccctgcggcgcagaactggctggccacatcaagaatggctcaatgaggatcactgggccaaagacctgcagcaacacctggcacgggaccttccccatcaatgcttacaccactggccccggcatacccatcccggcaccaaactacaaggttgcgctgtggagggtgtctgccgaggagtacgtggaggttcgcagggtgggcgacttccattacatcactggggtaacacaggacaacatcaaatgcccctgtcaggtcccgtcccctgaattcttctctgaggtggatggtgtcaagc</GBSeq_sequence>
+  </GBSeq>

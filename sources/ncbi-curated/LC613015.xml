@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC613015</GBSeq_locus>
+    <GBSeq_length>655</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-JUN-2023</GBSeq_update-date>
+    <GBSeq_create-date>24-AUG-2021</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus hominis HC17-1168 gene for polyprotein, clone: HC17-1168_1</GBSeq_definition>
+    <GBSeq_primary-accession>LC613015</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC613015.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC613015.1|</GBSeqid>
+      <GBSeqid>gi|2084860208</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..655</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Okano,H.</GBAuthor>
+          <GBAuthor>Murakami,M.</GBAuthor>
+          <GBAuthor>Asakawa,H.</GBAuthor>
+          <GBAuthor>Nose,K.</GBAuthor>
+          <GBAuthor>Tsuruga,S.</GBAuthor>
+          <GBAuthor>Tochio,T.</GBAuthor>
+          <GBAuthor>Kumazawa,H.</GBAuthor>
+          <GBAuthor>Sakuno,T.</GBAuthor>
+          <GBAuthor>Isono,Y.</GBAuthor>
+          <GBAuthor>Tanaka,H.</GBAuthor>
+          <GBAuthor>Matsusaki,S.</GBAuthor>
+          <GBAuthor>Sase,T.</GBAuthor>
+          <GBAuthor>Saito,T.</GBAuthor>
+          <GBAuthor>Mukai,K.</GBAuthor>
+          <GBAuthor>Nishimura,A.</GBAuthor>
+          <GBAuthor>Ohnishi,H.</GBAuthor>
+          <GBAuthor>Takahashi,M.</GBAuthor>
+          <GBAuthor>Murata,K.</GBAuthor>
+          <GBAuthor>Okamoto,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Acute hepatitis C virus infections in spouses: The utility of a genetic analysis of the hepatitis C virus hypervariable region sequence for identifying the infectious source</GBReference_title>
+        <GBReference_journal>Arch Clin Med Case Rep 5, 537-548 (2021)</GBReference_journal>
+        <GBReference_remark>DOI:10.26502/acmcr.96550390</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..655</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Okamoto,H.</GBAuthor>
+          <GBAuthor>Ohnishi,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-MAR-2021) Contact:Hiroaki Okamoto Jichi Medical University School of Medicine, Division of Virology, Department of Infection and Immunity; 3311-1 Yakushiji, Shimotsuke, Tochigi 329-0498, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..655</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>655</GBInterval_to>
+            <GBInterval_accession>LC613015.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>HC17-1168</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>Human serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>HC17-1168_1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan:Mie</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2016-11-17</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype 2b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>260..&gt;655</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>260</GBInterval_from>
+            <GBInterval_to>655</GBInterval_to>
+            <GBInterval_accession>LC613015.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>core region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BCT36467.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRLGVRATRKTSERSQPRGRRQPIPKDRRSTGKSWGKPGYPWPLYGNEGCGWAGWLLSPRGSRPTWGPTDPRHRSRNLGKVIDTITCGFAD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccatggcgttagtatgagtgtcgtacagcctccaggcccccccctcccgggagagccatagtggtctgcggaaccggtgagtacaccggaattgccggaaagactgggtcctttcttggataaacccactctatgtccggtcatttgggcgtgcccccgcaagactgctagccgagtagcgttgggttgcgaaaggccttgtggtactgcctgatagggtgcttgcgagtgccccgggaggtctcgtagaccgtgcatcatgagcacaaatcctaaacctcaaagaaaaaccaaaagaaacacaaaccgccgcccacaggacgttaagttcccgggtggtggtcagatcgtcggcggagtttacttgctgccgcgcaggggccccaggttgggtgtgcgcgcgacgaggaagacttccgagcgatcccagccgcgtgggagacgccagcccatcccaaaagatcggcgctccaccggcaagtcctggggaaagccaggatatccttggcctctgtacggaaacgagggttgcggctgggcaggttggctcctgtccccccgcgggtctcgtcctacttggggccccactgacccccggcacagatcacgcaatcttggtaaagtcatcgataccatcacgtgtggttttgccgac</GBSeq_sequence>
+  </GBSeq>
