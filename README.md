@@ -20,14 +20,6 @@ HCV-GLUE can be installed as a prebuilt database for quick setup or constructed 
 
 * * * * *
 
-## Usage
-
-GLUE contains an interactive command line environment focused on the development and use of GLUE projects by bioinformaticians. This provides a range of productivity-oriented features such as automatic command completion, command history and interactive paging through tabular data. 
-
-For detailed instructions on how to use HCV-GLUE for your comparative genomic analysis, refer to the GLUE software environment's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
-
-* * * * *
-
 ## Contributing
 
 We welcome contributions from the community! If you're interested in contributing to HCV-GLUE, please review our [Contribution Guidelines](https://github.com/giffordlabcvr/HCV-GLUE/blob/master/md/CONTRIBUTING.md).
