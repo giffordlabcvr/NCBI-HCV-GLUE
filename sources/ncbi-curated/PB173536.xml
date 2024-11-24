@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PB173536</GBSeq_locus>
+    <GBSeq_length>5922</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2024</GBSeq_update-date>
+    <GBSeq_create-date>26-JUL-2024</GBSeq_create-date>
+    <GBSeq_definition>JP 2019528072-A/8: FUSION PEPTIDES WITH ANTIGENS LINKED TO SHORT FRAGMENTS OF INVARIANT CHAIN (CD74)</GBSeq_definition>
+    <GBSeq_primary-accession>PB173536</GBSeq_primary-accession>
+    <GBSeq_accession-version>PB173536.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PB173536.1|</GBSeqid>
+      <GBSeqid>pat|JP|2019528072|8</GBSeqid>
+      <GBSeqid>gi|2859082088</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2019528072-A/8</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..5922</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nicosia,A.</GBAuthor>
+          <GBAuthor>Holst,P.J.</GBAuthor>
+          <GBAuthor>Folgori,A.</GBAuthor>
+          <GBAuthor>Dalise,A.M.</GBAuthor>
+          <GBAuthor>Cortese,R.</GBAuthor>
+          <GBAuthor>Bassi,M.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>FUSION PEPTIDES WITH ANTIGENS LINKED TO SHORT FRAGMENTS OF INVARIANT CHAIN (CD74)</GBReference_title>
+        <GBReference_journal>JP2019528072-A 8 10-OCT-2019 GlaxoSmithKline Biologicals S A,University of Copenhagen</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Hepatitis C virus~PN JP 2019528072-A/8~PD 10-OCT-2019~PF 23-AUG-2017 JP 2019510818~PR 23-AUG-2016 GB 1614387.7 ,28-MAR-2017 GB 1704892.7~PA GlaxoSmithKline Biologicals S A,University of Copenhagen~PI alfredo nicosia,peter johannes holst,antonella folgori,anna~PI morena dalise,~PI riccardo cortese,maria rosaria bassi~PT 'FUSION PEPTIDES WITH ANTIGENS LINKED TO SHORT FRAGMENTS OF~PT INVARIANT CHAIN~PT (CD74)'~PS N117~CC Nucleotide sequence encoding the HCV-NS antigen~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..5922</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>5922</GBInterval_to>
+            <GBInterval_accession>PB173536.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggcgcccatcacggcctactcccaacagacgcggggcctacttggttgcatcatcactagccttacaggccgggacaagaaccaggtcgagggagaggttcaggtggtttccaccgcaacacaatccttcctggcgacctgcgtcaacggcgtgtgttggaccgtttaccatggtgctggctcaaagaccttagccggcccaaaggggccaatcacccagatgtacactaatgtggaccaggacctcgtcggctggcaggcgccccccggggcgcgttccttgacaccatgcacctgtggcagctcagacctttacttggtcacgagacatgctgacgtcattccggtgcgccggcggggcgacagtagggggagcctgctctcccccaggcctgtctcctacttgaagggctcttcgggtggtccactgctctgcccttcggggcacgctgtgggcatcttccgggctgccgtatgcacccggggggttgcgaaggcggtggactttgtgcccgtagagtccatggaaactactatgcggtctccggtcttcacggacaactcatcccccccggccgtaccgcagtcatttcaagtggcccacctacacgctcccactggcagcggcaagagtactaaagtgccggctgcatatgcagcccaagggtacaaggtgctcgtcctcaatccgtccgttgccgctaccttagggtttggggcgtatatgtctaaggcacacggtattgaccccaacatcagaactggggtaaggaccattaccacaggcgcccccgtcacatactctacctatggcaagtttcttgccgatggtggttgctctgggggcgcttatgacatcataatatgtgatgagtgccattcaactgactcgactacaatcttgggcatcggcacagtcctggaccaagcggagacggctggagcgcggcttgtcgtgctcgccaccgctacgcctccgggatcggtcaccgtgccacacccaaacatcgaggaggtggccttgtctaatactggagagatccccttctatggcaaagccatccccattgaagccatcagggggggaaggcatctcattttctgtcattccaagaagaagtgcgacgagctcgccgcaaagctgtcaggcctcggaatcaacgctgtggcgtattaccgggggctcgatgtgtccgtcataccaactatcggagacgtcgttgtcgtggcaacagacgctctgatgacgggctatacgggcgactttgactcagtgatcgactgtaacacatgtgtcacccagacagtcgacttcagcttggatcccaccttcaccattgagacgacgaccgtgcctcaagacgcagtgtcgcgctcgcagcggcggggtaggactggcaggggtaggagaggcatctacaggtttgtgactccgggagaacggccctcgggcatgttcgattcctcggtcctgtgtgagtgctatgacgcgggctgtgcttggtacgagctcacccccgccgagacctcggttaggttgcgggcctacctgaacacaccagggttgcccgtttgccaggaccacctggagttctgggagagtgtcttcacaggcctcacccacatagatgcacacttcttgtcccagaccaagcaggcaggagacaacttcccctacctggtagcataccaagccacggtgtgcgccagggctcaggccccacctccatcatgggatcaaatgtggaagtgtctcatacggctgaaacctacgctgcacgggccaacacccttgctgtacaggctgggagccgtccaaaatgaggtcaccctcacccaccccataaccaaatacatcatggcatgcatgtcggctgacctggaggtcgtcactagcacctgggtgctggtgggcggagtccttgcagctctggccgcgtattgcctgacaacaggcagtgtggtcattgtgggtaggattatcttgtccgggaggccggctattgttcccgacagggagtttctctaccaggagttcgatgaaatggaagagtgcgcctcgcacctcccttacatcgagcagggaatgcagctcgccgagcaattcaagcagaaagcgctcgggttactgcaaacagccaccaaacaagcggaggctgctgctcccgtggtggagtccaagtggcgagcccttgagacattctgggcgaagcacatgtggaatttcatcagcgggatacagtacttagcaggcttatccactctgcctgggaaccccgcaatagcatcattgatggcattcacagcctctatcaccagcccgctcaccacccaaagtaccctcctgtttaacatcttgggggggtgggtggctgcccaactcgccccccccagcgccgcttcggctttcgtgggcgccggcatcgccggtgcggctgttggcagcataggccttgggaaggtgcttgtggacattctggcgggttatggagcaggagtggccggcgcgctcgtggccttcaaggtcatgagcggcgagatgccctccaccgaggacctggtcaatctacttcctgccatcctctctcctggcgccctggtcgtcggggtcgtgtgtgcagcaatactgcgtcgacacgtgggtccgggagagggggctgtgcagtggatgaaccggctgatagcgttcgcctcgcggggtaatcatgtttcccccacgcactatgtgcctgagagcgacgccgcagcgcgtgttactcagatcctctccagccttaccatcactcagctgctgaaaaggctccaccagtggattaatgaagactgctccacaccgtgttccggctcgtggctaagggatgtttgggactggatatgcacggtgttgactgacttcaagacctggctccagtccaagctcctgccgcagctaccgggagtcccttttttctcgtgccaacgcgggtacaagggagtctggcggggagacggcatcatgcaaaccacctgcccatgtggagcacagatcaccggacatgtcaaaaacggttccatgaggatcgtcgggcctaagacctgcagcaacacgtggcatggaacattccccatcaacgcatacaccacgggcccctgcacaccctctccagcgccaaactattctagggcgctgtggcgggtggccgctgaggagtacgtggaggtcacgcgggtgggggatttccactacgtgacgggcatgaccactgacaacgtaaagtgcccatgccaggttccggctcctgaattcttcacggaggtggacggagtgcggttgcacaggtacgctccggcgtgcaggcctctcctacgggaggaggttacattccaggtcgggctcaaccaatacctggttgggtcacagctaccatgcgagcccgaaccggatgtagcagtgctcacttccatgctcaccgacccctcccacatcacagcagaaacggctaagcgtaggttggccagggggtctcccccctccttggccagctcttcagctagccagttgtctgcgccttccttgaaggcgacatgcactacccaccatgtctctccggacgctgacctcatcgaggccaacctcctgtggcggcaggagatgggcgggaacatcacccgcgtggagtcggagaacaaggtggtagtcctggactctttcgacccgcttcgagcggaggaggatgagagggaagtatccgttccggcggagatcctgcggaaatccaagaagttccccgcagcgatgcccatctgggcgcgcccggattacaaccctccactgttagagtcctggaaggacccggactacgtccctccggtggtgcacgggtgcccgttgccacctatcaaggcccctccaataccacctccacggagaaagaggacggttgtcctaacagagtcctccgtgtcttctgccttagcggagctcgctactaagaccttcggcagctccgaatcatcggccgtcgacagcggcacggcgaccgcccttcctgaccaggcctccgacgacggtgacaaaggatccgacgttgagtcgtactcctccatgcccccccttgagggggaaccgggggaccccgatctcagtgacgggtcttggtctaccgtgagcgaggaagctagtgaggatgtcgtctgctgctcaatgtcctacacatggacaggcgccttgatcacgccatgcgctgcggaggaaagcaagctgcccatcaacgcgttgagcaactctttgctgcgccaccataacatggtttatgccacaacatctcgcagcgcaggcctgcggcagaagaaggtcacctttgacagactgcaagtcctggacgaccactaccgggacgtgctcaaggagatgaaggcgaaggcgtccacagttaaggctaaactcctatccgtagaggaagcctgcaagctgacgcccccacattcggccaaatccaagtttggctatggggcaaaggacgtccggaacctatccagcaaggccgttaaccacatccactccgtgtggaaggacttgctggaagacactgtgacaccaattgacaccaccatcatggcaaaaaatgaggttttctgtgtccaaccagagaaaggaggccgtaagccagcccgccttatcgtattcccagatctgggagtccgtgtatgcgagaagatggccctctatgatgtggtctccacccttcctcaggtcgtgatgggctcctcatacggattccagtactctcctgggcagcgagtcgagttcctggtgaatacctggaaatcaaagaaaaaccccatgggcttttcatatgacactcgctgtttcgactcaacggtcaccgagaacgacatccgtgttgaggagtcaatttaccaatgttgtgacttggcccccgaagccagacaggccataaaatcgctcacagagcggctttatatcgggggtcctctgactaattcaaaagggcagaactgcggttatcgccggtgccgcgcgagcggcgtgctgacgactagctgcggtaacaccctcacatgttacttgaaggcctctgcagcctgtcgagctgcgaagctccaggactgcacgatgctcgtgaacgccgccggccttgtcgttatctgtgaaagcgcgggaacccaagaggacgcggcgagcctacgagtcttcacggaggctatgactaggtactctgccccccccggggacccgccccaaccagaatacgacttggagctgataacatcatgttcctccaatgtgtcggtcgcccacgatgcatcaggcaaaagggtgtactacctcacccgtgatcccaccacccccctcgcacgggctgcgtgggaaacagctagacacactccagttaactcctggctaggcaacattatcatgtatgcgcccactttgtgggcaaggatgattctgatgactcacttcttctccatccttctagcacaggagcaacttgaaaaagccctggactgccagatctacggggcctgttactccattgagccacttgacctacctcagatcattgaacgactccatggccttagcgcattttcactccatagttactctccaggtgagatcaatagggtggcttcatgcctcaggaaacttggggtaccacccttgcgagtctggagacatcgggccaggagcgtccgcgctaggctactgtcccagggggggagggccgccacttgtggcaagtacctcttcaactgggcagtgaagaccaaactcaaactcactccaatcccggctgcgtcccagctggacttgtccggctggttcgttgctggttacagcgggggagacatatatcacagcctgtctcgtgcccgaccccgctggttcatgctgtgcctactcctactttaa</GBSeq_sequence>
+  </GBSeq>
