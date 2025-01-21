@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PL243721</GBSeq_locus>
+    <GBSeq_length>2238</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>16-JAN-2025</GBSeq_update-date>
+    <GBSeq_create-date>16-JAN-2025</GBSeq_create-date>
+    <GBSeq_definition>KR 1020240028423-A/134: HEPATITIS C VIRUS IMMUNOGENIC COMPOSITIONS AND METHODS OF USE THEREOF</GBSeq_definition>
+    <GBSeq_primary-accession>PL243721</GBSeq_primary-accession>
+    <GBSeq_accession-version>PL243721.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PL243721.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020240028423|134</GBSeqid>
+      <GBSeqid>gi|2889865862</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020240028423-A/134</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2238</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Houghton,M.</GBAuthor>
+          <GBAuthor>Law,J.L.</GBAuthor>
+          <GBAuthor>Landi,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>HEPATITIS C VIRUS IMMUNOGENIC COMPOSITIONS AND METHODS OF USE THEREOF</GBReference_title>
+        <GBReference_journal>KR1020240028423-A 134 05-MAR-2024 AURORA VACCINES, INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020247000647-A/134~AN KR 1020247000647~AD 2024-01-08~PN KR 1020240028423~PD 2024-03-05~AT HEPATITIS C VIRUS IMMUNOGENIC COMPOSITIONS AND METHODS OF USE~AT THEREOF~AI Houghton, Michael|Law, John L.|Landi, Abdolamir~AA AURORA VACCINES, INC.~PR US 63/210,722=2021-06-15|US 62/323,434=2022-03-24|US~PR 63/345,799=2022-05-25|US 63/212,877=2021-06-21~OS Hepatitis C virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2238</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2238</GBInterval_to>
+            <GBInterval_accession>PL243721.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagtactaaccccaagccccaacggaagacaaaacggaacacaaaccgccggccgatggatgttaaatttccaggcggtggtcaaatagtgggtggggtttatcttcttccacgacgcgggcctcgactgggagtcagagcgacccgcaagacgagtgagagatctcagcccaggggtcgcaggcaaccaatcccaaaagcgcggcgcccagaagggagatcatgggcacaacctggatacccgtggcccctttacggtaacgagggctgtgggtgggcgggctggttgctcagtccaaggggctctcggcccagctggggtccaaatgatcctcgaggccgaagtcgcaatcttggtaaagttattgacacgctgacttgtggcttcgcggaccttatgggctatattcccctggttggtgccccagtaggctccgttgctagagctctcgcccacggtgtgcgggcgctggaagacgggattaattacgcgactgggaaccttcccggatgttctttcagcatttttttgctggcactcctgtcatgtctgactgtaccggcttctgccgtcaactacagaaacgtttctggtatttatcacgtcacgaatgattgtcctaattcatcaatcgtatatgaagctgatcatcacatcatgcatcttcctggctgcgtcccttgcgttcgagaggggaatcaaagtcgatgttgggtcgcgttgaccccaacggtagctgcaccttatattggggctccacttgagtcccttcgatcacacgtcgacctgatggtgggagctgcgacggtctgcagcggtctctacattggagatctgtgtggtggcctcttcctcgtaggccaaatgtttagttttagaccgcggcggcattggactactcaggattgtaactgctctatatacacggggcacattacgggccataggatggcgtgggacatgatgatgaactggtctccgacgacgactttggttcttgctcaagtgatgaggataccaaccactcttgtcgatttgttgagtggaggccattggggcgtcctggtcggagtcgcatattttagtatgcaggcgaactgggctaaagtcatactcgtgcttttcttgtttgcgggggtagatgcggagacgcatgtatctggggccgccgtaggccggtccaccgctggattggctaacctgttctccagtggatctaaacagaacttgcagctcataaatagtaatggatcttggcatatcaataggacagcattgaattgtaatgattccctcaacacaggttttttggcttctctgttctacacacataaattcaacagttccggatgtagtgagcggctggcttgctgtaagtctttggattcttacggacagggttggggtcctcttggcgtagctaatatatccgggtcaagcgacgatcggccctattgctggcattacgctccacgaccgtgcggaatcgttcccgcctcatctgtatgtggtccagtatattgttttacaccgtcccccgtcgtggtaggaacaacagatcatgtgggcgtcccgacctacacgtggggggagaacgagacggatgttttcttgttgaactctacaagaccgcctcacggtgcatggtttgggtgcgtttggatgaactcaacaggctttacgaaaacctgcggtgcgccgccctgtgaggttaatactaacaacggaacctggcattgtcccacagactgcttcagaaagcacccggagacgacttatgccaagtgtggaagcggtccatggattacgcctcgatgtttgattgattatccttaccggctctggcactttccgtgcacggctaatttctccgttttcaacattagaacttttgtgggcggaattgaacaccggatgcaggctgcctgcaactggacaagaggagaagtatgtggacttgagcaccgggaccgcgtagaactcagccctctgcttctgacaaccactgcatggcagatacttccatgctccttcaccaccctgcccgcactgtcaacaggcctgatacacctccatcaaaacatagtggatgtgcagtatctgtatggggtgggttcagcagtggtcagctgggctttgaaatgggagtacgtggttttggccttcctgttgctcgccgatgcacgagtctctgcttatctgtggatgatgtttatggtgtcacaagtagaagcc</GBSeq_sequence>
+  </GBSeq>
