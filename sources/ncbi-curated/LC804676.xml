@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC804676</GBSeq_locus>
+    <GBSeq_length>576</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-JUN-2024</GBSeq_update-date>
+    <GBSeq_create-date>29-JUN-2024</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus hominis Opt-004 gene for core protein, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>LC804676</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC804676.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC804676.1|</GBSeqid>
+      <GBSeqid>gi|2752028971</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..576</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Phyo,Z.</GBAuthor>
+          <GBAuthor>Tanaka,S.</GBAuthor>
+          <GBAuthor>Sugiyama,A.</GBAuthor>
+          <GBAuthor>Ko,K.</GBAuthor>
+          <GBAuthor>Takahashi,K.</GBAuthor>
+          <GBAuthor>Mirzaev,U.K.</GBAuthor>
+          <GBAuthor>Akuffo,G.A.</GBAuthor>
+          <GBAuthor>Chhoung,C.</GBAuthor>
+          <GBAuthor>Akita,T.</GBAuthor>
+          <GBAuthor>Sakamori,R.</GBAuthor>
+          <GBAuthor>Tanaka,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Unveiling the dynamics of hepatitis c virus transmission among injection drug users and men who have sex with men: A comprehensive study in Japan</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..576</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tanaka,J.</GBAuthor>
+          <GBAuthor>Ko,K.</GBAuthor>
+          <GBAuthor>Takahashi,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-MAR-2024) Contact:Junko Tanaka Hiroshima University, Department of Epidemiology, Infectious Disease Control and Prevention; 1-2-3, Kasumi, Minami-ku, Hiroshima 7348551, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..576</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>576</GBInterval_to>
+            <GBInterval_accession>LC804676.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Opt-004</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>human serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Japan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2019</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;576</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>576</GBInterval_to>
+            <GBInterval_accession>LC804676.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>core protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BFH59343.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRLGVRATRKTSERSQPRGRRQPIPKDRRSTGKSWGKPGYPWPLYGNEGLGWAGWLLSPRGSRPSWGPNDPRHRSRNVGKVIDTLTCGFADLMGYIPVVGAPLGGVARALAHGVRVLEDGVNYATGNLPGCSFSIFLLALLSCITIPVSAV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagcacaaatcctaaacctcaaagaaaaaccaaaagaaacactaaccgtcgcccacaagacgttaagtttccgggcggcggccagatcgttggcggagtatacttgttaccgcgcaggggccccaggttgggtgtgcgcgcgacaaggaaaacttcggagcggtcccagccacgtggaaggcgccagcccatccccaaagatcggcgctccactggcaagtcctggggaaagccaggatatccctggcccctatacgggaatgagggactcggctgggcaggatggctcctgtccccccgaggctcccgtccctcttggggccccaatgacccccggcataggtcgcgcaatgtgggtaaggtcatcgataccctaacgtgcggctttgccgacctcatggggtacatccccgtcgtaggcgccccgcttggtggcgttgccagagctctcgcacacggcgtgagagtcctggaggacggggttaattatgcaacagggaacttacctggttgctccttttctatctttctgttggccctactgtcctgcatcaccattccggtctctgctgtc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PV683050</GBSeq_locus>
+    <GBSeq_length>900</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-JUN-2025</GBSeq_update-date>
+    <GBSeq_create-date>03-JUN-2025</GBSeq_create-date>
+    <GBSeq_definition>Hepacivirus hominis isolate Seq4_2-659 core-E1 protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>PV683050</GBSeq_primary-accession>
+    <GBSeq_accession-version>PV683050.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|PV683050.1|</GBSeqid>
+      <GBSeqid>gi|2988700935</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Hepacivirus hominis</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..900</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bazykina,E.</GBAuthor>
+          <GBAuthor>Kotova,V.</GBAuthor>
+          <GBAuthor>Balakhontseva,L.</GBAuthor>
+          <GBAuthor>Trotsenko,O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-MAY-2025) Epidemiology of HIV and Viral Hepatitis B and C, Fbis Khabarovsk Research Institute of Epidemiology and Microbiology, Shevchenko Str., Khabarovsk 680000, Russia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..900</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>900</GBInterval_to>
+            <GBInterval_accession>PV683050.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Seq4_2-659</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>human serum (HIV-positive)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Russia: Yakutia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Bazykina E.A., Kotova V.O., Balakhontseva L.A., Trotsenko O.E.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: 1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>13..&gt;900</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>13</GBInterval_from>
+            <GBInterval_to>900</GBInterval_to>
+            <GBInterval_accession>PV683050.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>core-E1 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>XUK81160.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRLGVRATRKTSERSQPRGRRQPIPKARQPEGRAWAQPGYPWPLYGNEGMGWAGWLLSPRGSRPSWGPNDPRRRSRNLGKVIDTLTCGFADLMGYIPLVGAPLGGAARALAHGVRVLEDGVNYATGNLPGCSFSIFLLALLSCLTIPASAHEVRNASGVYHVTNDCSNSSIVYETADMIMHIPGCVPCVRESNSSRCWVALTPTLAARNASVPTTTIRRHVDLLVGAAAFCSAMYVGDLCGSVFLVSQLFTFSPR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agaccgtgcaccatgagcacgaatcctaaacctcaaagaaaaaccaaacgtaacaccaaccgccgcccacaggacgttaagttcccgggcggtggtcagatcgtcggtggagtttacctgttgccgcgcaggggccccaggttgggtgtgcgcgcgactaggaagacttccgagcggtcgcaacctcgtggaaggcgacaacctatccccaaggctcgccagcccgagggtagggcctgggctcaacccgggtacccttggcccctctatggcaatgagggcatggggtgggcaggatggctcctgtcaccccgtggctctcggcctagttggggccccaacgacccccggcgtaggtcgcgtaatttgggtaaggtcatcgataccctcacatgcggcttcgccgacctcatgggatacattccgctcgtcggcgcccccctggggggcgctgccagggccctggcgcatggcgtccgggttctggaggacggcgtgaactatgcaacagggaatttgcccggttgctctttctctatcttcctcttggctttgctatcctgtctgaccatcccagcttccgctcatgaggtgcgcaacgcatccggggtgtaccatgtcacgaacgactgttccaactcaagcattgtgtatgagacagcggacatgattatgcacatccctgggtgcgtgccctgcgttcgggagagtaactcctcccgctgctgggtagcgctcactcccacgctcgcggccaggaacgctagcgtccccactacgacaattcgacgccatgtcgatttgctcgttggggcggctgctttctgctccgctatgtacgtgggagacctatgcggatccgtcttcctcgtttctcagctgttcactttttcgcctcgc</GBSeq_sequence>
+  </GBSeq>
