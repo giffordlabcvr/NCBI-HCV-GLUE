@@ -65,10 +65,12 @@
 		</propertyPopulator>
 	</gbDivision>
 	<gbFeature key="source">
+		
 		<gbQualifier name="isolate">
 			<propertyPopulator property="gb_isolate"/>
 		</gbQualifier>
-		<gbQualifier name="country">
+		
+		<gbQualifier name="geo_loc_name">
 			<isoCountryPropertyPopulator property="who_country" codeStyle="ALPHA_3"/>
 			<propertyPopulator property="gb_country"/>
 			<propertyPopulator property="gb_place_sampled">
@@ -76,6 +78,7 @@
 				<outputTemplate>${g1?trim}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
+		
 		<gbQualifier name="host">
 			<propertyPopulator property="gb_host">
 				<valueConverter>
@@ -98,6 +101,7 @@
 				</valueConverter>
 			</propertyPopulator>
 		</gbQualifier>
+		
 		<gbQualifier name="note">
 			<propertyPopulator property="gb_genotype">
 				<matchPattern>genotype:?\s+([1-9])</matchPattern>
