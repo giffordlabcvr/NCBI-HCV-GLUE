@@ -7,9 +7,9 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>18-MAY-2025</GBSeq_update-date>
+    <GBSeq_update-date>02-JUL-2025</GBSeq_update-date>
     <GBSeq_create-date>18-MAY-2025</GBSeq_create-date>
-    <GBSeq_definition>Hepacivirus hominis isolate QC439 polyprotein (POLY) gene, partial cds</GBSeq_definition>
+    <GBSeq_definition>Hepacivirus hominis polyprotein (POLY) gene, partial cds</GBSeq_definition>
     <GBSeq_primary-accession>PQ666863</GBSeq_primary-accession>
     <GBSeq_accession-version>PQ666863.1</GBSeq_accession-version>
     <GBSeq_other-seqids>
@@ -25,9 +25,12 @@
         <GBReference_position>1..1197</GBReference_position>
         <GBReference_authors>
           <GBAuthor>Murphy,D.G.</GBAuthor>
+          <GBAuthor>Mouammine,A.</GBAuthor>
+          <GBAuthor>Lin,L.</GBAuthor>
+          <GBAuthor>Hu,X.</GBAuthor>
           <GBAuthor>Carpenter,M.</GBAuthor>
         </GBReference_authors>
-        <GBReference_title>Genome sequences of two hepatitis C virus genotype 5 variants including one assigned to novel subtype 5b</GBReference_title>
+        <GBReference_title>Coding-complete genome sequences of two hepatitis C virus genotype 5 variants including one assigned to putative subtype 5b</GBReference_title>
         <GBReference_journal>Unpublished</GBReference_journal>
       </GBReference>
       <GBReference>
@@ -63,7 +66,7 @@
             <GBQualifier_value>genomic RNA</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
-            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_name>strain</GBQualifier_name>
             <GBQualifier_value>QC439</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
@@ -80,7 +83,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>geo_loc_name</GBQualifier_name>
-            <GBQualifier_value>Canada</GBQualifier_value>
+            <GBQualifier_value>Canada: Quebec</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>collection_date</GBQualifier_name>
@@ -88,7 +91,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>note</GBQualifier_name>
-            <GBQualifier_value>subtype: 5b</GBQualifier_value>
+            <GBQualifier_value>subtype: 5b; genotype: 5</GBQualifier_value>
           </GBQualifier>
         </GBFeature_quals>
       </GBFeature>
