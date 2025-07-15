@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PV879565</GBSeq_locus>
+    <GBSeq_length>998</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>ENV</GBSeq_division>
+    <GBSeq_update-date>12-JUL-2025</GBSeq_update-date>
+    <GBSeq_create-date>12-JUL-2025</GBSeq_create-date>
+    <GBSeq_definition>MAG: Hepacivirus hominis isolate HCV_JHJ11 genomic sequence</GBSeq_definition>
+    <GBSeq_primary-accession>PV879565</GBSeq_primary-accession>
+    <GBSeq_accession-version>PV879565.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|PV879565.1|</GBSeqid>
+      <GBSeqid>gi|3016831961</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA1273433</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>ENV</GBKeyword>
+      <GBKeyword>Metagenome Assembled Genome</GBKeyword>
+      <GBKeyword>MAG</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Hepacivirus hominis (human serum metagenome)</GBSeq_source>
+    <GBSeq_organism>Hepacivirus hominis</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Hepacivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..998</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yang,F.</GBAuthor>
+          <GBAuthor>Hu,Y.</GBAuthor>
+          <GBAuthor>Chen,M.</GBAuthor>
+          <GBAuthor>Kang,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-JUN-2025) Chinese Academy of Medical Sciences &amp; Peking Union Medical College, National Institute of Pathogen Biology, No. 16, Tianrong Street, Daxing District, Beijing, Beijing 102629, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Megahit v. 1.2.9 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..998</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>998</GBInterval_to>
+            <GBInterval_accession>PV879565.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hepacivirus hominis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>HCV_JHJ11</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:3052230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>environmental_sample</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>China: Yunnan, Jinghong</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lat_lon</GBQualifier_name>
+            <GBQualifier_value>22.00 N 100.73 E</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2023</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Yang,F., Hu,Y., Chen,M and Kang,Y.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>metagenome_source</GBQualifier_name>
+            <GBQualifier_value>human serum metagenome</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NIPB:JHJ11;
+metagenomic</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;998</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>998</GBInterval_to>
+            <GBInterval_accession>PV879565.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>E2 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>XXL24499.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>NTNGSWHINRTALNCNDSLQTGFLAALFYTHRFNASGCPERMASCRSIDKFDQGWGPITYAEPDSSDQRPYCWHYAPRPCGIVPASQVCGPVYCFTPSPVVVGTTDRFGAPTFSWGENETDVLLLNNTRPPQGNWFGCTWMNSTGFTKTCGGPPCNIGGAGNNTLTCPTDCFRKHPEATYVKCGSGPWLTPRCLVDYPYRLWHYPCTINFTIFQVRMYVGGVEHRLSAACNWTRGERCDLEDRDRSELSPLLLSTTEWQILPCSFTTLPALSTGLIHLHRNTVDVQYLYGIGSAVVSFAIKWEYILLLFLLLADARVCACLWMMLLIAQAEA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgaacaccaatggcagttggcatatcaacaggactgccctgaactgcaatgactcccttcagaccgggtttcttgccgcgctgttctacacacacaggttcaacgcgtccggatgcccagagcgcatggccagctgtcgttccatcgacaagttcgatcagggatggggtcccatcacctacgctgagcctgacagctcggaccagaggccttattgctggcattacgcacctcgaccgtgtggtatcgtacccgcatcgcaggtgtgtggtccagtgtattgcttcactccaagccccgttgtggtggggacgaccgaccggttcggtgcccctacgttcagctggggggagaatgagacggatgtgctgctccttaacaacacgcggcctccgcaaggcaattggttcggctgtacatggatgaatagcactgggttcactaagacgtgtgggggccccccgtgtaacatcgggggggccggtaataacactttgacctgtcccacggactgctttcggaagcaccccgaagccacttacgtgaaatgtggctcggggccctggttgacacctaggtgcttagttgattacccatacaggctctggcattacccttgcactatcaactttaccatcttccaggttagaatgtatgtggggggcgtggagcacaggctcagcgctgcatgcaactggactcgaggagagcgttgtgacttggaggacagggatagatcagaactcagcccgttgctgttgtccacaacggagtggcagattctgccctgttccttcaccaccctaccggccctgtccactggtttaatccaccttcatcggaacaccgtggacgtacagtacctgtatggtattgggtcggcggtcgtctcttttgcaatcaaatgggagtatatcctgttgctcttcctcctcttggcggacgcgcgcgtctgtgcctgcttgtggatgatgttgctgatagcccaggccgaggcc</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA1273433</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMN48945968</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>Sequence Read Archive</GBXref_dbname>
+        <GBXref_id>SRR33875791</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>
